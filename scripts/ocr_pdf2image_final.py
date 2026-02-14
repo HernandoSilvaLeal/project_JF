@@ -7,6 +7,17 @@ import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image, ImageEnhance
 
+# Configure tesseract path
+TESSERACT_PATHS = [
+    r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+    r"C:\ProgramData\chocolatey\lib\tesseract\tools\tesseract.exe",
+    r"C:\tools\tesseract\tesseract.exe",
+]
+for tpath in TESSERACT_PATHS:
+    if Path(tpath).exists():
+        pytesseract.pytesseract.tesseract_cmd = tpath
+        break
+
 BASE = Path("00_docs_base")
 POPPLER_PATH = Path("tools/poppler/poppler-24.08.0/Library/bin")
 
