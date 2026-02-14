@@ -490,4 +490,4 @@ Este Core se considera listo cuando:
 
 ---
 
-**FIN — 08_Core_Agentes_IA*
+**FIN — 08_Core_Agentes_IA**

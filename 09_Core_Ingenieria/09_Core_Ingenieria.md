@@ -71,6 +71,7 @@ Crear una “**fábrica de claridad**”:
 
 > Esta estructura permite que agentes trabajen por módulos sin romper el todo.
 
+```text
 RFJ_2026/
 README.md
 LICENSE.md
@@ -221,6 +222,7 @@ mcp/
 prompts/
 
 99_ARCHIVE/
+```
 
 
 ---
