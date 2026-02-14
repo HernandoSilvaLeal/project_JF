@@ -173,3 +173,40 @@ ehthumbs.db
 *~
 *.swp
 *.swo
+
+# =====================
+# Reglas adicionales para instalaciones de Python, embebidos y caches
+# =====================
+# Ignorar instalaciones locales/embebidos de Python y carpetas de site-packages
+**/Python*/
+**/python*/
+**/site-packages/
+**/Lib/
+**/Scripts/
+
+# pip / caches / instaladores
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+pip-wheel-metadata/
+~/.cache/pip
+
+# Herramientas descargadas dentro del repo (ej. poppler, distribuciones ZIP/EXE temporales)
+tools/poppler/
+*.zip
+*.exe
+*.msi
+
+# grandes artefactos y binarios descargados
+*.7z
+*.tar.gz
+*.tgz
+
+# Windows installer folders a veces creados por instaladores de Python
+Installers/
+
+# Re-include repo script directories that may match case-insensitively
+!/scripts/
+!/scripts/**
+
+
