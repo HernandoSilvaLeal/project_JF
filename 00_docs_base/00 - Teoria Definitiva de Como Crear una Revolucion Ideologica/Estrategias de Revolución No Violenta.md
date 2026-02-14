@@ -208,3 +208,4 @@ flowchart TB
   M -->|quiebra miedo| P6
   M -->|neutraliza lealtad| P1
 ```
+

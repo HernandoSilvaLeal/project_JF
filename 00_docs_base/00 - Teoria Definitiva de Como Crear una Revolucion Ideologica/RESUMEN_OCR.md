@@ -16,7 +16,7 @@
 
 ```mermaid
 flowchart LR
-  Pueblo((Sociedad)) -->|L/H/R/I| Pilares[Conjunto de pilares]
+  Pueblo((Sociedad)) -->|L/H/R/I| Pilares[Conjun to de pilares]
   Pilares --> Estado[Centro de mando]
   Pilares --> Medios[Medios/Plataformas]
   Pilares --> Economia[Recursos/Finanzas]
