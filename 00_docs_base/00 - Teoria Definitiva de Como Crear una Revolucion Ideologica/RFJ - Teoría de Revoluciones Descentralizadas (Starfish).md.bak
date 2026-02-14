@@ -1,0 +1,404 @@
+RFJ — Teoría de Revoluciones Descentralizadas (Starfish)
+
+Documento maestro (v1) — reconstruido desde tus notas/fotos (2015) + trazas del material original en inglés
+
+Tabla de contenido
+
+Qué estamos intentando lograr
+
+Hallazgo clave: “el documental” casi seguro es The Starfish and the Spider
+
+Candidatos más probables del video original (en inglés)
+
+Cómo “clavar” el video exacto en YouTube (procedimiento de rastreo)
+
+Modelo núcleo: Araña vs Estrella de Mar
+
+Los 5 “legs” de una Starfish Organization (tu cuaderno + fuente)
+
+Principios/Reglas que aparecen en tu material
+
+Unidad mínima viable: el Círculo
+
+Roles: Catalizador vs Entusiasta/Campeón
+
+Pegamento social: por qué la gente entra y se queda
+
+Checklist diagnóstico: ¿Starfish u Spider? (tu encuesta)
+
+Leyes duras / Axiomas (tus “warning labels”)
+
+Híbridos: cuando conviene mezclar Spider+Starfish
+
+Conclusiones de tu cuaderno (destiladas)
+
+Aplicación a “Revolution for Jesus” (RFJ) — enfoque bíblico y no violento
+
+Observaciones de “review” (mejoras a tus notas y a la implementación)
+
+Diagramas (Mermaid) para visualizar el sistema
+
+Referencias rastreables (para volver al origen)
+
+Qué estamos intentando lograr
+
+Resultado exitoso (v1):
+
+(1) Encontrar el video (en inglés) del que nacieron tus notas 2015 (YouTube).
+
+(2) Extraer y formalizar la teoría/patrones: cómo “prende” una revolución por descentralización + ideología replicable + círculos (sin depender de líderes-cabeza).
+
+Hallazgo clave: el documental casi seguro es The Starfish and the Spider
+
+Tus fotos no describen “una revolución histórica”, sino un patrón de organización descentralizada con vocabulario exacto de The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations (Ori Brafman & Rod Beckstrom):
+
+En tu hoja: “Nombre original: The starfish and the spider / La estrella de mar y la araña” y “Slogan: el poder imparable de las organizaciones sin líderes”.
+
+Aparecen los conceptos canónicos: circle(s), catalyst, ideology, champions/enthusiasts, pre-existing network, más el diagnóstico de “¿hay cabeza?, ¿hay HQ?, ¿si cortas la cabeza muere?” (que coincide con el material clásico del libro y resúmenes).
+
+Hipótesis operativa (v1):
+Tu “documental” fue (a) una charla/ponencia de Ori Brafman o Rod Beckstrom, o (b) un video-resumen muy fiel al libro, y no un documental tipo Gene Sharp (aunque Gene Sharp puede ser tu “plan B” si tu memoria mezcla dos piezas distintas).
+
+Candidatos más probables del video original (en inglés)
+A) El candidato #1 (por compatibilidad semántica total con tus notas)
+
+Una charla/ponencia de Ori Brafman sobre “Starfish Organizations / Decentralized Movements” (varias versiones circulan en YouTube; algunas tituladas “Starfish Networks & Agile Leaders”, otras como keynotes). El propio PDF-resumen que encontramos (2015) incluye notas de un talk de Ori Brafman titulado “Starfish Organizations: the Unstoppable Power of Decentralized Movements”.
+
+B) El candidato #2 (muy probable si recuerdas “formato conferencia” y duración larga)
+
+“The Starfish and the Spider” — Talks at Google (Rod Beckstrom / o charla asociada). Hay páginas externas que referencian explícitamente ese video.
+
+C) El candidato #3 (si recuerdas “explicación súper compacta con los 5 pilares”)
+
+“5 Keys to Decentralized Movements (from The Starfish & The Spider)” (YouTube).
+
+D) Plan B (si en realidad lo que recuerdas era “revolución política no violenta”)
+
+“How to Start a Revolution” (2011) (Gene Sharp). Este sí es un documental centrado en teoría de acción no violenta, pero no usa “starfish/spider/catalyst/circles” como núcleo.
+
+Cómo “clavar” el video exacto en YouTube (procedimiento de rastreo)
+Paso 1 — Buscar por frases “ancla” (en comillas)
+
+En YouTube, prueba estas búsquedas (tal cual):
+
+"Starfish organizations" "unstoppable power" Ori Brafman
+
+"The Starfish and the Spider" Talks at Google
+
+"Catalysts rule" starfish
+
+"The values are the organization" starfish
+
+"pre-existing network" "circle" catalyst ideology champion
+
+Regla: el video correcto tendrá varias de esas frases en el mismo discurso.
+
+Paso 2 — Verificación rápida (checklist de 30 segundos)
+
+Es “tu” video si en los primeros minutos:
+
+explica spider vs starfish (cortar cabeza vs regeneración),
+
+nombra circles y catalysts,
+
+insiste en ideology/values como “el combustible”,
+
+habla de network effect y de crecimiento por nodos.
+
+Paso 3 — Señales “forenses” que amarran con tu cuaderno (2015)
+
+En tus notas aparecen:
+
+“Catalyst … conecta y luego desaparece del foco”
+
+“Values/ideology = la organización”
+
+“Measure, monitor, manage (mirando círculos, salud de red)”
+
+“Flatten or be flattened / híbridos”
+Estas frases aparecen casi literalmente en resúmenes del material del libro.
+
+Modelo núcleo: Araña vs Estrella de mar
+Spider Organization (centralizada)
+
+Tiene cabeza (control/decisión).
+
+Jerarquía, HQ, roles fijos.
+
+Single Point of Failure: decapitas liderazgo ⇒ colapsa.
+
+Starfish Organization (descentralizada)
+
+No hay cabeza: la “inteligencia” está distribuida.
+
+Cortas un brazo ⇒ se regenera; incluso se multiplica.
+
+Autonomía local + coherencia global por ideología/valores.
+
+Los 5 “legs” de una Starfish Organization (tu cuaderno + fuente)
+
+En tus notas y en resúmenes clásicos aparecen los cinco componentes (los “legs”):
+
+Circles (Círculos)
+
+Catalyst (Catalizador)
+
+Ideology (Ideología/Valores)
+
+Pre-existing network (Red preexistente)
+
+Champion (Campeón/Entusiasta)
+
+Esto está documentado explícitamente en resúmenes del framework.
+
+Principios/Reglas que aparecen en tu material
+
+De tu cuaderno (y consistente con el corpus Starfish):
+
+Catalysts rule: el catalizador inspira, conecta, y sabe soltar.
+
+The values are the organization: la ideología no es “decoración”, es el motor y el estándar.
+
+Network effect: cada miembro añade valor incremental a la red.
+
+Open systems mutate: sistemas abiertos mutan rápido, y por eso crecen y sobreviven.
+
+Measure/monitor/manage mirando círculos (salud, actividad, independencia, conexiones).
+
+Unidad mínima viable: el Círculo
+
+En tu hoja “Cómo iniciar un océano de estrellas de mar…”:
+
+Definición funcional del círculo (v1):
+
+Un círculo nace cuando un catalizador predica/encarna una idea que está desarrollada en normas; la comparte, cuida a otros, y la vuelve replicable por altruismo, creatividad y ejemplo.
+
+Analogía software (ultra precisa):
+
+Ideología = protocolo (RFC) + contrato + definición de “correcto”.
+
+Círculo = instancia mínima que corre ese protocolo.
+
+Catalizador = bootstrap node (arranca, conecta peers, luego baja su protagonismo para evitar centralizar).
+
+Red = topología P2P.
+
+Campeón/Entusiasta = replicador/evangelist que incrementa adopción.
+
+Roles: Catalizador vs Entusiasta/Campeón
+Catalizador (Catalyst)
+
+Inicia el círculo.
+
+Conecta personas/redes.
+
+Protege la coherencia sin “jefatura”.
+
+Desaparece del foco a tiempo para no convertir la Starfish en Spider.
+
+Tu regla (escrita al final):
+“El catalizador es importante no porque dirige el evento, sino porque encadena y conecta a los demás.”
+
+Entusiasta / Campeón (Champion / Enthusiast)
+
+Promotor incesante: propaga la idea, la cuenta, la vuelve contagiosa.
+
+Traduce ideología a historias/ritos/ejemplos y recluta nuevos nodos.
+
+Pegamento social: por qué la gente entra y se queda
+
+Tu página “¿Qué lleva a las personas a convertirse…?” sugiere:
+
+No es dinero (“no hay interés monetario”).
+
+Es comunidad, sentido, pasos graduales, libertad (no coerción), relaciones, y doctrina/ideología seguida rigurosamente.
+
+Lectura de ingeniería social (sin romanticismo):
+
+Motivación intrínseca (identidad/propósito).
+
+Control cultural (normas/valores).
+
+Escala por confianza y repetición de patrones.
+
+Checklist diagnóstico: Starfish u Spider (tu encuesta)
+
+Tus preguntas (normalizadas) son un test de:
+
+single point of failure,
+
+distribución de conocimiento,
+
+fricción de coordinación,
+
+mutabilidad.
+
+Encuesta (v1, limpia)
+
+¿Hay una persona “a cargo”? → si sí, tiende a Spider.
+
+¿Hay HQ/oficinas centrales? → Starfish no depende de un centro fijo.
+
+Si “cortas la cabeza”, ¿muere? → Starfish no tiene cabeza que decapitar.
+
+¿División rígida de roles? → en Starfish, cualquiera puede hacer muchas funciones (con límites éticos).
+
+Si quitas una unidad/rol, ¿se daña toda la organización? → en Starfish, unidades autónomas sobreviven; incluso pueden “brotar” redes nuevas.
+
+¿Poder y conocimiento concentrados o distribuidos?
+
+¿Es flexible o rígida? → descentralización favorece crecimiento orgánico/sostenible.
+
+¿Se pueden contar miembros? (entrada/salida libre vuelve el conteo difuso).
+
+¿Los equipos son dirigidos o autosostenibles?
+
+¿Comunicación directa o por intermediarios? (Starfish minimiza gatekeepers).
+
+Leyes duras / Axiomas (tus “warning labels”)
+
+En tu cuaderno aparecen tres axiomas fuertes (y el PDF-resumen recoge ideas muy cercanas):
+
+“La única forma de destruir un sistema descentralizado es destruir su ideología.”
+
+Si rompes el “protocolo compartido”, ya no hay red: hay ruido.
+
+“Cuando aparecen derechos de propiedad, las estrellas de mar se vuelven arañas.”
+
+Propiedad/exclusividad tiende a crear centro, control, jerarquía (punto de falla).
+
+“El mayor oponente de una estrella de mar es otra estrella de mar.”
+
+Red vs red: protocolos culturales rivales compiten por nodos.
+
+Además, en el material Starfish se sugiere que para combatir una starfish: o fuerzas cambio de ideología, o centralizas (metes autoridad/poder/dinero), o te descentralizas tú.
+
+Híbridos: cuando conviene mezclar Spider+Starfish
+
+Tu cuaderno propone “crear un híbrido”:
+
+Interacción directa entre usuarios (Starfish) con cierta estructura (Spider) para sostener operación.
+
+Lectura práctica (v1):
+Un híbrido sirve cuando:
+
+necesitas compliance, seguridad, finanzas, trazabilidad (zonas Spider),
+
+pero quieres escala, resiliencia, innovación y crecimiento orgánico (zonas Starfish).
+
+Conclusiones de tu cuaderno (destiladas)
+
+Muchos pequeños organizados > uno grande.
+
+Círculos = incendiadores de cambio (cambian hábitos/decisiones por ideología).
+
+Regla del catalizador: conecta y habilita; no centraliza.
+
+Los valores/ideología son el “núcleo operativo” de la organización.
+
+Aplicación a “Revolution for Jesus” (RFJ) — enfoque bíblico y no violento
+
+Marco ético (v1): “revolución” aquí = reforma cultural/espiritual por persuasión, discipulado, servicio y fidelidad bíblica; no coerción.
+
+Traducción directa del framework Starfish a RFJ
+
+Ideología/Valores (Ideology): Biblia como autoridad; doctrina como “protocolo” común (lo que tú escribiste: “lo más importante es la ideología”).
+
+Círculos (Circles): células de discipulado, estudio bíblico, oración, servicio, misión local.
+
+Catalizadores (Catalysts): personas que conectan, cuidan, forman, y se quitan del foco para no crear culto a la personalidad.
+
+Red preexistente: familias, amistades, iglesias, grupos, barrios, redes digitales.
+
+Campeones/entusiastas: multiplicadores que traducen doctrina a práctica (vida, ejemplo, testimonio).
+
+Antipatrones RFJ (cuando Starfish se vuelve Spider)
+
+“Obispo/catalizador” que se vuelve cabeza permanente.
+
+Propiedad/estatus/control que crea jerarquía rígida.
+
+Sustituir Escritura por carisma, método o estética (rompes el “protocolo”, fragmentas la red).
+
+Métrica esencial (RFJ)
+
+Salud de círculos (actividad, fidelidad doctrinal, amor práctico, multiplicación).
+
+Densidad de conexiones (no dependencia de una sola figura).
+
+Capacidad de mutación sin traicionar el núcleo (adaptar formas, conservar el evangelio).
+
+Observaciones de “review” (mejoras a tus notas y a la implementación)
+
+Define “ideología” con precisión bíblica (para RFJ): núcleo no negociable vs prácticas locales adaptables.
+
+Distingue “descentralización” de “anarquía”: Starfish tiene orden, pero orden cultural (valores) más que jerárquico.
+
+Formaliza el “contrato del círculo”: qué se enseña, cómo se corrige, cómo se cuida, cómo se multiplica (para evitar deriva).
+
+Diseña “mecanismos anti-araña”: rotación, rendición de cuentas horizontal, transparencia, y “salida del foco” del catalizador.
+
+Ten un “manual de mutación”: qué puede cambiar (forma) y qué no (evangelio/doctrina).
+
+Diagramas (Mermaid) para visualizar el sistema
+1) Los 5 legs (arquitectura mínima)
+flowchart TB
+  S[Starfish Organization<br/>Movimiento descentralizado] --> C[Circles<br/>Círculos]
+  S --> K[Catalyst<br/>Catalizador]
+  S --> I[Ideology / Values<br/>Ideología / Valores]
+  S --> N[Pre-existing Network<br/>Red preexistente]
+  S --> H[Champion / Enthusiast<br/>Campeón / Entusiasta]
+
+2) Ciclo de propagación (cómo “prende” una revolución)
+sequenceDiagram
+  participant Ideologia as Ideology/Values
+  participant Cat as Catalyst
+  participant Cir as Circle
+  participant Net as Network
+  participant Champ as Champion
+
+  Ideologia->>Cat: Núcleo doctrinal / protocolo
+  Cat->>Cir: Forma círculo (normas + ejemplo)
+  Cat->>Net: Conecta nodos (puentes)
+  Champ->>Net: Propaga (recluta / narra / replica)
+  Net->>Cir: Nuevos nodos forman nuevos círculos
+  Cat-->>Cir: Se retira del foco (evita centralización)
+
+3) Test Starfish vs Spider (punto de falla)
+flowchart LR
+  A[¿Hay cabeza/HQ/roles rígidos?] -->|Sí| B[Spider: vulnerable a decapitación]
+  A -->|No| C[Starfish: resiliente, muta, replica]
+
+Referencias rastreables (para volver al origen)
+Fuentes que encajan directamente con tus notas (y contienen frases/estructura casi idénticas)
+
+PDF (2015): resumen del libro + notas de un talk de Ori Brafman; incluye diagnóstico “How to recognize starfish…”, reglas como “Catalysts rule” y “The values are the organization”.
+
+Resumen explícito de los 5 legs (circles, catalyst, ideology, pre-existing network, champion).
+
+Referencia externa a video “Talks at Google” sobre The Starfish and the Spider.
+
+Referencias “plan B” (Gene Sharp)
+
+Pistas del documental “How to Start a Revolution” (2011) como alternativa si tu memoria mezcla materiales.
+
+Apéndice — Links (solo para que los pegues directo)
+
+Nota: no puedo abrir YouTube desde aquí por limitaciones de acceso, pero estos son targets y rutas típicas para encontrar el video exacto.
+
+(1) Talks at Google (referenciado por terceros):
+- Buscar: "The Starfish and the Spider Talks at Google Rod Beckstrom"
+- Referencia externa al video: https://www.smartspeakersweb.com/speaker/rod-beckstrom/
+
+(2) Ori Brafman (charlas Starfish):
+- Buscar: "Ori Brafman Starfish Networks Agile Leaders"
+- Resultado típico: https://www.youtube.com/watch?v=lcmH0EqS--0
+
+(3) Video corto de “5 Keys”:
+- https://www.youtube.com/watch?v=N23Lm3TW2OM
+
+(4) PDF-resumen (muy alineado con tu cuaderno 2015):
+- https://simplechurch.eu/wp-content/uploads/2015/05/the_starfish_and_the_spider.pdf
+
+(5) Plan B Gene Sharp:
+- Buscar: "How to Start a Revolution 2011 Gene Sharp trailer"
