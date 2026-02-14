@@ -1,0 +1,175 @@
+# =====================
+# Sistema operativo
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Node / JavaScript / TypeScript
+# =====================
+# dependencias
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# caches y artefactos de build
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.vercel/
+.cache/
+.vite/
+dist/
+build/
+out/
+lib/
+coverage/
+public/
+server/
+*.tsbuildinfo
+
+# pnpm / Plug'n'Play
+.pnp.*
+
+# Next.js y frameworks similares
+.next/
+out/
+.vercel/
+.netlify/
+
+# =====================
+# Python
+# =====================
+# bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# pip / packaging
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+eggs/
+wheelhouse/
+
+# testing / coverage
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# virtualenv / env files
+.env
+.env.*
+
+# =====================
+# IDEs, editores y entorno
+# =====================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =====================
+# Herramientas CI / build / paquetes
+# =====================
+# Terraform
+.terraform/
+
+# Serverless
+.serverless/
+
+# Docker
+# archivos de entorno y secretos (no ignorar Dockerfile)
+docker-compose.override.yml
+
+# =====================
+# Logs, dumps y artifacts binarios
+# =====================
+logs/
+*.log
+*.log.*
+npm-debug.log*
+
+# binarios, librerias compiladas
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+
+# =====================
+# Archivos de certificado / claves / secretos
+# =====================
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# =====================
+# Bases de datos y caches locales
+# =====================
+*.sqlite3
+*.db
+*.sqlite
+
+# =====================
+# Otros / útiles
+# =====================
+# OS
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Lockfiles de package managers (si prefieres ignorarlos, descomenta)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Editor temp
+*~
+*.swp
+*.swo
