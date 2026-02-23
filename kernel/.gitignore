@@ -1,0 +1,80 @@
+# ============================================
+# .gitignore - KERNEL DOCTRINAL RFJ 2026
+# ============================================
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+06_TESTS/results/*.html
+06_TESTS/results/*.xml
+
+# Logs
+*.log
+logs/
+*.tmp
+*.swp
+*.bak
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Drafts temporales (no commitear drafts en progreso)
+workspace/drafts/*_WIP.yaml
+workspace/drafts/*.tmp
+
+# Exports temporales (regenerables)
+outputs/**/*.pdf
+outputs/**/*.html
+outputs/diagrams/png/*.png
+outputs/diagrams/svg/*.svg
+
+# Configuración local
+config.local.yaml
+.env
+.env.local
+
+# OS
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Backups
+*.backup
+*.old
+*~
+
+# ============================================
+# INCLUIR explícitamente (override)
+# ============================================
+!outputs/master/KERNEL_COMPLETO.md
+!outputs/master/DEPENDENCIAS_GRAPH.svg
+!outputs/diagrams/mermaid/*.mmd
+
+# ============================================
+# Comentarios:
+# - Los archivos YAML de servilletas SÍ se commitean
+# - Los exports MD/JSON SÍ se commitean (son fuente para web)
+# - Los exports PDF/PNG NO se commitean (se regeneran)
+# - Los drafts WIP NO se commitean hasta que sean REVIEW
+# ============================================

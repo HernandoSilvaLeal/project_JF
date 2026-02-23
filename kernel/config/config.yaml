@@ -1,0 +1,300 @@
+# ============================================
+# CONFIGURACIÓN - KERNEL DOCTRINAL RFJ 2026
+# ============================================
+# Versión: 1.0.0
+# Fecha: 2026-02-22
+# ============================================
+
+# Rutas del sistema
+paths:
+  root: "."
+  docs: "docs"
+  config: "config"
+  schemas: "schemas"
+  servilletas: "servilletas"
+  tools: "tools"
+  outputs: "outputs"
+  tests: "tests"
+  workspace: "workspace"
+
+# Requisitos por tier
+validation:
+  tier_requirements:
+    KERNEL_PURO:
+      convergencia_min: 100
+      convergencia_max: 100
+      trazabilidad_min: "ORO"
+      descripcion: "Convergencia absoluta entre todas las tradiciones sanas"
+    
+    KERNEL:
+      convergencia_min: 80
+      convergencia_max: 100
+      trazabilidad_min: "ORO"
+      descripcion: "Mayoría de tradiciones sanas afirman (>=80%)"
+    
+    CAPA:
+      convergencia_min: 50
+      convergencia_max: 79
+      trazabilidad_min: "PLATA"
+      descripcion: "Importante pero divisivo (50-79%)"
+    
+    PERIFERIA:
+      convergencia_min: 0
+      convergencia_max: 49
+      trazabilidad_min: "BRONCE"
+      descripcion: "Debates intra-evangélicos (<50%)"
+  
+  # Niveles de trazabilidad
+  trazabilidad_niveles:
+    BRONCE:
+      min_versiculos: 2
+      min_libros: 1
+      descripcion: "Mínimo requerido"
+    
+    PLATA:
+      min_versiculos: 5
+      min_libros: 3
+      descripcion: "Robusto"
+    
+    ORO:
+      min_versiculos: 10
+      min_libros: 5
+      descripcion: "Muy robusto - mínimo para Kernel"
+    
+    DIAMANTE:
+      min_versiculos: 20
+      min_libros: 10
+      descripcion: "Máxima robustez - AT + NT"
+  
+  # Límites de estructura
+  limites:
+    max_claims_por_servilleta: 10
+    min_claims_por_servilleta: 3
+    max_nodos_diagrama: 9
+    max_niveles_diagrama: 4
+    max_relaciones_por_nodo: 3
+    max_longitud_tesis: 300  # caracteres
+
+# Configuración de Biblia
+bible:
+  default_version: "RVR1960"
+  versiones_aceptadas:
+    - "RVR1960"
+    - "NVI"
+    - "RVA2015"
+    - "DHH"
+    - "LBLA"
+    - "ESV"  # Inglés
+    - "KJV"  # Inglés
+  
+  api:
+    endpoint: "https://bible-api.com"
+    timeout: 10  # segundos
+    retry_attempts: 3
+  
+  categorias_validas:
+    - "Pentateuco"
+    - "Históricos"
+    - "Poesía/Sabiduría"
+    - "Profetas Mayores"
+    - "Profetas Menores"
+    - "Evangelios"
+    - "Hechos"
+    - "Epístolas Paulinas"
+    - "Epístolas Generales"
+    - "Epístola a los Hebreos"
+    - "Apocalipsis"
+
+# Tipos de relación válidos
+relaciones:
+  tipos_validos:
+    - "FUNDAMENTA"     # A es base lógica de B
+    - "IMPLICA"        # A produce necesariamente B
+    - "CONTRASTA"      # A y B son verdad pero opuestos aparentes
+    - "REQUIERE"       # A necesita B para ser verdadero
+    - "EJEMPLIFICA"    # A es caso específico de B
+    - "CUMPLE"         # A cumple profecía/tipo de B
+    - "REFUERZA"       # A apoya o fortalece B
+  
+  fuerza_min: 1
+  fuerza_max: 10
+
+# Estados de servilleta
+estados:
+  validos:
+    - "DRAFT"      # Trabajo inicial
+    - "WIP"        # En construcción
+    - "REVIEW"     # Lista para revisión
+    - "APPROVED"   # Aprobada por Hernando
+    - "PUBLISHED"  # Disponible en exports
+    - "DEPRECATED" # Obsoleta
+
+# Configuración de exports
+export:
+  formatos:
+    markdown:
+      enabled: true
+      template: "templates/servilleta_template.md"
+      include_diagrams: true
+      include_metadata: true
+    
+    pdf:
+      enabled: true
+      engine: "pandoc"
+      template: "templates/servilleta_template.tex"
+      include_toc: true
+      include_diagrams: true
+    
+    json:
+      enabled: true
+      pretty_print: true
+      indent: 2
+    
+    html:
+      enabled: false
+      template: "templates/servilleta_template.html"
+  
+  master_doc:
+    filename: "KERNEL_COMPLETO"
+    include_toc: true
+    include_index: true
+    group_by_tier: true
+
+# Configuración de diagramas
+diagrams:
+  mermaid:
+    theme: "default"  # default, forest, dark, neutral
+    output_formats:
+      - "svg"
+      - "png"
+    png_width: 1920
+    png_height: 1080
+    
+  graphviz:
+    enabled: false
+    layout: "dot"  # dot, neato, fdp, sfdp, circo
+
+# Configuración de tests
+testing:
+  pytest:
+    verbose: true
+    show_capture: "no"
+    maxfail: 1
+  
+  coverage:
+    min_coverage: 80  # % mínimo de cobertura de tests
+  
+  ci_cd:
+    run_on_commit: false
+    run_on_pr: true
+    fail_on_warnings: true
+
+# Git
+git:
+  auto_commit: false
+  commit_message_template: "[{id}] {action}: {title}"
+  
+  ignore_patterns:
+    - "*.pyc"
+    - "__pycache__/"
+    - ".pytest_cache/"
+    - "*.log"
+    - ".vscode/"
+    - ".idea/"
+    - "*.tmp"
+    - "*.swp"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  output:
+    console: true
+    file: true
+    file_path: "logs/kernel_doctrinal.log"
+
+# Tradiciones teológicas reconocidas
+tradiciones:
+  validas:
+    - nombre: "Reformada"
+      subfamilias:
+        - "Westminster"
+        - "1689 Bautista"
+        - "Continental (Tres Fórmulas de Unidad)"
+      fuentes_clave:
+        - "Westminster Confession"
+        - "1689 Baptist Confession"
+        - "Heidelberg Catechism"
+        - "Belgic Confession"
+    
+    - nombre: "Luterana"
+      subfamilias:
+        - "Confesional"
+      fuentes_clave:
+        - "Augsburg Confession"
+        - "Book of Concord"
+    
+    - nombre: "Dispensacional"
+      subfamilias:
+        - "Clásica (Scofield, Chafer)"
+        - "Progresiva (Ryrie, Bock)"
+      fuentes_clave:
+        - "Chafer Systematic Theology"
+        - "Ryrie Basic Theology"
+    
+    - nombre: "Anglicana Evangélica"
+      subfamilias:
+        - "Evangélica (Stott, Packer)"
+      fuentes_clave:
+        - "39 Articles"
+    
+    - nombre: "Bautista"
+      subfamilias:
+        - "Reformada (1689)"
+        - "Evangélica"
+      fuentes_clave:
+        - "1689 Baptist Confession"
+
+# Credos ecuménicos (base mínima no negociable)
+credos_base:
+  - nombre: "Credo Apostólico"
+    año: ~180
+    autoridad: "Universal"
+  
+  - nombre: "Credo Niceno-Constantinopolitano"
+    año: 325_381
+    autoridad: "Ecuménico"
+  
+  - nombre: "Credo de Calcedonia"
+    año: 451
+    autoridad: "Cristología definitiva"
+  
+  - nombre: "Credo de Atanasio"
+    año: ~500
+    autoridad: "Trinidad detallada"
+
+# Notificaciones
+notifications:
+  email:
+    enabled: false
+    smtp_server: ""
+    smtp_port: 587
+    from_address: ""
+  
+  discord:
+    enabled: false
+    webhook_url: ""
+
+# Métricas
+metrics:
+  track_progress: true
+  dashboard_refresh: 300  # segundos
+  kpis:
+    - "servilletas_completadas"
+    - "cobertura_biblica"
+    - "convergencia_promedio"
+    - "tests_pasados"
+
+# ============================================
+# FIN DE CONFIGURACIÓN
+# ============================================

@@ -209,4 +209,25 @@ Installers/
 !/scripts/
 !/scripts/**
 
+# =====================
+# RFJ 2026 - Estructura Reorganizada
+# =====================
+
+# Outputs generados (no commitear)
+outputs/
+.workspace/*.txt
+
+# Recursos grandes (no subir PDFs de teologías)
+docs/02_BASE_DOCTRINAL/**/*.pdf
+docs/02_BASE_DOCTRINAL/**/*.epub
+docs/02_BASE_DOCTRINAL/**/*.mobi
+
+# Incluir explícitamente documentos importantes
+!docs/**/*.md
+!cores/**/*.md
+!kernel/**/*.yaml
+!kernel/**/*.json
+!kernel/**/*.md
+
+
 

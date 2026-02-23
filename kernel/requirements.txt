@@ -1,0 +1,89 @@
+# Python dependencies for KERNEL_DOCTRINAL
+# Version: 1.0.0
+# Date: 2026-02-22
+
+# ============================================
+# CORE DEPENDENCIES
+# ============================================
+
+# YAML parsing and manipulation
+pyyaml>=6.0.1
+
+# JSON Schema validation
+jsonschema>=4.21.1
+
+# Testing framework
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-xdist>=3.5.0  # Parallel test execution
+
+# CLI interface
+click>=8.1.7
+
+# Rich terminal output
+rich>=13.7.0
+
+# ============================================
+# BIBLE AND TEXT PROCESSING
+# ============================================
+
+# HTTP requests for Bible API
+requests>=2.31.0
+
+# Text processing
+regex>=2023.12.25
+
+# ============================================
+# DIAGRAM GENERATION
+# ============================================
+
+# Mermaid diagram generation
+# Note: Requires Node.js + @mermaid-js/mermaid-cli installed globally
+# Install: npm install -g @mermaid-js/mermaid-cli
+
+# ============================================
+# DOCUMENT EXPORT
+# ============================================
+
+# Markdown processing
+markdown>=3.5.2
+markdown-it-py>=3.0.0
+
+# PDF generation (requires pandoc installed)
+# Install pandoc separately: https://pandoc.org/installing.html
+
+# Optional: WeasyPrint for pure-Python PDF (no pandoc required)
+# weasyprint>=60.2
+
+# ============================================
+# DATA ANALYSIS (OPTIONAL)
+# ============================================
+
+# pandas>=2.2.0  # For analyzing metrics/coverage
+# matplotlib>=3.8.2  # For visualizing progress
+
+# ============================================
+# DEVELOPMENT TOOLS
+# ============================================
+
+# Linting
+# pylint>=3.0.3
+# flake8>=7.0.0
+
+# Type checking
+# mypy>=1.8.0
+
+# Code formatting
+# black>=24.1.1
+
+# ============================================
+# INSTALLATION INSTRUCTIONS
+# ============================================
+# 
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Install development dependencies:
+#   pip install -r requirements.txt -r requirements-dev.txt
+#
+# ============================================

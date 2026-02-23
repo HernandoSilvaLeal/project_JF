@@ -1,0 +1,508 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rfj2026.org/schemas/servilleta.schema.json",
+  "title": "Servilleta Doctrinal RFJ",
+  "description": "Schema de validación para servilletas del kernel doctrinal - El Código de Dios",
+  "type": "object",
+  "required": [
+    "metadata",
+    "claims",
+    "relaciones",
+    "guardarrailes",
+    "tests",
+    "salidas",
+    "diagrama_mermaid",
+    "produccion"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["id", "titulo", "tesis", "tier", "convergencia_score", "trazabilidad_nivel"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^S[0-9]{3}$",
+          "description": "ID único de servilleta (S001-S099)"
+        },
+        "titulo": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100,
+          "description": "Título descriptivo de la servilleta"
+        },
+        "subtitulo": {
+          "type": "string",
+          "maxLength": 150,
+          "description": "Subtítulo opcional para mayor claridad"
+        },
+        "tesis": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 300,
+          "description": "Proposición central en 1-2 líneas"
+        },
+        "tier": {
+          "type": "string",
+          "enum": ["KERNEL_PURO", "KERNEL", "CAPA", "PERIFERIA"],
+          "description": "Nivel de controversia teológica"
+        },
+        "categoria": {
+          "type": "string",
+          "description": "Categoría teológica (ej: Teología Propia, Soteriología)"
+        },
+        "convergencia_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Porcentaje de tradiciones sanas que afirman (0-100)"
+        },
+        "tradiciones_que_afirman": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Lista de tradiciones que afirman esta doctrina"
+        },
+        "trazabilidad_nivel": {
+          "type": "string",
+          "enum": ["BRONCE", "PLATA", "ORO", "DIAMANTE"],
+          "description": "Nivel de robustez bíblica"
+        },
+        "fuentes_principales": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Fuentes teológicas de referencia"
+        }
+      }
+    },
+    "claims": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 10,
+      "description": "Proposiciones atómicas que componen la servilleta",
+      "patternProperties": {
+        "^C[0-9]+_[A-Z_]+$": {
+          "type": "object",
+          "required": ["text", "anclas_biblicas", "tier", "peso_generativo"],
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 10,
+              "maxLength": 300,
+              "description": "Proposición atómica"
+            },
+            "definicion_tecnica": {
+              "type": "string",
+              "description": "Definición teológica formal"
+            },
+            "implicaciones": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Consecuencias lógicas del claim"
+            },
+            "anclas_biblicas": {
+              "type": "array",
+              "minItems": 2,
+              "description": "Referencias bíblicas que fundamentan el claim",
+              "items": {
+                "type": "object",
+                "required": ["ref", "texto"],
+                "properties": {
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^[1-3]?\\s?[A-Za-zÃ©]+\\s[0-9]+:[0-9]+([-,][0-9]+)*$",
+                    "description": "Referencia bíblica (ej: Juan 3:16)"
+                  },
+                  "texto": {
+                    "type": "string",
+                    "minLength": 10,
+                    "description": "Texto del versículo"
+                  },
+                  "comentario": {
+                    "type": "string",
+                    "description": "Por qué este texto apoya el claim"
+                  },
+                  "categoria": {
+                    "type": "string",
+                    "enum": [
+                      "Pentateuco",
+                      "Históricos",
+                      "Poesía/Sabiduría",
+                      "Profetas Mayores",
+                      "Profetas Menores",
+                      "Evangelios",
+                      "Hechos",
+                      "Epístolas Paulinas",
+                      "Epístolas Generales",
+                      "Epístola a los Hebreos",
+                      "Apocalipsis"
+                    ],
+                    "description": "Categoría bíblica del texto"
+                  },
+                  "variantes": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "version": {
+                          "type": "string",
+                          "description": "Versión de la Biblia (ej: NVI, DHH)"
+                        },
+                        "texto": {
+                          "type": "string",
+                          "description": "Texto en esa versión"
+                        },
+                        "nota": {
+                          "type": "string",
+                          "description": "Nota sobre diferencias"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "tradiciones_convergencia": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["nombre", "afirma"],
+                "properties": {
+                  "nombre": {
+                    "type": "string",
+                    "description": "Nombre de la tradición"
+                  },
+                  "afirma": {
+                    "type": "boolean",
+                    "description": "¿Esta tradición afirma el claim?"
+                  },
+                  "fuente": {
+                    "type": "string",
+                    "description": "Fuente específica (confesión, teólogo, etc.)"
+                  }
+                }
+              }
+            },
+            "tier": {
+              "type": "string",
+              "enum": ["KERNEL", "CAPA", "PERIFERIA"],
+              "description": "Nivel del claim individual"
+            },
+            "peso_generativo": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "Cuántas verdades derivan de esta (1-10)"
+            }
+          }
+        }
+      }
+    },
+    "relaciones": {
+      "type": "array",
+      "description": "Relaciones causales entre claims",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "type", "explicacion"],
+        "properties": {
+          "from": {
+            "type": "string",
+            "pattern": "^C[0-9]+_[A-Z_]+$",
+            "description": "Claim origen"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^C[0-9]+_[A-Z_]+$",
+            "description": "Claim destino"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "FUNDAMENTA",
+              "IMPLICA",
+              "CONTRASTA",
+              "REQUIERE",
+              "EJEMPLIFICA",
+              "CUMPLE",
+              "REFUERZA"
+            ],
+            "description": "Tipo de relación causal"
+          },
+          "explicacion": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 300,
+            "description": "Por qué existe esta relación"
+          },
+          "fuerza": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "description": "Fuerza de la relación (1=débil, 10=necesaria)"
+          }
+        }
+      }
+    },
+    "guardarrailes": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Herejías o errores que la servilleta invalida",
+      "patternProperties": {
+        "^G[0-9]+_[A-Z_]+$": {
+          "type": "object",
+          "required": ["nombre", "error", "refutado_por", "textos_clave", "consecuencias"],
+          "properties": {
+            "nombre": {
+              "type": "string",
+              "description": "Nombre de la herejía/error"
+            },
+            "error": {
+              "type": "string",
+              "minLength": 10,
+              "description": "Descripción del error teológico"
+            },
+            "refutado_por": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^C[0-9]+_[A-Z_]+$"
+              },
+              "minItems": 1,
+              "description": "Claims que refutan este error"
+            },
+            "textos_clave": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "description": "Versículos que directamente niegan el error"
+            },
+            "consecuencias": {
+              "type": "string",
+              "description": "Qué se pierde si se acepta el error"
+            }
+          }
+        }
+      }
+    },
+    "tests": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Tests de validación",
+      "patternProperties": {
+        "^T[0-9]+_[A-Z_]+$": {
+          "type": "object",
+          "required": ["descripcion", "criterio", "status"],
+          "properties": {
+            "descripcion": {
+              "type": "string",
+              "description": "Qué valida este test"
+            },
+            "criterio": {
+              "type": "string",
+              "description": "Criterio de aceptación"
+            },
+            "status": {
+              "type": "string",
+              "enum": ["PASS", "FAIL", "PENDING"],
+              "description": "Estado del test"
+            },
+            "detalles": {
+              "description": "Detalles del resultado (puede ser string, array u object)"
+            }
+          }
+        }
+      }
+    },
+    "salidas": {
+      "type": "array",
+      "description": "Servilletas que dependen de esta",
+      "items": {
+        "type": "object",
+        "required": ["id", "titulo", "dependencia_primaria", "explicacion"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^S[0-9]{3}$",
+            "description": "ID de la servilleta dependiente"
+          },
+          "titulo": {
+            "type": "string",
+            "description": "Título de la servilleta dependiente"
+          },
+          "dependencia_primaria": {
+            "type": "string",
+            "pattern": "^C[0-9]+_[A-Z_]+$",
+            "description": "Claim principal del que depende"
+          },
+          "dependencia_secundaria": {
+            "type": "string",
+            "pattern": "^C[0-9]+_[A-Z_]+$",
+            "description": "Claim secundario (opcional)"
+          },
+          "explicacion": {
+            "type": "string",
+            "description": "Por qué esta dependencia"
+          },
+          "textos_puente": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Versículos que conectan ambas servilletas"
+          }
+        }
+      }
+    },
+    "diagrama_mermaid": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Código Mermaid del diagrama"
+    },
+    "diagrama_explicacion": {
+      "type": "string",
+      "description": "Explicación de cómo leer el diagrama"
+    },
+    "produccion": {
+      "type": "object",
+      "required": ["autor_humano", "agentes_generadores", "version", "estado"],
+      "properties": {
+        "autor_humano": {
+          "type": "string",
+          "description": "Autor principal humano"
+        },
+        "agentes_generadores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["nombre", "rol"],
+            "properties": {
+              "nombre": {
+                "type": "string",
+                "description": "Nombre del agente IA"
+              },
+              "rol": {
+                "type": "string",
+                "description": "Rol del agente (Arquitecto, Desarrollador, etc.)"
+              },
+              "contribucion": {
+                "type": "string",
+                "description": "Qué hizo este agente"
+              }
+            }
+          }
+        },
+        "fecha_creacion": {
+          "type": "string",
+          "format": "date",
+          "description": "Fecha de creación (YYYY-MM-DD)"
+        },
+        "fecha_ultima_modificacion": {
+          "type": "string",
+          "format": "date",
+          "description": "Fecha de última modificación"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Versión semántica (MAJOR.MINOR.PATCH)"
+        },
+        "estado": {
+          "type": "string",
+          "enum": ["DRAFT", "REVIEW", "APPROVED", "PUBLISHED"],
+          "description": "Estado de aprobación"
+        },
+        "revisores_requeridos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "type": "string",
+                "description": "Tipo de revisor"
+              },
+              "nombre_sugerido": {
+                "type": "string",
+                "description": "Nombre sugerido (o TBD)"
+              },
+              "areas_revision": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Qué debe revisar"
+              }
+            }
+          }
+        },
+        "aprobacion_final": {
+          "type": "string",
+          "enum": ["PENDIENTE", "APROBADA", "RECHAZADA"],
+          "description": "Estado de aprobación final"
+        },
+        "changelog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["version", "fecha", "cambios"],
+            "properties": {
+              "version": {
+                "type": "string",
+                "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+              },
+              "fecha": {
+                "type": "string",
+                "format": "date"
+              },
+              "cambios": {
+                "oneOf": [
+                  { "type": "string" },
+                  {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "notas_teologicas": {
+      "type": "object",
+      "description": "Notas adicionales sobre matices teológicos",
+      "patternProperties": {
+        "^[a-z_]+$": {
+          "type": "object",
+          "properties": {
+            "observacion": {
+              "type": "string",
+              "description": "Observación teológica"
+            },
+            "resolucion": {
+              "type": "string",
+              "description": "Cómo se resuelve el matiz"
+            },
+            "textos_clave": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Textos relevantes"
+            },
+            "fuentes_contacto": {
+              "type": "string",
+              "description": "Fuentes adicionales"
+            }
+          }
+        }
+      }
+    }
+  }
+}

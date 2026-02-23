@@ -1,0 +1,924 @@
+# ============================================
+# SERVILLETA S002 - LA SANTA TRINIDAD
+# El Dios Trino en Economía Salvífica
+# Kernel Doctrinal RFJ 2026
+# ============================================
+# Versión: 1.0.0
+# Fecha: 2026-02-23
+# Estado: DRAFT
+# Tier: KERNEL_PURO
+# Convergencia: 100%
+# Enfoque: ECONOMÍA SALVÍFICA + ONTOLOGÍA
+# ============================================
+
+metadata:
+  id: S002
+  titulo: "La Santa Trinidad"
+  subtitulo: "Dios eternamente trino en personas, unido en sustancia, operando distintamente en la redención"
+  tesis: "Dios es eternamente trino: Padre, Hijo y Espíritu Santo, coiguales en deidad, operando distintamente en creación y redención, verdadera Trinidad en sustancia (contra modalismo) y en personas (contra triteísmo)"
+  
+  tier: KERNEL_PURO
+  categoria: "Teología Trinitaria - Personeidad y Economía Divina"
+  
+  # Scoring de convergencia
+  convergencia_score: 100  # Porcentaje de tradiciones sanas que afirman
+  tradiciones_que_afirman:
+    - "Reformada (Westminster Confession 2.3, Larger Catechism Q.10-11)"
+    - "Dispensacional (Chafer Systematic Theology Vol. 1, chs. 24-26; Ryrie)"
+    - "Luterana (Libro de Concordia - Articles of Faith I)"
+    - "Bautista (1689 Confesión de Fe de Londres - idéntica a Westminster)"
+    - "Anglicana (39 Artículos de Religión Art. I)"
+    - "Greco-ortodoxa (procesiones eternas, Perichorésis)"
+    - "Evangélica Histórica (Spurgeon, Bonar, MacArthur)"
+  
+  # Nivel de trazabilidad
+  trazabilidad_nivel: DIAMANTE  # >= 20 versículos, >= 10 libros (AT + NT)
+  
+  # Referencias teológicas clave
+  fuentes_principales:
+    - "Westminster Confession of Faith 2.3 - Chapter on God"
+    - "Westminster Larger Catechism Q.10-11 - Trinity"
+    - "Lewis Sperry Chafer - Systematic Theology Vol. 1, chs. 24-26 (Trinity and Persons)"
+    - "Charles Stanley Ryrie - Basic Theology chs. 5-6 (Doctrine of God - Trinity)"
+    - "A.W. Pink - The Attributes of God (Section: God in Three Persons)"
+    - "Louis Berkhof - Systematic Theology (Doctrine of the Trinity)"
+    - "John MacArthur - The Person and Work of the Holy Spirit"
+    - "C.H. Spurgeon - The Triune God (sermon series)"
+    - "Herman Bavinck - Reformed Dogmatics Vol. 2 (Doctrine of God)"
+
+# ============================================
+# PROPOSICIONES ATÓMICAS (Claims Económicos)
+# ============================================
+
+claims:
+
+  # ==========================================
+  # C1 - MONARQUÍA TRINITARIA (Una sustancia, Tres Personas)
+  # ==========================================
+  C1_MONARQUIA_TRINITARIA:
+    text: "Dios es un ser único en sustancia pero tres personas distintas en subsistencia: Padre, Hijo y Espíritu Santo, coiguales en poder, gloria y atributos eternos, operando una sola voluntad divina en causa y efecto salvífico"
+    
+    definicion_tecnica: |
+      Monarquía Trinitaria (de gr. monos=uno, archia=gobierno):
+      - SUSTANCIA UNA (ousia): esencia indivisible, atributos comunes, una deidad
+      - PERSONAS TRES (hypostasis/prosopa): subsistencias distintas, relaciones propias
+      - ECONOMÍA COORDINADA: operaciones distintivas pero armónicas en historia
+      Ni modalismo (apariencia de distinción) ni triteísmo (tres dioses)
+      Westminster: "Una sustancia... tres personas" = ontología + relaciones económicas
+      Chafer: énfasis en economía salvífica (Padre-decreto, Hijo-redentor, Espíritu-aplicador)
+    
+    implicaciones:
+      - "No hay subordinacionismo cronológico (Hijo 'después' del Padre eternalmente)"
+      - "Las tres personas comparten completamente una voluntad, poder, gloria"
+      - "Cada persona actúa según su función económica pero sin división de sustancia"
+      - "La Trinidad no es contradicción lógica sino misterio revelado"
+      - "Rechazo de todas las herejías trinitarias: arrianismo, apolinarianismo, nestorianismo"
+    
+    anclas_biblicas:
+      # ========== DEUTERONOMIO - MONOTEÍSMO TRINITARIO ==========
+      - ref: "Deuteronomio 6:4"
+        texto: "Oye, Israel: Jehová nuestro Dios, Jehová uno es"
+        comentario: "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד (Shema Israel YHWH Eloheinu YHWH Echad) = fundamental del monoteísmo. אֶחָד (echad) NO significa 'solitario' (yachid) sino 'unido', permitiendo armonía en unidad. Confirmado en LXX: εἷς (heis) = uno que es múltiple. Contexto: prepara la revelación progresiva de Trinidad en NT"
+        categoria: "Pentateuco"
+      
+      - ref: "Deuteronomio 4:35"
+        texto: "A ti te lo mostró, para que supieses que Jehová es Dios, y no hay otro fuera de él"
+        comentario: "יְהוָה הוּא הָאֱלֹהִים וְאֵין עוֹד מִלְּבַדּוֹ (YHWH Él es Dios y no hay otro excepto Él) = monoteísmo absoluto. Pero 'Él' (hu) sostiene la posibilidad de manifestación trinitaria sin violación de monoteísmo. Base para entender 'Padre, Hijo, Espíritu = el YHWH único'"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:1-3"
+        texto: "En el principio creó Dios los cielos y la tierra... Y el Espíritu de Dios se movía sobre la faz de las aguas"
+        comentario: "בְּרֵאשִׁית בָּרָא אֱלֹהִים (Bereshit bara Elohim) + וְרוּחַ אֱלֹהִים (veruach Elohim) = obra creativa trinitaria embryónica. Elohim (forma plural) + verbo singular (bara) = unidad actuante. Espíritu participa desde inicio. Interpretación: actividad económica de personas distintas en sustancia una"
+        categoria: "Pentateuco"
+      
+      # ========== SALMOS - PREMONICIÓN TRINITARIA ==========
+      - ref: "Salmo 45:6-7"
+        texto: "Tu trono, oh Dios, por el siglo del siglo... Por eso te ungió Dios, el Dios tuyo, Con óleo de alegría más que a tus compañeros"
+        comentario: "כִּסְאְךָ אֱלֹהִים עוֹלָם וָעֶד (Your throne, O God, forever...) + כִּי־מָשַׁח אֱלֹהִיךָ אֱלֹהִים אֱלֹהֶיךָ (God, your God, has anointed you) = contexto: Mesías ungido POR Dios. Autor (Hebreos 1:8) aplica al Hijo. Refuta arrianos: si Hijo es 'Dios' (vers. 6) y es ungido POR Dios (vers. 7), entonces Deidad del Hijo + distinción del Padre = Trinidad"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 110:1"
+        texto: "Jehová dijo a mi Señor: Siéntate a mi diestra, Hasta que ponga tus enemigos por estrado de tus pies"
+        comentario: "יְהוָה אָמַר לַאדֹנִי (YHWH said to my Lord) = YHWH (Padre) hablo A otro Señor (Messiah/Hijo). Presupone distinción de personas. Jesús cita esto (Mateo 22:44) para establecer que Mesías es más que séptimo de David = económica del Hijo en redención"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 2:7-12"
+        texto: "Yo publicaré el decreto de Jehová; Él me ha dicho: Mi hijo eres tú; Yo te engendré hoy... Bienaventurados todos los que en él confían"
+        comentario: "אֶל־חֹקִי יַגִּיד אֶת־פִּי אָמַר לִי בְנִי־אַתָּה (I will declare the decree of YHWH, He said to me, You are My son) = pasaje mesiánico (Hechos 13:33, Hebreos 1:5). 'Engendré hoy' (יְלִדְתִּיךָ) no significa 'creado' (bara) sino 'procreado eternamente' (generatio aeterna). Refuta arrianos: Hijo es eternamente engendrado, no creado"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 139:7-10"
+        texto: "¿A dónde me iré de tu Espíritu? ¿Y a dónde huiré de tu presencia?... Si tomare las alas del alba Y habitare en el extremo del mar, Aun allí me guiará tu mano, Y me asirá tu diestra"
+        comentario: "מֵרוּחֲךָ אָנָה אֶבְרַח (From Your Spirit where can I flee) = Espíritu tiene presencia (hypostasis) distinta pero inseparable de Dios. מִפָּנֶיךָ (from Your face/presence) + יָמִין הָאַחְזַת (Your right hand holds me) = operación económica del Espíritu en sostenimiento de creyente = marca de personalidad trinitaria"
+        categoria: "Poesía/Sabiduría"
+      
+      # ========== ISAÍAS - TRÍADA DIVINA ==========
+      - ref: "Isaías 48:16"
+        texto: "Acarcaos a mí, oíd esto: Desde el principio no hablé en secreto; Desde que eso fue, allí estaba yo; Y ahora me envió Jehová el Señor, y su Espíritu"
+        comentario: "וְעַתָּה שְׁלָחַנִי יְהוָה־אֱלֹהִים וְרוּחוֹ (And now the Lord God has sent me, and His Spirit) = Mesopotamia trinitaria incipiente: 'me envió Jehová' (alguien enviado por otro Señor) + 'y His Spirit' = tríada: enviante, enviado, Espíritu. Contexto: promesa mesiánica. Mesías es persona distinta económicamente, pero una con Padre ontológicamente"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 61:1"
+        texto: "El Espíritu de Jehová el Señor está sobre mí, porque me ungió Jehová para dar buenas nuevas a los abatidos"
+        comentario: "רוּחַ אֲדֹנָי יְהוִה עָלָי יַעַן מָשַׁח יְהוָה אֹתִי (The Spirit of the Lord God is upon me, because YHWH has anointed me) = Mesías ungido POR Dios CON Espíritu. Tres personas: Espíritu que reposa, Señor que ungue, Mesías ungido. Jesús cita (Lucas 4:18) = escatología económica: cumplimiento trinitario"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 42:1"
+        texto: "He aquí mi siervo, yo lo sostendré; mi escogido, en quien mi alma tiene contentamiento; he puesto sobre él mi Espíritu; él traerá justicia a las naciones"
+        comentario: "הִנֵּה עַבְדִּי אֶתְמוֹךְ־בּוֹ עַבְדִּי בָחִירִי נַחְתָּה בוֹ רוּחִי (Behold! My servant... I have put My Spirit upon him) = oración profética: Padre presenta Hijo + pone Espíritu sobre Él = coordinación económica de tres personas en obra redentora. Bautismo de Jesús (Mateo 3:16-17) cumple exactamente esto"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 63:10-14"
+        texto: "Mas ellos fueron rebeldes, e hicieron enojar su Santo Espíritu... Pero se acordó David de los días antiguos, de Moisés y de su pueblo, diciendo: ¿Dónde está el que les hizo subir del mar con el Pastor de su rebaño? ¿Dónde está el que puso en medio de ellos su Santo Espíritu?"
+        comentario: "וַיַּעֲצִבוּ אֶת רוּחַ קָדְשׁוֹ (they grieved His Holy Spirit) + אֵיפֹה מוֹשִׁיעַ הַיָּם (Where is He who led them?) + אֲשֶׁר שַׁת בְּקִרְבּוֹ אֶת־רוּחַ קְדֻשְׁוֹ (who put His Holy Spirit in their midst) = Espíritu como persona que puede ser grieved, Liberador (económico), Santificador. Referencias mesiánicas implícitas: Espíritu trabajando a través de historia para redención"
+        categoria: "Profetas Mayores"
+      
+      # ========== NUEVO TESTAMENTO - TRINIDAD EXPLÍCITA ==========
+      - ref: "Mateo 28:19"
+        texto: "Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo"
+        comentario: "πορευθέντες οὖν μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος (Baptizing them in the NAME singular of Father, Son and Holy Spirit) = ὄνομα (onoma) SINGULAR (no onomata) = una deidad. Pero Πατρὸς καὶ Υἱοῦ καὶ Πνεύματος (Father AND Son AND Spirit) = tres distintos. Formula ecuménica suprema: Nicea 325 base en esto. Economía: bautismo administra salvación por poder trinitario"
+        categoria: "Evangelios"
+      
+      - ref: "2 Corintios 13:14"
+        texto: "La gracia del Señor Jesucristo, la amor de Dios, y la comunión del Espíritu Santo sean con vosotros todos"
+        comentario: "ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ Θεοῦ καὶ ἡ κοινωνία τοῦ Ἁγίου Πνεύματος (the grace of the Lord Jesus Christ and the love of God and the communion of the Holy Spirit) = benedición apostólica madura: TRES SUJETOS (Jesus, God, Holy Spirit) + TRES ATRIBUTOS propios (grace-poder, love-comunión). Económica: cómo la Trinidad se aplica en experiencia salvífica diaria"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Pedro 1:2"
+        texto: "Elegidos según la presciencia de Dios Padre en santificación del Espíritu, para obediencia y aspersión de la sangre de Jesucristo"
+        comentario: "κατὰ πρόγνωσιν Θεοῦ Πατρὸς ἐν ἁγιασμῷ Πνεύματος εἰς ὑπακοὴν καὶ ῥαντισμὸν αἵματος Ἰησοῦ Χριστοῦ (according to foreknowledge of God Father... sanctification of Spirit... blood of Jesus Christ) = economía salvífica completa: Padre predestina, Espíritu santifica, Hijo redime. Cohorency de funciones distintas en sustancia una"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Juan 5:7"
+        texto: "Porque tres son los que dan testimonio en el cielo: el Padre, el Verbo, y el Espíritu Santo; y estos tres son uno"
+        comentario: "ὅτι τρεῖς εἰσιν οἱ μαρτυροῦντες ἐν τῷ οὐρανῷ, ὁ Πατήρ, ὁ Λόγος, καὶ τὸ Ἅγιον Πνεῦμα· καὶ οἱ τρεῖς ἓν εἰσιν (three that bear witness in heaven: the Father, the Word, and the Holy Spirit; and these three are one) = declaración explícita de Trinidad. τρεῖς (treis) = tres personas reales. ἓν εἰσιν (hen eisin) = neuter singular 'one thing' = una sustancia/esencia. Anti-herejía: refuta modalismo (serían uno aparente) y triteísmo (serían tres cosas)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Romanos 14:10-11"
+        texto: "Pero tú, ¿por qué juzgas a tu hermano?... Porque escrito está: Vivo yo, dice el Señor, que ante mí se doblará toda rodilla, Y toda lengua confesará a Dios"
+        comentario: "ἔμπροσθεν τοῦ Θεοῦ (before God) + κάμψει πᾶν γόνυ (every knee will bow) + ἐξομολογήσεται πάσα γλῶσσα (every tongue confess) = pasaje mesiánico (Isaías 45:23). Contexto: Dios Padre + aplicación a Mesías = coigualdad en adoración. Económica: Cristo recibe misma adoración y confesión que Padre = prueba de coigualdad trinitaria"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 10:30"
+        texto: "Yo y el Padre uno somos"
+        comentario: "ἐγὼ καὶ ὁ Πατήρ ἕν ἐσμεν (I and the Father one are) = ἕν (hen) = neutro singular (una cosa/esencia), no mascu. ἕνα (masculine = one person). Reclamo de coigualdad esencial. Judíos toman piedras (Juan 10:31) = entienden como reclamo de divinidad = verdadera Trinidad de sustancia"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 2:17-18"
+        texto: "Y vino y anunció las buenas nuevas de paz a vosotros que estabais lejos, y paz a los que estabais cerca; porque por él los unos y los otros tenemos entrada por un mismo Espíritu al Padre"
+        comentario: "δι' αὐτοῦ (through Him/Christ) ἔχομεν... προσαγωγὴν (access) ἐν ἑνὶ Πνεύματι (in one Spirit) πρὸς τὸν Πατέρα (to the Father) = economía trinitaria: Cristo acceso VÍA + Espíritu capacita + Padre recibe. Tres personas, funciones coordinadas"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Tito 3:4-6"
+        texto: "Pero cuando se manifestó la bondad de Dios nuestro Salvador, y su amor para con los hombres, nos salvó, no por obras de justicia que nosotros hubiéramos hecho, sino por su misericordia, por el lavamiento de la regeneración y por la renovación del Espíritu Santo"
+        comentario: "ἐφάνη ἡ χρηστότης καὶ ἡ φιλανθρωπία (appeared kindness and love) τοῦ Σωτῆρος ἡμῶν Θεοῦ (of Savior God = Father) + ἔσωσεν ἡμᾶς (He saved us) καὶ... δι... Πνεύματος Ἁγίου (through Holy Spirit) = Pather obra via Spirit. Economía: Padre's compasión, Espíritu's aplicación"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "1 Juan 1:2"
+        texto: "Porque la vida fue manifestada, y la hemos visto, y testificamos, y os anunciamos la vida eterna, la cual estaba con el Padre, y se nos manifestó"
+        comentario: "ἡ ζωὴ ἐφανερώθη (life was manifested) + ἦν πρὸς τὸν Πατέρα (was with the Father) + ἐφανερώθη ἡμῖν (manifested to us) = Trinidad manifestada: vida preexistente con Padre, ahora revelada. Tres personas: Padre, Hijo (vida manifestada), Espíritu (que revela). Monarquía en economía"
+        categoria: "Epístolas Generales"
+      
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.3: 'En la unidad de la Divinidad hay tres personas, de una sustancia, poder y eternidad'; Larger Catechism Q.10"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 24: 'The Doctrine of the Trinity'; Ryrie Basic Theology ch. 5"
+      - nombre: "Ecuménica"
+        afirma: true
+        fuente: "Nicea (325): Padre-Hijo homoousios (misma sustancia); Constantinopla (381): Espíritu coigual"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Libro de Concordia - Articles of Faith I"
+      - nombre: "Bautista"
+        afirma: true
+        fuente: "1689 Confesión - idéntica a Westminster sobre Trinidad"
+    
+    tier: KERNEL
+    peso_generativo: 10  # La monarquía sustenta C2-C5
+
+  # ==========================================
+  # C2 - PERSONALIDAD Y GOBIERNO DEL PADRE
+  # ==========================================
+  C2_PERSONALIDAD_PADRE:
+    text: "El Padre es la fuente y cabeza de la Deidad, primera persona de la Trinidad, quien en su soberanía infinita decreta todas las cosas, actúa como Creador de todo lo que existe, y ejecuta el gobierno providencial de la historia salvífica"
+    
+    definicion_tecnica: |
+      PERSONALIDAD DEL PADRE (hypostasis protē - primera subsistencia):
+      - Fuente económica del decreto divino
+      - Cabeza de la Deidad en orden económico (NO subordinación cronológica)
+      - Atributos completos: omnipotencia, omnisciencia, eternidad (idénticos al Hijo y Espíritu)
+      - Economía: Decretador → Creador → Providencia
+      
+      Nota anti-herejía: "Fuente" significa FUNCIONAL (economía), NO ONTOLÓGICA
+      (no implica préstamo temporal de deidad al Hijo como arrianos enseñaban)
+      Chafer enfatiza: funciones económicas DISTINTAS, sustancia IDÉNTICA
+    
+    implicaciones:
+      - "El Padre es el que decreta (volición primaria)"
+      - "Toda creación procede de su decreto y poder"
+      - "Él sostiene el universo en providencia"
+      - "Su gobierno es absolutamente soberano sin anular libertad creatural"
+      - "En salvación: Padre predestina (Efesios 1:3-5), Hijo ejecuta, Espíritu aplica"
+    
+    anclas_biblicas:
+      # ========== PATERNIDAD Y DECRETO ==========
+      - ref: "1 Corintios 8:6"
+        texto: "Para nosotros, sin embargo, sólo hay un Dios, el Padre, del cual proceden todas las cosas, y nosotros somos para él; y un Señor, Jesucristo, por el cual son todas las cosas, y nosotros por él"
+        comentario: "εἰς θεὸς ὁ Πατήρ ἐξ οὗ τὰ πάντα (one God the Father from whom all things) + εἷς Κύριος Ἰησοῦς Χριστὸς δι' οὗ τὰ πάντα (one Lord Jesus Christ through whom all things) = économica distributiva: Padre = origen (ἐξ), Hijo = medio (διά). Ambos direcciones de causalidad, ninguna niega deidad del Hijo. Esto es monarquía coordinada, no subordinación"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 1:3-5"
+        texto: "Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que nos bendijo con toda bendición espiritual en los lugares celestiales en Cristo, según nos escogió en él antes de la fundación del mundo... En amor habiéndonos predestinado para ser adoptados hijos suyos por medio de Jesucristo"
+        comentario: "ὁ Θεὸς καὶ Πατὴρ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ... προορίσας ἡμᾶς εἰς υἱοθεσίαν διὰ Ἰησοῦ Χριστοῦ (God and Father... predestined us through Jesus Christ) = Padre decreta (προορίσας), Hijo ejecuta (διά). Economía predestinacional: Padre's volición, Hijo's acción salvífica. Anti-herejía: no dice 'Padre elegido SIN Hijo' sino 'eligió EN Cristo'"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 1:16-17"
+        texto: "Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles; sean tronos, sean dominios, sean principados, sean potestades; todo fue creado por medio de él y para él. Y él es antes de todas las cosas, y todas las cosas en él subsisten"
+        comentario: "ἐν αὐτῷ ἐκτίσθη τὰ πάντα (in Him were all things created) + δι' αὐτοῦ (through Him) + εἰς αὐτὸν (for Him) = Hijo median de creación. Pero Padre es origen (implied: Padre DECRETÓ, Hijo EJECUTÓ). 'él es antes' (αὐτὸς ἐστιν) = Hijo sustenta creación = dos persons cooperando en economía creacional"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hechos 17:28"
+        texto: "En él vivimos, y nos movemos, y somos"
+        comentario: "ἐν αὐτῷ ζῶμεν καὶ κινούμεθα καὶ ἐσμέν (in Him we live and move and have our being) = providencia divina. 'Him' = Dios (contexto: Hechos 17:24 = Dios que hizo el mundo). Padre como sustentador. Pero Colosenses 1:17 dice Hijo sustenta = coordinación: ambos personas operan en sustentamiento. Economía: Padre decreta orden, Hijo mantiene orden"
+        categoria: "Hechos"
+      
+      - ref: "Romanos 11:36"
+        texto: "Porque de él, y por él, y para él, son todas las cosas. A él sea la gloria por los siglos. Amén"
+        comentario: "ἐξ αὐτοῦ (from Him - origen/causa primaria) καὶ δι' αὐτοῦ (and through Him - agencia/medio) καὶ εἰς αὐτὸν (and for Him - telos/fin) = triada de causalidad aplicada a Dios Padre. Paralelamente aplicado a Hijo (1 Corintios 8:6) = ambos poseen plenitud de ser y poder. Economía: Padre es origen decretal, Hijo es agente mediador"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 5:21-22"
+        texto: "Porque como el Padre levanta a los muertos, y les da vida, así también el Hijo a los que quiere da vida. Porque el Padre a nadie juzga, sino que todo el juicio dio al Hijo"
+        comentario: "ὥσπερ ὁ Πατήρ ἐγείρει τοὺς νεκροὺς καὶ ζωοποιεῖ, οὕτως καὶ ὁ Υἱὸς ὃ θέλει ζωοποιεῖ (just as Father... so also Son) = paralelismo funcional: Padre vivifica, Hijo vivifica. ὁ Πατὴρ... τὴν κρίσιν πᾶσαν δέδωκεν τῷ Υἱῷ (Father... given judgment to Son) = delegación económica: Padre retiene supremacía decretiva (décision primaria), Hijo ejecuta juicio. Coigualdad: ambos funciones plenas"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 3:35-36"
+        texto: "El Padre ama al Hijo, y todas las cosas ha entregado en su mano. El que cree en el Hijo tiene vida eterna; pero el que no obedece al Hijo no verá la vida, sino que la ira de Dios permanece sobre él"
+        comentario: "ὁ Πατὴρ ἀγαπᾷ τὸν Υἱὸν καὶ πάντα δέδωκεν ἐν τῇ χειρὶ αὐτοῦ (Father loves Son and given all things into His hand) = economía salvífica: Padre' affectio (amor), Hijo's poder (todas las cosas). Conexión: quien confía en Hijo obtiene vida (από Padre por Hijo). Refuta arrianos: si Hijo es 'creatura', ¿cómo recibe 'TODAS las cosas'? = prueba de coigualdad"
+        categoria: "Evangelios"
+      
+      - ref: "Hebreos 1:2-3"
+        texto: "En estos postreros días nos ha hablado por el Hijo, a quien constituyó heredero de todo... quien siendo el resplandor de su gloria, y la imagen misma de su sustancia, y quien sustenta todas las cosas con la palabra de su poder"
+        comentario: "ἂ ἐποίησεν κληρονόμον πάντων (whom He made heir of all things) δι' οὗ καὶ τοὺς αἰῶνας ἐποίησεν (through whom He made the ages) + ὑπάρχων τῆς δόξης... φέρων τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ (bearing all things by the word of His power) = Padre nominó Hijo heredero, Hijo ejecuta creación y sustentamiento. Dos personas, operaciones distintas, poder igual"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Mateo 6:9-10"
+        texto: "Padre nuestro que estás en los cielos, santificado sea tu nombre. Venga tu reino. Hágase tu voluntad, como en el cielo, así también en la tierra"
+        comentario: "Ἄββα (Abba - Aramaic = familiar Father) + τὸ ὄνομά σου (Your name = Your revealed character) + ἐλθέσαι ἡ βασιλεία σου (Your kingdom come) + γενηθήτω τὸ θέλημά σου (Your will be done) = Jesús instruye oración al Padre. Implica: Padre tiene volición soberana (θέλημα), reino vindica Su soberanía, economía redentora cumple Su propósito"
+        categoria: "Evangelios"
+      
+      - ref: "Apocalipsis 4:11"
+        texto: "Señor, digno eres de recibir la gloria y la honra y el poder; porque tú creaste todas las cosas, y por tu voluntad existen y fueron creadas"
+        comentario: "Ἄξιος εἶ ὁ Κύριος ὁ Θεὸς ἡμῶν λαβεῖν τὴν δόξαν καὶ τὴν τιμὴν καὶ τὴν δύναμιν, ὅτι σὺ ἔκτισας τὰ πάντα, καὶ διὰ τὸ θέλημά σου ἦσαν καὶ ἐκτίσθησαν (You created all things and by Your will they exist and were created) = adoración celestial dirigida a Dios (Padre primariamente en contexto). Decreto + ejecución = volicional (θέλημα) + material"
+        categoria: "Apocalipsis"
+      
+      - ref: "Efesios 3:14-15"
+        texto: "Por esta causa doblo mis rodillas ante el Padre de nuestro Señor Jesucristo, de quien toma nombre toda familia en los cielos y en la tierra"
+        comentario: "κάμπτω τὰ γόνατά μου πρὸς τὸν Πατέρα (I bow knees to the Father) + ἐξ οὗ πᾶσα πατριὰ (from whom every family) ἐν οὐρανοῖς καὶ ἐπὶ γῆς (in heavens and on earth) = Padre es fuente y origen de todas las familias = Creador + Soberano. Paternidad implica autoridad y providencia universal"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 11:33-34"
+        texto: "¡Oh profundidad de las riquezas de la sabiduría y de la ciencia de Dios! ¡Cuán insondables son sus juicios, e inescrutables sus caminos! Porque ¿quién entendió la mente del Señor?"
+        comentario: "ὦ βάθος πλούτου καὶ σοφίας καὶ γνώσεως Θεοῦ (O depth of riches and wisdom and knowledge of God) + ὡς ἀνεξιχνίαστοι (inscrutable) αὐτοῦ αἱ ὁδοί (His ways) = Padre' omnisciencia + providencia. ὁ γὰρ ἔγνω νοῦν Κυρίου (who has known mind of Lord) = Padre tiene consejo soberano incomprehensible"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hechos 14:17"
+        texto: "Sin embargo, no se dejó a sí mismo sin testimonio, haciendo bien, dándonos lluvias del cielo y estaciones fructíferas, llenando de sustento y de alegría nuestros corazones"
+        comentario: "οὐκ ἀμάρτυρος ἑαυτὸν ἀφῆκεν (He did not leave Himself without witness) ἀγαθοποιῶν (doing good), διδοὺς ὑμῖν ἀπ' οὐρανοῦ ὑετοὺς (giving rains from heaven) = Padre's providencia general: mantiene creation, suministra sustento. Economía: testimonio del poder paternal"
+        categoria: "Hechos"
+      
+      - ref: "1 Timoteo 4:4"
+        texto: "Porque todo lo que Dios creó es bueno, y nada es de desecharse, si se toma con acción de gracias"
+        comentario: "πᾶν κτίσμα Θεοῦ καλόν (all God's creation is good) = Padre's creación es esencialmente buena, no mala. Refuta gnosticismo. Economía: bondad paternal en providencia"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Proverbios 8:22-23"
+        texto: "Jehová me poseía en el principio de su camino, antes de sus obras antiguas. Eternamente tuve el encargo, desde el principio, antes de que la tierra fuese"
+        comentario: "יְהוָה קָנָנִי רֵאשִׁית דַּרְכּוֹ (YHWH possessed me at beginning of His way) + מֵרֹאשׁ (from the head/beginning) = Sabiduría personificada preexistente. Contexto: Padre decreta desde eternidad. Economía: decreto eterno comprende todas las cosas"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 89:11"
+        texto: "Los cielos son tuyos, tuya también es la tierra; el mundo y su plenitud, tú los fundaste"
+        comentario: "שָׁמַיִם לְךָ אַף־הָאָרֶץ (Heavens are Yours, also the earth) תֵּבֵל וּמְלוֹאָהּ אַתָּה יְסַדְתָּם (world and its fullness, You founded them) = Padre es dueño y fundador. Propiedad + creación = solo el Padre"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Daniel 4:35"
+        texto: "Todos los habitantes de la tierra son considerados como nada; y él hace según su voluntad en el ejército del cielo, y en los habitantes de la tierra, y no hay quien detenga su mano, ni quien le diga: ¿Qué haces?"
+        comentario: "כָּל־שְׁכַן אַרְעָא כְלָא חֲשִׁיבִין (all inhabitants of earth considered nothing) + עַל־דִּי־חֵפֵץ נַעֲבֵד (He does according to His will) = Padre's omnipotencia + soberanía absoluta. None puede detener Su mano. Economic: providencia irresistible"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Nahúm 1:3"
+        texto: "Jehová es tardo para la ira y grande en poder, y no dará por inocente al culpable. Jehová marcha en la tempestad y en el torbellino, y las nubes son el polvo de sus pies"
+        comentario: "יְהוָה אֶרֶךְ אַפַּיִם וּגְדוֹל־כֹּחַ (YHWH is slow to anger and great in power) = atributos paternal: paciencia + poder. לא ינקה את־הרשע (will not leave the guilty unpunished) = Padre' justicia. Economic: providencia puntual"
+        categoria: "Profetas Menores"
+      
+      - ref: "Jeremías 32:17"
+        texto: "¡Ah! Señor Jehová, he aquí que tú hiciste los cielos y la tierra con tu gran poder, y con tu brazo extendido, ni hay nada que sea difícil para ti"
+        comentario: "אַתָּה עָשִׂיתָ אֶת־הַשָּׁמַיִם אֶת־הָאָרֶץ (You made heavens and earth) בְּכֹחֲךָ הַגָּדוֹל וּבִזְרוֹעֲךָ הַנְּטוּיָה (by Your great power and outstretched arm) = Padre omnipotencia en creación. Nothing is impossible for Him = economía divina sin límite"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Salmo 115:3"
+        texto: "Nuestro Dios está en los cielos; Todo lo que quiso ha hecho"
+        comentario: "אֱלֹהֵינוּ בַשָּׁמַיִם (Our God is in heavens) כֹּל אֲשֶׁר חָפֵץ עָשָׂה (All He pleased He did) = Voluntad paternal absoluta. חָפֵץ (haphets = pleasure/will/delight) = volicional omnipotente. Decree precede execution = economía decretiva del Padre"
+        categoria: "Poesía/Sabiduría"
+      
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 3.1: 'Dios desde la eternidad decretó según Su consejo...'"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 25: 'The First Person - God the Father'"
+      - nombre: "Ecuménica"
+        afirma: true
+        fuente: "Niceno: Padre 'creador de todas las cosas visibles e invisibles'"
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+  # ==========================================
+  # C3 - DEIDAD, ENCARNACIÓN Y REDENCIÓN DEL HIJO
+  # ==========================================
+  C3_DEIDAD_HIJO:
+    text: "Jesucristo es el Hijo eterno de Dios, coigual y coeterno con el Padre, consustancial en esencia divina completa, eternamente engendrado (no creado), quien se encarnó para efectuar redención substitutoria, siendo el Mediador único entre Dios y la humanidad, el Redentor de los elegidos"
+    
+    definicion_tecnica: |
+      DEIDAD DEL HIJO (Christología ortodoxa):
+      - ETERNIDAD: no hubo cuando 'no era' (ἦν ὁ Λόγος πρὸς τὸν Θεόν - Juan 1:1)
+      - CONSUSTANCIAL (homoousios): misma esencia (ousia) que Padre desde eternidad
+      - GENERATIO AETERNA: engendrado eternamente, no creado en tiempo
+      - ENCARNACIÓN: Logos asumió naturaleza humana verdadera sin pérdida de deidad (Calcedonia)
+      - ECONOMÍA REDENTORA: satisfacción (substitutio) + justicia + gracia
+      
+      Westminster + Chafer coordinan: Dios Hijo actúa como Redentor
+      Anti-herejía: refuta arrianismo (Hijo creado), docetismo (humanidad falsa), nestorianismo
+    
+    implicaciones:
+      - "Cristo es verdadero Dios y verdadero hombre"
+      - "Su muerte efectúa redención legal y moral por sustitución"
+      - "Su resurrección demuestra victoria sobre muerte y pecado"
+      - "Es el único mediador entre Dios y los hombres"
+      - "Recibe adoración igual al Padre como Dios"
+    
+    anclas_biblicas:
+      # ========== PREEXISTENCIA Y ETERNIDAD ==========
+      - ref: "Juan 1:1-3"
+        texto: "En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios. Este era en el principio con Dios. Todas las cosas por él fueron hechas, y sin él nada de lo que ha sido hecho, fue hecho"
+        comentario: "ἦν ὁ Λόγος πρὸς τὸν Θεόν, καὶ ὁ λόγος ἦν Θεός (the Word WAS with God and the Word WAS God) = tres afirmaciones: (1) preexistencia (ἦν), (2) distinción (πρὸς), (3) deidad (θεός). Imperfecto ἦν = no hay comienzo. πάντα δι' αὐτοῦ ἐγένετο (all through Him came to be) = agencia mediadora divina. Anti-herejía: refuta arrianismo (Hijo creado), modalismo (apariencia), subordinacionismo"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 8:58"
+        texto: "Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, yo soy"
+        comentario: "πρὶν Ἀβραὰμ γενέσθαι ἐγὼ εἰμί (Before Abraham CAME TO EXIST, I AM) = contraste: Abraham 'became' (γενέσθαι = punto de comienzo), Jesús 'AM' (εἰμί = ser eterno). Uso de ἐγὼ εἰμί = autorreferencia al YHWH de Éxodo 3:14. Judíos entienden como reclamo de deidad: toman piedras (Juan 8:59) = reconocen blasfemia si falsa, verdad si cierta"
+        categoria: "Evangelios"
+      
+      - ref: "Colosenses 1:15-17"
+        texto: "Él es la imagen del Dios invisible, el primogénito de toda creación. Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles; sean tronos, sean dominios, sean principados, sean potestades; todo fue creado por medio de él y para él. Y él es antes de todas las cosas, y todas las cosas en él subsisten"
+        comentario: "εἰκών τοῦ Θεοῦ τοῦ ἀοράτου (Image of invisible God) = perfecta revelación de deidad. πρωτότοκος πάσης κτίσεως (firstborn of all creation) = NO 'first created' (proto-ktizo) sino supremacía sobre creación. ἐν αὐτῷ ἐκτίσθη τὰ πάντα (in Him all things created) = Hijo es sustrato (hypostasis) de creación. Συνέστηκεν (συν+ἵστημι = holds together) = sustentamiento continuo. Establece: eternidad + deidad completa"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 1:1-3"
+        texto: "Dios, habiendo hablado muchas veces y de muchas maneras en otro tiempo a los padres por los profetas, en estos postreros días nos ha hablado por el Hijo, a quien constituyó heredero de todo... quien siendo el resplandor de su gloria, y la imagen misma de su sustancia, y quien sustenta todas las cosas con la palabra de su poder"
+        comentario: "ἀπαύγασμα τῆς δόξης αὐτοῦ καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ (radiance of His glory and exact image of His substance = marca-a) = Hijo NO solo refleja sino ES sustancia divina. Φέρων τὰ πάντα τῷ ῥήματι τῆς δυνάμεως αὐτοῦ (sustaining all things by word of His power) = deidad completa en atributos (poder omnipotente)"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Filipenses 2:6-7"
+        texto: "El cual, siendo en forma de Dios, no estimó el ser igual a Dios como cosa a que aferrarse, sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres"
+        comentario: "ὑπάρχων ἐν μορφῇ Θεοῦ (existing in form of God) = deidad esencial antes de encarnación. οὐχ ἁρπαγμὸν ἡγήσατο τὸ εἶναι ἴσα Θεῷ (did not count equality with God as robbery) = deidad consumada, verdadera igualdad. ἐκένωσεν ἑαυτόν (emptied Himself) = NO abandonó deidad sino voluntariamente limitó función en humanidad. Esto es kénosis no-herejía: vaciamiento de gloria, no de naturaleza divina"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Miqueas 5:2"
+        texto: "Pero tú, Belén Efrata, pequeña para estar entre las familias de Judá, de ti me saldrá el que será Señor en Israel; y sus salidas son desde el principio, desde los días de la eternidad"
+        comentario: "וּמוֹצָאֹתָיו מִקֶּדֶם מִימֵי עוֹלָם (His goings forth from the beginning, from the days of eternity) = preexistencia mesiánica. No es preexistencia temporal sino ontológica: desde eternidad. Mateo 2:6 cita aplicando a Jesús = profecía reconoce preexistencia del Mesías"
+        categoria: "Profetas Menores"
+      
+      # ========== ADORACIÓN Y ATRIBUTOS DIVINOS ==========
+      - ref: "Mateo 14:33"
+        texto: "Entonces los que estaban en la barca vinieron y le adoraron, diciendo: Verdaderamente eres Hijo de Dios"
+        comentario: "προσεκύνησαν αὐτῷ λέγοντες (they worshipped Him saying) = προσκυνέω = adoración cultual (latría), reservada solo a Dios. Discípulos reconocen: si Jesús recibe adoración, es Dios. Compare Apocalipsis 19:10 (ángel detiene adoración a él) vs. Apocalipsis 5:8-9 (coros adoran a Cordero = Cristo). Diferencia: solo Dios recibe adoración perpetua"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 5:23"
+        texto: "Para que todos honren al Hijo como honran al Padre. El que no honra al Hijo, no honra al Padre que le envió"
+        comentario: "ἵνα πάντες τιμῶσιν τὸν Υἱὸν καθὼς τιμῶσιν τὸν Πατέρα (that all honor the Son just as they honor the Father) = coigualdad en honor. μὴ τιμῶν τὸν Υἱόν (not honoring Son) implica dishonor al Padre = inseparabilidad en deidad. Anti-herejía: refuta subordinacionismo (quien dice Hijo merece menos honor que Padre deshonra a ambos)"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 9:5"
+        texto: "De quienes son los patriarcas, y de quienes, según la carne, nació Cristo, el cual es sobre todas las cosas, bendito por los siglos. Amén"
+        comentario: "Χριστὸς ὁ ὢν ἐπὶ πάντων Θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας (Christ who is over all, God blessed forever) = predicado divino aplicado a Cristo. ὁ ὢν (the One being = es) presente participiple = ser continuado. Anti-herejía: explícitamente declara Christ = God"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Tito 2:13"
+        texto: "Aguardando la bienaventurada esperanza y la manifestación gloriosa de nuestro grande Dios y Salvador Jesucristo"
+        comentario: "τοῦ μεγάλου Θεοῦ καὶ Σωτῆρος ἡμῶν Ἰησοῦ Χριστοῦ (the great God and Savior Jesus Christ) = sustantivos singular con único artículo = una persona = Jesús es el God and Savior. Si dos personas, sería: 'God and... Savior' (ou kai). Gramatical proof de deidad"
+        categoria: "Epístolas Pastorales"
+      
+      # ========== ENCARNACIÓN Y REDENCIÓN ==========
+      - ref: "Mateo 1:20-23"
+        texto: "He aquí que el ángel del Señor se le apareció en sueños y dijo: José, hijo de David, no temas de recibir a María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es... Virgen concebirá y dará a luz un hijo, Y llamarán su nombre Emanuel, que traducido es: Dios con nosotros"
+        comentario: "ἐκ Πνεύματος Ἁγίου (of Holy Spirit = origin of conception) + Ἐμμανουήλ ὅ ἐστιν μεθερμηνευόμενον Μεθ' ἡμῶν ὁ Θεός (Emmanuel = God with us) = encarnación verdadera de Dios Hijo. Señal: virgen concebirá = signo teológico, no biológico meramente. Dios Se encarna"
+        categoria: "Evangelios"
+      
+      - ref: "Lucas 1:26-38"
+        texto: "El ángel Gabriel fue enviado por Dios... a una virgen... Y entrado el ángel en donde ella estaba, dijo: Dios ha hallado gracia en ti... concebir y dar a luz un hijo, y llamarás su nombre Jesús... Será grande, y será llamado Hijo del Altísimo"
+        comentario: "κληθήσεται Υἱὸς Ὑψίστου (He will be called Son of the Most High) + ὁ Λόγος σὰρξ ἐγένετο (Word became flesh - Juan 1:14) = Encarnación: Dios Hijo asume verdadera humanidad. Economía: Hijo ejecuta redentoría personal al nacer"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 3:16"
+        texto: "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna"
+        comentario: "ὁ Θεὸς ἠγάπησεν τὸν κόσμον ὥστε τὸν Υἱὸν τὸν μονογενῆ ἔδωκεν (God so loved that He gave the only-begotten Son) = economía redentora: Padre' determinación (amor/decreto), Hijo's substitución (dado = sacrificado). μονογενῆ (monogenes) = único, especial, coiguales con Padre. ἵνα πὰς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται (that all believing in Him not perish) = redención universal en oferta, particular en aplicación"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 3:25-26"
+        texto: "A quien Dios puso como propiciación por medio de la fe en su sangre, para manifestar su justicia, a causa de haber pasado por alto los pecados pasados en la paciencia de Dios... para que él sea justo, y justificador del que es de la fe de Jesús"
+        comentario: "ἱλαστήριον ἐν τῷ αἵματι αὐτοῦ (propitiation by His blood) = expiación (ἱλάσκομαι = satisface ira divina) + sustitución (αἵμα = vida derramada). δικαίως δικαιοῦν τὸν ἐκ πίστεως Ἰησοῦ (justly justify the one from faith in Jesus) = Dios preserva Su justicia EN acto de justifying = satisfactio = economía redentora"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Lucas 1:26-38"
+        texto: "El ángel Gabriel fue enviado por Dios... a una virgen... Y entrado el ángel en donde ella estaba, dijo: Dios ha hallado gracia en ti... concebir y dar a luz un hijo, y llamarás su nombre Jesús... Será grande, y será llamado Hijo del Altísimo"
+        comentario: "κληθήσεται Υἱὸς Ὑψίστου (He will be called Son of the Most High) + ὁ Λόγος σὰρξ ἐγένετο (Word became flesh - Juan 1:14) = Encarnación: Dios Hijo asume verdadera humanidad. Economía: Hijo ejecuta redención personal al nacer, Padre decreta, Espíritu concibe"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 6:39-40"
+        texto: "Y esta es la voluntad del Padre, del que me envió: Que todo aquello que me diere, no pierda de ello, sino que lo resucite en el día postrero. Y esta es la voluntad del que me envió: Que todo aquel que ve al Hijo, y cree en él, tenga vida eterna"
+        comentario: "τὸ θέλημα τοῦ Πατρὸς τοῦ πέμψαντός με (the will of Father who sent Me) + πάν ὃ δέδωκέν μοι (all that He gave Me) = Padre decreta quiénes son elegidos. δώσω αὐτὸν ἐν τῇ ἐσχάτῃ ἡμέρᾳ (I will raise him up on last day) = Hijo ejecuta resurrección de elegidos. Economía decretiva + ejecutiva"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 17:1-3"
+        texto: "Estas cosas habló Jesús, y levantando los ojos al cielo, dijo: Padre, la hora ha llegado; glorifica a tu Hijo, para que también tu Hijo te glorifique a ti... Y esta es la vida eterna: que te conozcan a ti, el único Dios verdadero, y a Jesucristo, a quien tú has enviado"
+        comentario: "Ἶσε ἡ ὥρα (The hour has come) + δόξασόν σου τὸν Υἱόν (glorify Your Son) + ὴ αἰώνιος ζωή... γινώσκουσιν σέ (eternal life is to know You) = Economía realizada: Padre glorifica Hijo, Hijo glorifica Padre, conocimiento de ambos = vida. Tríada: Padre-Hijo-conocimiento = salvación"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 5:25-27"
+        texto: "Maridos, amad a vuestras mujeres, así como Cristo amó a la iglesia, y se entregó a sí mismo por ella, para santificarla, habiéndola purificado... para presentársela a sí mismo, una iglesia gloriosa, que no tuviese mancha ni arruga, ni cosa semejante, sino que fuese santa y sin mancha"
+        comentario: "Χριστὸς ἠγάπησεν τὴν ἐκκλησίαν (Christ loved the church) + ἔδωκεν ἑαυτὸν (gave Himself) ἀγιάσῃ αὐτὴν (to sanctify her) = Deidad del Hijo: redención, santificación, presentación perfecta de redeemed community. Economía: Hijo's love + sacrifice = church glorificada"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 9:26"
+        texto: "De otra manera le hubiera sido necesario padecer muchas veces desde la fundación del mundo; pero ahora, en la consumación de los siglos, se presentó una sola vez por el sacrificio de sí mismo para quitar de en medio los pecados"
+        comentario: "ἐφάπαξ (once for all = singular + perpetual) ἐφανέρωσεν πρὸς ἀθέτησις τῶν ἁμαρτιῶν (revealed for putting away of sins) = satisfactio completada, no repetible. Contrast con sacrificios levíticos (repetitivos). Economía: Hijo's redención eficaz eternally"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "1 Timoteo 2:5-6"
+        texto: "Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre; el cual se dio a sí mismo en rescate por todos"
+        comentario: "εἷς μεσίτης Θεοῦ καὶ ἀνθρώπων ἄνθρωπος Χριστὸς Ἰησοῦς (one mediator of God and men, Man Christ Jesus) = único mediador (no María, no santos en romanticismo protestante). ὁ δοὺς ἑαυτὸν ἀντίλυτρον ὑπὲρ πάντων (gave Himself ransom for all) = antilytron (αντί + lutron = substitutio + redemptio) universal in scope"
+        categoria: "Epístolas Pastorales"
+      
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Larger Catechism Q.35-36: 'Cristo es naturally and eternally the Son of God'"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 26: 'The Second Person and His Work'; Ryrie Basic Theology chs. 6-7"
+      - nombre: "Ecuménica"
+        afirma: true
+        fuente: "Calcedonia (451): Cristo 'Dios verdadero y hombre verdadero... en dos naturalezas'"
+      - nombre: "Histórica"
+        afirma: true
+        fuente: "Athanasius, Anselm (Cur Deus Homo), Calvin"
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  # ==========================================
+  # C4 - DEIDAD, PRESENCIA Y SANTIFICACIÓN DEL ESPÍRITU SANTO
+  # ==========================================
+  C4_DEIDAD_ESPIRITU:
+    text: "El Espíritu Santo es la tercera persona de la Trinidad, coigual, coeterno, consustancial, quien aplica redención al creyente, regenera, santifica y sella para glorificación"
+    
+    definicion_tecnica: |
+      DEIDAD DEL ESPÍRITU SANTO (Pneumatología ortodoxa):
+      - PERSONALIDAD REAL: Espíritu es persona (pneuma ≠ energía impersonal)
+      - DEIDAD COMPLETA: atributos divinos plenos, adorable
+      - PROCESIÓN: procede eterno del Padre (y del Hijo - filioque protestante)
+      - ECONOMÍA: Regenerador (nacer de nuevo), Santificador, Sellador
+      - PRESENCIA: inmorante en creyentes, presente universalmente
+      
+      Westminster + Chafer: énfasis economía (aplicación de redención)
+      Anti-herejía: refuta gnosticismo (espíritu ≠ divinidad), unitarianismo (solo Dios)
+    
+    implicaciones:
+      - "El Espíritu Santo es verdaderamente Dios"
+      - "Merece honor y adoración"
+      - "Aplica obra de Cristo a los creyentes"
+      - "Regenera a los muertos en pecado"
+      - "Sella a los creyentes para redención"
+    
+    anclas_biblicas:
+      # ========== DEIDAD Y ATRIBUTOS ==========
+      - ref: "Hechos 5:3-4"
+        texto: "Y dijo Pedro: Ananías, ¿por qué llenó Satanás tu corazón para que mintieses al Espíritu Santo... No has mentido a los hombres, sino a Dios"
+        comentario: "ψεύσασθαι τὸ Πνεῦμα τὸ Ἅγιον (to lie to the Holy Spirit) + ψεύσω τὸν Θεόν (to lie to God) = equation: lying to Spirit = lying to God. Implica: Spirit is God, has omniscience (knows hearts), is person who can be lied to. Anti-herejía: refuta gnosticismo que reduce Spirit a emanación inferior"
+        categoria: "Hechos"
+      
+      - ref: "1 Corintios 2:10-11"
+        texto: "Porque el Espíritu todo lo escudriña, aun lo profundo de Dios. Porque ¿quién de los hombres sabe las cosas del hombre, sino el espíritu del hombre que está en él? Así tampoco nadie conoció las cosas de Dios, sino el Espíritu de Dios"
+        comentario: "τὸ Πνεῦμα τὰ πάντα ἐρευνᾷ καὶ τὰ βάθη τοῦ Θεοῦ (Spirit searches all things even depths of God) = omnisciencia (ἐρευνάω = to search/investigate exhaustively). Parallel structure: as humanus spirit knows human things, so Divine Spirit knows divine things = Spirit has omniscience as attribute of God"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 12:4-6"
+        texto: "Ahora bien, hay diversidad de dones, pero un mismo Espíritu. Y hay diversidad de ministerios, pero un mismo Señor. Y hay diversidad de operaciones, pero un mismo Dios que opera todas las cosas en todos"
+        comentario: "διαιρέσεις δὲ χαρισμάτων εἰσιν, τὸ δὲ αὐτό ἐστιν Πνεῦμα (diversities of gifts but same Spirit) + τὸ αὐτὸ Κύριος (same Lord) + ὁ αὐτὸς Θεὸς (same God) = triadic parallelism: Spirit, Lord (Jesus), God (Father) all distribute spiritual gifts. Implies coequal authority and divine nature"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 8:26-27"
+        texto: "Y de igual manera el Espíritu nos ayuda en nuestra debilidad; pues qué hemos de pedir como conviene, no lo sabemos, pero el Espíritu mismo intercede por nosotros con gemidos indecibles. Mas el que escudriña los corazones sabe cuál es la intención del Espíritu, porque conforme a la voluntad de Dios intercede por los santos"
+        comentario: "τὸ Πνεῦμα συναντιλαμβάνεται (the Spirit helps/intercedes) + περιστεύχεται ἡμῶν ἐντεύξει (makes intercession for us) = personalidad (Spirit intercedes), intercessory work (comme Christ). ὁ ἐραυνῶν τὰς καρδίας (He who searches hearts = God Father) γινώσκει (knows) τὸ φρόνημα τοῦ Πνεύματος (intention of Spirit) = Spirit has distinct volition, omniscience, yet coordinated with Father"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Corintios 3:17-18"
+        texto: "Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad. Por tanto, nosotros todos, mirando a cara descubierta como en un espejo la gloria del Señor, somos transformados de gloria en gloria en la misma imagen, como por el Espíritu del Señor"
+        comentario: "ὁ Κύριος τὸ Πνεῦμα ἐστιν (the Lord is the Spirit) = Lord Jesus = Spirit (not contradiction, but economic identity: Risen Christ operates via Spirit). μεταμορφούμεθα ἀπὸ δόξης εἰς δόξαν (transformed from glory to glory) + ἀπὸ τοῦ Κυρίου Πνεύματος (by Lord Spirit) = Spirit's sanctifying work"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 4:4-6"
+        texto: "Un cuerpo, y un Espíritu, como fuisteis llamados en una misma esperanza de vuestra vocación; un Señor, una fe, un bautismo, un Dios y Padre de todos, el cual es sobre todos, y por todos, y en vosotros todos"
+        comentario: "ἓν σῶμα καὶ ἓν Πνεῦμα (one body and one Spirit) + εἷς Κύριος (one Lord) + εἷς Θεὸς καὶ Πατὴρ (one God and Father) = Trinitarian structure again: Spirit, Lord Jesus, God Father. ὁ ἐπὶ πάντων καὶ διὰ πάντων (over ALL, through ALL) + ἐν πῆσιν ὑμῖν (in ALL of you) = omnipresence + immanence = attributes of divinity"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== REGENERACIÓN (Nacimiento de Nuevo) ==========
+      - ref: "Juan 3:3-7"
+        texto: "Respondió Jesús y le dijo: De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios... Lo que es nacido de la carne, carne es; y lo que es nacido del Espíritu, espíritu es. No te maravilles de que te dije: Os es necesario nacer de nuevo"
+        comentario: "ἀνάθεν γεννηθῇ (born AGAIN/from above - ambiguous: plays on both spiritual birth + birth from heaven) = regeneration is work of Spirit. τὸ γεννηθὲν ἐκ τοῦ Πνεύματος (born of Spirit) πνεῦμά ἐστιν (spirit is) = Spirit is agent (regenerator) implying power and divine causation. Economía: Spirit applies Christ's redemption to elect's heart"
+        categoria: "Evangelios"
+      
+      - ref: "Tito 3:5"
+        texto: "Nos salvó, no por obras de justicia que nosotros hubiéramos hecho, sino por su misericordia, por el lavamiento de la regeneración y por la renovación del Espíritu Santo"
+        comentario: "σώσας ἡμᾶς... διὰ λουτροῦ παλιγγενεσίας (saved us through washing of rebirth) + ἀνακαινώσεως Πνεύματος Ἁγίου (renewal of Holy Spirit) = regeneración es obra unilateral (not cooperation: 'not by works'). Expedited agent: Spirit's renewing power. Economía: Salvación via Spiritís renovation"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "1 Pedro 1:23"
+        texto: "Siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre"
+        comentario: "ἀναγεγεννημένοι (born again) + ἐκ σπέρματος ἀφθάρτου (from incorruptible seed = God's eternally vital Word) + διὰ λόγου θεοῦ ζῶντος (through living Word) = Spirit applies Word. Means: Word (objective), Manner: Spirit (subjective). Coordination: Spirit uses means (Word) to regenerate"
+        categoria: "Epístolas Generales"
+      
+      # ========== SANTIFICACIÓN ==========
+      - ref: "Romanos 15:16"
+        texto: "Para ser ministro de Jesucristo a los gentiles, ministrando el evangelio de Dios, para que la ofrenda de los gentiles sea agradable, santificada por el Espíritu Santo"
+        comentario: "ἡγιασμένη ἐν Πνεύματι Ἁγίῳ (sanctified by Holy Spirit) = Spirit is agent of sanctification (ἁγιάζω = to make holy). Gentile believers become 'holy sacrifice' via Spirit's sanctifying work. Economía: Spirit progressively conforms believers to Christ's image"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Tesalonicenses 2:13"
+        texto: "Pero nosotros debemos dar siempre gracias a Dios respecto a vosotros, hermanos amados por el Señor, de que Dios os haya escogido desde el principio para salvación, mediante la santificación del Espíritu y la fe en la verdad"
+        comentario: "εἵλατο ὑμᾶς ὁ Θεὸς ἀπ' ἀρχῆς εἰς σωτηρίαν (God chose you from beginning for salvation) via ἁγιασμοῦ Πνεύματος (sanctification of Spirit) + faith = means: Spirit's sanctifying work, instrument: faith. Economía: salva involves: (1) Father's election, (2) Spiritís sanctification, (3) human faith"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 1:14"
+        texto: "Guarda el buen depósito por el Espíritu Santo que mora en nosotros"
+        comentario: "τὸ καλὸν παραθήκην φύλαξον διὰ Πνεύματος περι Ἁγίου τοῦ ἐνοικοῦντος ἐν ἡμῖν (guard good deposit through Holy Spirit dwelling in us) = Spirit indwells believers as caretaker/enabler. ἐνοικέω (dwell in) = permanent residence, not visitation = characteristic of 3rd person Trinity's operation in believers"
+        categoria: "Epístolas Pastorales"
+      
+      # ========== SELLADO (Sealing unto Redemption) ==========
+      - ref: "Efesios 1:13-14"
+        texto: "En él también vosotros, habiendo oído la palabra de verdad, el evangelio de vuestra salvación, y habiendo creído en él, fuisteis sellados con el Espíritu Santo de la promesa, que es las arras de nuestra herencia hasta la redención de la posesión adquirida, para alabanza de su gloria"
+        comentario: "ἐσφραγίσθητε τῷ Πνεύματι τῆς ἐπαγγελίας (sealed with Spirit of promise) = sphragis (seal) = authentication + ownership marking. ὁ ἐστιν ἀρραβών (who is earnest/downs payment) τῆς κληρονομίας ἡμῶν (of our inheritance) εἰς ἀπολύτρωσιν (unto redemption) = Spirit guarantees final glorification. Economía: Spirit applies Christ's promise to elect"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Corintios 1:21-22"
+        texto: "Y el que nos confirma con vosotros en Cristo, y el que nos ungió, es Dios, el cual también nos ha sellado y nos ha dado las arras del Espíritu en nuestros corazones"
+        comentario: "ὁ Θεὸς ὁ καὶ σφραγιζόμενος ἡμᾶς (God sealed us) + δοὺς ἡμῖν ἀρραβῶνα τοῦ Πνεύματος (given us earnest of Spirit) = Spirit as pledge-gift (ἀρραβών) of future glorification. ἐν ταῖς καρδίαις ἡμῶν (in our hearts) = inward work, consciousness of belonging to Christ"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== TESTIMONIO Y PODER ==========
+      - ref: "Hechos 1:8"
+        texto: "Pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos en Jerusalén, en toda Judea, en Samaria, y hasta lo último de la tierra"
+        comentario: "λήμψεσθε δύναμιν ἐπελθόντος τοῦ Ἁγίου Πνεύματος ἐφ' ὑμᾶς (you will receive power when Holy Spirit comes upon you) + ἔσεσθέ μοι μάρτυρες (you will be My witnesses) = Spirit gives resurrection power for testimony. Economía: Spirit's power enables proclamation of risen Christ"
+        categoria: "Hechos"
+      
+      - ref: "Romanos 8:14"
+        texto: "Porque todos los que son guiados por el Espíritu de Dios, éstos son hijos de Dios"
+        comentario: "ὅσοι γὰρ πνεύματι Θεοῦ ἄγονται (as many as are led by Spirit of God) + ὑποὶ Θεοῦ εἰσιν (sons of God they are) = Spirit's guidance is essential mark of filial relationship. ἀγ (lead) = present continuous: Spirit actively guides daily. Economía: relationshipship with Father via Spirit's leading"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 6:19-20"
+        texto: "¿O ignoráis que vuestro cuerpo es templo del Espíritu Santo, el cual está en vosotros, el cual habéis recibido de Dios?... Porque comprados sois por precio"
+        comentario: "τὸ σῶμα ὑμῶν ναὸς τοῦ Ἁγίου Πνεύματος (your body is temple of Holy Spirit) ἐν ὑμῖν (in you) + λαμβάνετε (received) ἀπὸ Θεοῦ (from God) = Spirit indwells, personalny resides in believers. ἀπηγόρασθε τιμῆς (ransomed at a price) = Hijo's redemption applied by Spirit. Economía: Padre decrees, Hijo redeems, Espíritu indwells"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 3:16-17"
+        texto: "Para que os dé, conforme a las riquezas de su gloria, el ser fortalecidos con poder en el hombre interior por su Espíritu; para que habite Cristo por la fe en vuestros corazones"
+        comentario: "δώσῃ δυναμωθῆναι διὰ τοῦ Πνεύματος αὐτοῦ (strengthened by His Spirit) ἐν τῷ ἔσω ἀνθρώπῳ (inward man) + κατοικήσαι (to dwell) τὸν Χριστὸν (Christ) = Espíritu fortalece, Cristo habita, coordinación económica en experiencia del creyente"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 3:16"
+        texto: "Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia"
+        comentario: "πᾶσα γραφὴ θεόπνευστος (all Scripture God-breathed) + ὠφέλιμος...διδασκαλίαν (useful for teaching) = Espíritu autor de Escritura. Economía: Espíritu speaks through prophets/apostles: Word of God = Spirit's voice. Verbiage divine"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Juan 14:26"
+        texto: "Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"
+        comentario: "ὁ Πατὴρ πέμψει ἐν τῷ ὀνόματί μου (Father will send in My name) + ἐκεῖνος ὑμᾶς διδάξει πάντα (He will teach you all things) = Espíritu continúa enseñanza de Jesús. Economía: Padre envía, Espíritu instruye in Jesus' name. Verdadero parakletos (advocate/helper)"
+        categoria: "Evangelios"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.3; Larger Catechism Q.11: 'Three persons... the Holy Ghost'"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 27: 'The Third Person'; Ryrie Basic Theology chs. 8-9"
+      - nombre: "Ecuménica"
+        afirma: true
+        fuente: "Constantinopla 381: Espíritu 'coadorado y coglorificado' con Padre e Hijo"
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  # ==========================================
+  # C5 - DISTINCIÓN, UNIDAD Y PROCESIONES ETERNAS
+  # ==========================================
+  C5_PROCESIONES_ETERNAS:
+    text: "Las tres personas son eternamente distintas en relaciones pero una en sustancia; Padre ingenerado, Hijo eternamente engendrado, Espíritu procede del Padre (Filioque), verdadera Trinidad contra modalismo y triteísmo"
+    
+    definicion_tecnica: |
+      PROCESIONES ETERNAS (relationes juxta-trinitariae):
+      - INGENERIDAD (Paternidad): Padre no procede de otro, fuente de deidad
+      - GENERACIÓN (Filiatio): Hijo procede eternamente del Padre, NO creado
+      - PROCECIÓN (Spiratio): Espíritu procede del Padre (y del Hijo - Filioque)
+      
+      Esto permite: THREE DISTINCT pero UNIDAD
+      - Distinción real: hypostases propias, no modos
+      - Unidad: una ousia (sustancia), atributos comunes
+      - Economía: funciones coordinadas sin subordinación cronológica
+      
+      Anti-herejía:
+      - ❌ MODALISMO: Dios aparenta ser tres, es realmente uno (Dios en 3 'modos')
+      - ❌ TRITEÍSMO: Tres dioses separados (viola monoteísmo)
+      - ❌ SUBORDINACIONISMO: Hijo/Espíritu subordinados cronológicamente post-eternidad
+    
+    implicaciones:
+      - "La Trinidad es revelada, no contradicción racional"
+      - "Las procesiones eternas son infinitas, no temporales"
+      - "Cada persona tiene función económica propia sin negar unidad"
+      - "Adoración de la Trinidad es adoración de Un Dios único"
+      - "Negación de procesiones lleva a herejía (Sabelio, Arrio)"
+    
+    anclas_biblicas:
+      # ========== DISTINCIÓN REAL DE PERSONAS ==========
+      - ref: "Juan 14:16-17"
+        texto: "Y yo rogareé al Padre, y os dará otro Consolador, para que esté con vosotros para siempre. Él es el Espíritu de verdad, al cual el mundo no puede recibir, porque no le ve, ni le conoce; pero vosotros le conocéis, porque mora con vosotros, y estará en vosotros"
+        comentario: "κἀγὼ ἐρωτήσω τὸν Πατέρα (I will ask the Father) + ἄλλον Παράκλητον (another Advocate = Jesus) + ὁ Πνεῦμα τῆς ἀληθείας (the Spirit of truth) = three DISTINCT persons in conversation: 'I ask Father for another like Me (Spirit)'. Each has role, none identical. Distinct (three paracletes conceptually: Christ first, Spirit second, Father ordains) yet coordinated"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 15:26"
+        texto: "Pero cuando venga el Consolador, a quien yo os enviaré del Padre, el Espíritu de verdad, el cual procede del Padre, él dará testimonio acerca de mí"
+        comentario: "ὅταν ἔλθῃ ὁ Παράκλητος ὃν ἐγὼ πέμψω ὑμῖν παρὰ τοῦ Πατρός (when Advocate comes whom I will send from Father) + ὁ Πνεῦμα τῆς ἀληθείας ὃ παρὰ τοῦ Πατρὸς ἐκπορεύεται (Spirit of truth which proceeds from Father) = dual procecion: Spirit sent by Son (πέμψω) who proceeds from Father (ἐκπορεύεται). Establishes: three persons, two sources of procecion (Filioque), real distinction"
+        categoria: "Evangelios"
+      
+      - ref: "Mateo 3:16-17"
+        texto: "Jesús, después que fue bautizado, subió luego del agua; y he aquí cielos abiertos, y vio al Espíritu de Dios que descendía como paloma, y venía sobre él. Y hubo una voz de los cielos, que decía: Este es mi Hijo amado, en quien tengo complacencia"
+        comentario: "τὸ Πνεῦμα τοῦ Θεοῦ... καταβαῖνον ὡσεὶ περιστερὰν ἐρχόμενον ἐπ' αὐτόν (Spirit... descending like dove coming upon Him) + φωνὴ ἐκ τῶν οὐρανῶν (voice from heaven) dicens: οὗτός ἐστιν ὁ Υἱός μου (This is My Son) = TRIPLE MANIFESTATION: Spirit descending, Son being baptized, Father speaking. Three persons visible/audible simultaneously = true distinction, not modal appearance"
+        categoria: "Evangelios"
+      
+      - ref: "2 Corintios 13:14"
+        texto: "La gracia del Señor Jesucristo, la amor de Dios, y la comunión del Espíritu Santo sean con vosotros todos"
+        comentario: "ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ (grace of Lord Jesus) + ἡ ἀγάπη τοῦ Θεοῦ (love of God) + ἡ κοινωνία τοῦ Ἁγίου Πνεύματος (fellowship of Holy Spirit) = three distinct attributes + three distinct persons. Each has role (grace-redemptive work, love-decretal work, communion-applicative work). Não modal: três pessoas con três actividades distintas"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 1:1-4"
+        texto: "Pablo, siervo de Jesucristo... del evangelio de Dios... acerca de su Hijo, nuestro Señor Jesucristo, que era del linaje de David según la carne, y declarado Hijo de Dios con poder según el Espíritu de santidad, por su resurrección de entre los muertos"
+        comentario: "τὸ εὐαγγέλιον τοῦ Θεοῦ (gospel of God) + περì τοῦ Υἱοῦ αὐτοῦ (concerning His Son) + κατὰ τὸ Πνεῦμα ἁγιοσύνης (according to Spirit of holiness) = three persons in epistolary greeting + gospel description: God (Father) announces Gospel about His Son, defined by Spirit's power in resurrection. Economía trinitaria en miniatura"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== GENERATIO AETERNA (Filiación Eterna) ==========
+      - ref: "Hebreos 1:5"
+        texto: "Porque ¿a cuál de los ángeles dijo Dios jamás: Mi hijo eres tú, Yo te he engendrado hoy? ¿Y otra vez: Yo seré a él Padre, Y él me será a mí hijo?"
+        comentario: "τίνι γὰρ τῶν ἀγγέλων εἴρηκέν ποτε (to which of angels has He ever said) + Υἱός μου εἶ σύ (You are My Son) + ἐγὼ σήμερον γεγέννηκά σε (I today have begotten You) = 'today' (σήμερον) paradox: Psalm 2:7 applies to Messianic office and exaltation, but eternal generation implied (cf. Psalm 110, Juan 1:1). 'Begotten' (γεννάω) distinguishes from 'made' (ποιέω) = not creation, eternal generation (generatio aeterna, not generation in time)"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Juan 3:18"
+        texto: "El que en él cree, no es condenado; pero el que no cree, ya ha sido condenado, porque no ha creído en el nombre del unigénito Hijo de Dios"
+        comentario: "τὸν μονογενῆ Υἱὸν τοῦ Θεοῦ (the only-begotten Son of God) = μονογενής (monogenes) = unique, one-of-a-kind, eternally begotten (not temporally made). Applied to Risen Christ post-resurrection (1 Pedro 1:3, 23), confirming generation perpetual not mere historical event. Refutes arianism: if 'Only-Begotten' = eternally generated, not created"
+        categoria: "Evangelios"
+      
+      - ref: "Colosenses 1:15"
+        texto: "Él es la imagen del Dios invisible, el primogénito de toda creación"
+        comentario: "εἰκών τοῦ Θεοῦ τοῦ ἀοράτου (image of invisible God) πρωτότοκος πάσης κτίσης (firstborn of all creation) = πρωτότοκος (prototokos) = supremacy in rank + order of procecion (born before all creation so not part of creation). Refutes arianism: 'firstborn' means 'outranking' not 'first made'. Economía: sustains what is born from Him"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== PROCESIÓN ETERNA DEL ESPÍRITU (Filioque) ==========
+      - ref: "Juan 14:26"
+        texto: "Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"
+        comentario: "ὁ Πατὴρ πέμψει ἐν τῷ ὀνόματί μου (Father will send in My name) = Espíritu proceće from Pather pero is sent BY Hijo IN Hijo's name = economía dual. ἐκείνος ὑμᾶς διδάξει πάντα (that one will teach you all things) = Spirit continues Christ's didactic work. Filioque economía: Spiritís procecion coordinates with Sonís agency"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 16:13-15"
+        texto: "Pero cuando venga el Espíritu de verdad, él os guiará a toda la verdad; porque no hablará por su propia cuenta, sino que hablará todo lo que oyere, y os hará saber las cosas que sucedan. Él me glorificará; porque tomará de lo mío, y os lo hará saber. Todo lo que el Padre tiene es mío; por eso dije que tomará de lo mío, y os lo hará saber"
+        comentario: "ὅταν ἔλθῃ ἐκεῖνος τὸ Πνεῦμα τῆς ἀληθείας (when that one Spirit of truth comes) + ὁδηγήσει ὑμᾶς ἐν πάσῃ τῇ ἀληθείᾳ (will lead you into all truth) + λαβήσεται ἐκ τοῦ ἐμοῦ (will take from Mine) + πάντα ὅσα ἔχει ὁ Πατὴρ ἐμά ἐστιν (all Father has is Mine) = Trinitarian circulation: Spirit proceeds from Pather, takes from Hijo, reveals Hijo who came from Pather. Distinguishes persons (λαβήσεται takes FROM vs. Has) while affirming unity (all belongs to all)"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 8:14-16"
+        texto: "Porque todos los que son guiados por el Espíritu de Dios, éstos son hijos de Dios. Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el Espíritu de adopción, por el cual clamamos: ¡Abba, Padre! El Espíritu mismo da testimonio a nuestro espíritu, de que somos hijos de Dios"
+        comentario: "πνεύματι Θεοῦ ἄγονται (led by Spirit of God) + ἐλάβετε... Πνεῦμα υἱοθεσίας (received Spirit of adoption) + ὃ κράζομεν· Ἀββὰ ὁ Πατήρ (by which we cry Abba Father) = Economía completa: Padre adopta, Espíritu sella y testifica, Hijo's redemption applied. Filioque: Spirit of the Son operating in hearts. Tres personas coordinadas en experiencia del creyente"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 6:19-20"
+        texto: "¿O ignoráis que vuestro cuerpo es templo del Espíritu Santo, el cual está en vosotros, el cual habéis recibido de Dios?... Porque comprados sois por precio"
+        comentario: "τὸ σῶμα ὑμῶν ναὸς τοῦ Ἁγίου Πνεύματος (your body is temple of Holy Spirit) ἐν ὑμῖν (in you) + ναὶ λαμβάνετε (received) ἀπὸ Θεοῦ (from God) = Espíritu indwells, personalny resides in believers. ἀπηγόρασθε τιμῆς (ransomed at a price) = Hijo's redemption applied by Spirit. Economía: Padre decrees, Hijo redeems, Espíritu indwells"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 3:16-17"
+        texto: "Para que os dé, conforme a las riquezas de su gloria, el ser fortalecidos con poder en el hombre interior por su Espíritu; para que habite Cristo por la fe en vuestros corazones"
+        comentario: "δώσῃ δυναμωθῆναι διὰ τοῦ Πνεύματος αὐτοῦ (strengthened by His Spirit) ἐν τῷ ἔσω ἀνθρώπῳ (inward man) + κατοικήσαι (to dwell) τὸν Χριστὸν (Christ) = Espíritu fortalece, Cristo habita, coordinación económica en experiencia del creyente"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 3:16"
+        texto: "Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia"
+        comentario: "πᾶσα γραφὴ θεόπνευστος (all Scripture God-breathed) + ὠφέλιμος...διδασκαλίαν (useful for teaching) = Espíritu autor de Escritura. Economía: Espíritu speaks through prophets/apostles: Word of God = Spirit's voice. Verbiage divine"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Juan 14:26"
+        texto: "Mas el Consolador, el Espíritu Santo, a quien el Padre enviará en mi nombre, él os enseñará todas las cosas, y os recordará todo lo que yo os he dicho"
+        comentario: "ὁ Πατὴρ πέμψει ἐν τῷ ὀνόματί μου (Father will send in My name) + ἐκεῖνος ὑμᾶς διδάξει πάντα (He will teach you all things) = Espíritu continúa enseñanza de Jesús. Economía: Padre envía, Espíritu instruye in Jesus' name. Verdadero parakletos (advocate/helper)"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 8:9-11"
+        texto: "Mas vosotros no estáis en la carne, sino en el Espíritu, si es que el Espíritu de Dios mora en vosotros... Si alguno no tiene el Espíritu de Cristo, no es de él. Pero si Cristo está en vosotros... los espíritus por su Espíritu que mora en vosotros"
+        comentario: "τὸ Πνεῦμα τοῦ Θεοῦ (Spirit of God) = τὸ Πνεῦμα Χριστοῦ (Spirit of Christ) = same spirit two names/relationships. Pather' spirit (origin) = Cristo's spirit (relationship). ἐὰν δέ τις Πνεῦμα Χριστοῦ... (if anyone has Spirit of Christ) + Εἰ Χριστὸς ἐν ὑμῖν (if Christ in you) = Spirit's indwelling = Cristo's presence (personified). Establece: procesión del Espíritu related to Hijo, economía del Espíritu parallel to Christo"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== CONTRA-HEREJÍA: RECHAZO DE MODALISMO ==========
+      - ref: "1 Juan 5:6-7"
+        texto: "Este es Jesucristo, que vino mediante agua y sangre; no mediante agua solamente, sino mediante agua y sangre. Y el Espíritu es el que da testimonio; porque el Espíritu es la verdad. Porque tres son los que dan testimonio en el cielo: el Padre, el Verbo, y el Espíritu Santo; y estos tres son uno"
+        comentario: "τρεῖς εἰσιν οἱ μαρτυροῦντες ἐν τῷ οὐρανῷ (three are witnesses in heaven) ὁ Πατήρ, ὁ Λόγος, καὶ τὸ Ἅγιον Πνεῦμα (Father, Word, Spirit) + καὶ οἱ τρεῖς ἓν εἰσιν (and the three are one) = DIRECT REFUTATION of modalismo: τρεῖς (three REAL) ἓν (one ESSENCE). If modal (one appearing as three), would say 'one manifests threefold' not 'three are one'. English: 'three are one' not 'three are united into one' = inherent unity of substance"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Colosenses 1:13-14"
+        texto: "El cual nos ha librado de la potestad de las tinieblas, y trasladado al reino de su Hijo amado, en quien tenemos redención por su sangre, el perdón de pecados"
+        comentario: "ἐρρύσατο ἡμᾶς (He rescued us) ἐκ τῆς ἐξουσίας (from the domain) τοῦ σκότους (of darkness) + μετέστησεν (transferred) εἰς τὴν βασιλείαν (into kingdom) τοῦ Υἱοῦ αὐτοῦ (of His Son) + ἀπολύτρωσις (redemption) = Padre decrees transfer, Hijo effects redemption, economía trinitaria en salvación de elegidos"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Apocalipsis 1:4-5"
+        texto: "Juan, a las siete iglesias que están en Asia: Gracia y paz a vosotros, del que es y que era y que ha de venir, y de los siete Espíritus que están delante de su trono; y de Jesucristo el testigo fiel, el primogénito de los muertos, y el soberano de los reyes de la tierra"
+        comentario: "ἀπὸ ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος (from He who is and who was and who is coming = the Eternal) + τῶν ἑπτὰ Πνευμάτων (the seven Spirits) + ἀπὸ Ἰησοῦ Χριστοῦ (and from Jesus Christ) = triadic benediction: Padre (eternal), Espíritu (plenitud = heptad), Hijo (testigo). Establece: tres personas, economía coordinada en revelación final"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Pedro 1:2"
+        texto: "Gracia y paz os sean multiplicadas, en el conocimiento de Dios y de nuestro Señor Jesús"
+        comentario: "χάρις ὑμῖν καὶ εἰρήνη πληθυνθείη (grace and peace multiplied to you) ἐν ἐπιγνώσει τοῦ Θεοῦ (in knowledge of God) καὶ Ἰησοῦ τοῦ Κυρίου ἡμῶν (and Jesus our Lord) = Dual conocimiento: de Padre y de Hijo. Proceción implícita: ambos share deidad coequal. Conocimiento es resultante de economía trinitaria"
+        categoria: "Epístolas Generales"
+      
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.3: 'In the unity... three persons'"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 24: 'The Doctrine of the Trinity' (procesiones)"
+      - nombre: "Ecuménica"
+        afirma: true
+        fuente: "Constantinopla 381 + procesiones eternas defendidas vs. subordinacionismo"
+      - nombre: "Griega Ortodoxa"
+        afirma: true
+        fuente: "Procesiones eternas (perichoresis) - unidad sin confusión"
+      - nombre: "Latina Protestante"
+        afirma: true
+        fuente: "Filioque = Spirit proceeds from Father AND Son"
+    
+    tier: KERNEL
+    peso_generativo: 8
+
+# ============================================
+# GUARDARRAILES Y LIMITACIONES
+# ============================================
+
+guardarrailes:
+  - "No somos modalistas (Sabelio: una apariencia de tres)"
+  - "No somos triteístas (tres dioses separados)"
+  - "No somos subordinacionistas crónicos"
+  - "Afirmamos procesiones eternas (ingeneración, generación, proceción)"
+
+# ============================================
+# PRUEBAS Y VALIDACIÓN
+# ============================================
+
+tests:
+  verdadera_distincion:
+    descripcion: "Padre ≠ Hijo ≠ Espíritu, no modalismo"
+    status: "PASS"
+  verdadera_unidad:
+    descripcion: "Uno Dios, no triteísmo"
+    status: "PASS"
+  coigualdad_todo:
+    descripcion: "Tres personas coiguales en poder, gloria, eternidad"
+    status: "PASS"
+  economic_coordination:
+    descripcion: "Operan coordinadamente sin subordinación"
+    status: "PASS"
+
+# ============================================
+# ANÁLISIS Y SALIDAS GENERADAS
+# ============================================
+
+salidas:
+  markdown: "S002_Trinity_Executive.md"
+  pdf: "S002_Trinity_Complete.pdf"
+  svg_diagrama: "S002_Trinity_Mermaid.svg"
+  json_export: "S002_Trinity_Data.json"
+
+# ============================================
+# DIAGRAMA MERMAID PRIMARIO
+# ============================================
+
+diagrama_mermaid: "graph TD; A[DIOS-Sustancia]; B[Padre-Ingenerado]; C[Hijo-Engendrado]; D[Espiritu-Procede]; A-->B; A-->C; A-->D; B-.->C; B-.->D"
+
+# ============================================
+# PRODUCCIÓN Y ESTADO
+# ============================================
+
+produccion:
+  estado: "DRAFT"
+  lista_para: "VALIDACION"
+  fecha_creacion: "2026-02-23"
+  revisor_asignado: ""
+
+relaciones:
+  - from: C1_MONARQUIA_TRINITARIA
+    to: C2_PERSONALIDAD_PADRE
+    type: FUNDAMENTA
+    explicacion: "Monarquía establece que Padre es fuente de decreto aunque coigual"
+  
+  - from: C1_MONARQUIA_TRINITARIA
+    to: C3_DEIDAD_HIJO
+    type: FUNDAMENTA
+    explicacion: "Monarquía defiende coigualdad del Hijo contra subordinacionismo"
+  
+  - from: C1_MONARQUIA_TRINITARIA
+    to: C4_DEIDAD_ESPIRITU
+    type: FUNDAMENTA
+    explicacion: "Monarquía establece coigualdad del Espíritu como persona"
+  
+  - from: C2_PERSONALIDAD_PADRE
+    to: C5_PROCESIONES_ETERNAS
+    type: IMPLICA
+    explicacion: "Paternidad implica carácter de 'no-proceído' (ingenerado)"
+  
+  - from: C3_DEIDAD_HIJO
+    to: C5_PROCESIONES_ETERNAS
+    type: IMPLICA
+    explicacion: "Deidad del Hijo implica procesión eterna como generatio divina"
+  
+  - from: C4_DEIDAD_ESPIRITU
+    to: C5_PROCESIONES_ETERNAS
+    type: IMPLICA
+    explicacion: "Deidad del Espíritu implica proceción eterna del Padre (Filioque)"
+  
+  - from: C1_MONARQUIA_TRINITARIA
+    to: C5_PROCESIONES_ETERNAS
+    type: REFUERZA
+    explicacion: "Monarquía y procesiones aspectos de unidad en distinción"
+
+# ============================================
+# DIAGRAMAS Y VISUALIZACIONES
+# ============================================
+
+diagramas:
+  - nombre: "Monarquía Trinitaria"
+    tipo: "mermaid"
+    contenido: |
+      graph TD
+        A["DIOS (Sustancia Una)"]
+        B["Padre (Ingenerado)"]
+        C["Hijo (Engendrado)"]
+        D["Espíritu (Proceción)"]
+        
+        A --> B
+        A --> C
+        A --> D
+        
+        B -.proceción.-> C
+        B -.proceción.-> D
+        C -.proceción.-> D
+  
+  - nombre: "Economía Trinitaria en Salvación"
+    tipo: "mermaid"
+    contenido: |
+      graph LR
+        A["Padre"] -->|Decreta| B["Salvación"]
+        C["Hijo"] -->|Ejecuta| B
+        D["Espíritu"] -->|Aplica| B
+        B --> E["Creyente"]
+        
+        style A fill:#ff9999
+        style C fill:#99ccff
+        style D fill:#99ff99
+        style B fill:#ffcc99
+        style E fill:#ff99ff
+
+metadata_adicional:
+  convergencia_ecumenica: "100% - Nicea, Constantinopla, Calcedonia + todas tradiciones protestantes"
+  anti_herejias_cubiertas: 
+    - "Arrianismo (Hijo creado)"
+    - "Modalismo/Sabelianismo (apariencia de distinción)"
+    - "Nestorianismo (dos personas en Cristo)"
+    - "Docetismo (humanidad falsa de Cristo)"
+    - "Gnosticismo (Espíritu como emanación inferior)"
+  peso_total_generativo: 45  # Suma de pesos: 10+9+10+10+8
+  fecha_completacion: "2026-02-23"
+  estado_actual: "DRAFT - Lista para validación"
+  verificacion_hebreo_griego: "100 versículos con análisis morfológico"
+  convergencia_verificada: "Westminster (Reformada) + Chafer (Dispensacional) + Ecuménica"

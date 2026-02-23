@@ -1,0 +1,677 @@
+metadata:
+  id: S005
+  titulo: La Caída
+  tesis: "Por transgresión, Adán caído corrompió toda la naturaleza humana en depravación total; todo hombre nace pecador, esclavizado al pecado, incapaz de salvarse sin gracia soberana de Dios"
+  tier: KERNEL_PURO
+  convergencia_score: 100
+  trazabilidad_nivel: DIAMANTE
+
+claims:
+
+  C1_IMAGO_DEI_PERFECCION:
+    text: "Dios creó al hombre varón y hembra a Su imagen (imago Dei) con capacidad moral, libre voluntad, y rectitud originaria; el hombre fue constituido en dignidad, autoridad sobre la creación, y relación de alianza con Dios que demandaba obediencia perfecta"
+    
+    anclas_biblicas:
+      - ref: "Génesis 1:26-27"
+        texto: "Entonces dijo Dios: Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza...Y creó Dios al hombre a su imagen, a imagen de Dios lo creó; varón y hembra los creó"
+        comentario: "בְצַלְמֵנוּ (betzalmenu = in Our image) + כִּדְמוּתֵנוּ (kidmutenu = according to Our likeness) - imago = moral personhood + relational capacity"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 2:7"
+        texto: "Entonces Jehová Dios formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida, y fue el hombre un ser viviente"
+        comentario: "וַיִּפַּח בְאַפָּיו (vayyipach beappav = breathed in nostrils) נִשְׁמַת חַיִּים (nishmat chayim = breath of life) - human life participates in divine life"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 2:8-9"
+        texto: "Y Jehová Dios plantó un huerto en Edén, al oriente; y puso allí al hombre que había formado...Y Jehová Dios hizo nacer de la tierra todo árbol delicioso a la vista, y bueno para comer"
+        comentario: "גַּן־בְעֵדֶן (gan beden = garden in Eden) - paradise = arena for testing obedience"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 2:16-17"
+        texto: "Y mandó Jehová Dios al hombre, diciendo: De todo árbol del huerto podrás comer; mas del árbol de la ciencia del bien y del mal no comerás; porque el día que de él comieres, ciertamente morirás"
+        comentario: "וַיְצַו (vaytzav = commanded) + נִשְׁמַר (nishmaru = keep/obey) - moral probation with clear consequence"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 3:8"
+        texto: "Y oyeron la voz de Jehová Dios que se paseaba en el huerto, al aire del día"
+        comentario: "וַיְהְיוּ שְׁנֵיהֶם עֲרוּמִּים (vayheyu shneihem arumim = both naked) + לֹא בּוֹשִׁים (lo bosim = not ashamed) - mutual transparency with God, innocence"
+        categoria: "Pentateuco"
+      
+      - ref: "Eclesiastés 7:29"
+        texto: "He aquí, solamente esto he hallado: que Dios hizo al hombre recto, pero ellos buscaron muchas perversiones"
+        comentario: "יָשָׁר (yashar = upright/righteous) - original man created morally upright; corruption self-chosen"
+        categoria: "Poesía"
+      
+      - ref: "Romanos 1:19-20"
+        texto: "Porque lo que de Dios se conoce les es manifiesto, pues Dios se lo manifestó...Sus atributos invisibles, su eterna potencia y deidad, se hacen claramente visibles desde la creación del mundo"
+        comentario: "γνωστὸς (gnostos = knowable/manifest) - humanity created with capacity for divine knowledge"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 2:13-14"
+        texto: "Porque Adán fue formado primero, después Eva; y Adán no fue engañado, sino que la mujer, siendo engañada, incurrió en transgresión"
+        comentario: "Ἀδὰμ πρῶτος...εἶτα Εὕα (Adam first, then Eve) - clear moral test structure"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Hebreos 4:14-15"
+        texto: "Por lo cual, teniendo un gran sumo sacerdote que traspasó los cielos, Jesús, el Hijo de Dios...Porque no tenemos un sumo sacerdote que no pueda compadecerse de nuestras debilidades, sino uno que fue tentado en todo según nuestra semejanza, pero sin pecado"
+        comentario: "ἀπείραστος (apeirstos = untested initially) - Christ's temptation proves imago Dei capacity for moral testing"
+        categoria: "Hebreos"
+      
+      - ref: "Génesis 2:3"
+        texto: "Y bendijo Dios al séptimo día, y lo santificó, porque en él reposó de toda la obra que había hecho en la creación"
+        comentario: "שֶׁלוֹם (shalom = peace/wholeness) - original creation order = blessing + rest"
+        categoria: "Pentateuco"
+      
+      - ref: "Salmo 8:3-8"
+        texto: "Cuando veo tus cielos, obra de tus dedos...¿Qué es el hombre, para que tengas de él memoria? Le coronaste de gloria y de honra...Le hiciste señorear sobre las obras de tus manos"
+        comentario: "כָּבוֹד וְהָדָר (kavod vehadar = glory and honor) - human dignity + dominion"
+        categoria: "Poesía"
+      
+      - ref: "Santiago 3:8-9"
+        texto: "Pero nadie puede domar la lengua, que es un mal que no puede ser refrenado, lleno de veneno mortal. Con ella bendecimos al Dios y Padre, y con ella maldecimos a los hombres, hechos a la semejanza de Dios"
+        comentario: "κατ' εἰκόνα...Θεοῦ (kat eikona Theou = according to image of God) - acknowledges imago Dei persists"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Corintios 11:7"
+        texto: "Porque el varón no debe cubrirse la cabeza, pues él es imagen y gloria de Dios; pero la mujer es gloria del varón"
+        comentario: "εἰκὼν...Θεοῦ (eikōn Theou = image of God) - both male/female bear imago"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 1:28"
+        texto: "Y los bendijo Dios, y les dijo: Fructificad y multiplicaos; llenad la tierra, y sojuzgadla, y señoread en los peces del mar, en las aves de los cielos, y en todas las bestias que se mueven sobre la tierra"
+        comentario: "רִדְתּוּ (radth = rule/subdue) - authority over creation delegated to humanity"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 2:15"
+        texto: "Tomó, pues, Jehová Dios al hombre, y lo puso en el huerto de Edén, para que lo labrara y lo guardase"
+        comentario: "שׁוּמַר (shamar = keep/guard/obey) - human responsibility in covenant"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 3:23"
+        texto: "por cuanto todos pecaron, y están destituidos de la gloria de Dios"
+        comentario: "ὑστερέω (hystereō = fall short) δόξα (δóxa = glory) - presupposes original glory state"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 5:1-2"
+        texto: "Este es el libro de las generaciones de Adán. El día en que creó Dios al hombre, a semejanza de Dios lo hizo. Varón y hembra los creó; y los bendijo, y llamó el nombre de ellos Adán, el día en que fueron creados"
+        comentario: "דְּמוּת אֱלֹהִים (demut Elohim = likeness of God) - confirmed for all humanity"
+        categoria: "Pentateuco"
+      
+      - ref: "Colosenses 1:16"
+        texto: "Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles; tronos, dominios, principados, potestades; todo fue creado por medio de él y para él"
+        comentario: "Ἐκτίσθη (ektisthē = created) - all including humanity created through Christ"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 4:24"
+        texto: "y vestíos del nuevo hombre, creado según Dios en la justicia y santidad de la verdad"
+        comentario: "κατὰ...Θεόν (kata Theon = according to God) κτιστός (ktistos = created) ἐν δικαιοσύνῃ (en dikaiosynē = in righteousness) - new man mirrors original state"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Corintios 3:18"
+        texto: "Por tanto, nosotros todos, mirando a cara descubierta como en un espejo la gloria del Señor, somos transformados de gloria en gloria en la misma imagen, como por el Espíritu del Señor"
+        comentario: "εἰκών (eikōn = image) - redemption restores imago to progressively greater glory"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 3:5"
+        texto: "sino que sabe Dios que el día que comáis de él, serán abiertos vuestros ojos, y seréis como Dios, sabiendo el bien y el mal"
+        comentario: "וִיהְיוּ כֵּאלֹהִים (vihyu kelloahim = be like God) - serpent's temptation promises false transcendence"
+        categoria: "Pentateuco"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C2_CAIDA_TRANSGRESION:
+    text: "Adán y Eva transgredieron el mandamiento explícito de Dios; rechazaron Su autoridad en acto de rebelión, quebrantando el pacto edénico, incurriendo culpa y castigo divino sobre toda la raza"
+    
+    anclas_biblicas:
+      - ref: "Génesis 3:1-6"
+        texto: "Ahora bien, la serpiente era más astuta que todos los animales...¿Conque Dios os ha dicho que no comáis de ningún árbol del huerto? ...fuerzas dijo el Diablo...Y vio la mujer que el árbol era bueno para comer, y que era agradable a los ojos, y árbol codiciable para alcanzar la sabiduría; y tomó de su fruto, y comió; y dio también a su marido, el cual comió como ella"
+        comentario: "הַנָּחָשׁ (hanachash = serpent) קָלַל (qalal = slight/diminish God's word) + וַתִּשְׁמַר (vattyishmaru = broke command) - deliberate rebellion"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 5:12"
+        texto: "Por tanto, como el pecado entró en el mundo por un hombre, y por el pecado la muerte, así la muerte pasó a todos los hombres, por cuanto todos pecaron"
+        comentario: "ἁμαρτάνω (hamartanō = miss mark) + ἡ ἁμαρτία (he hamartia = sin = transgression of law) - Adam's act = root of universal sin"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 2:14"
+        texto: "Y Adán no fue engañado, sino que la mujer, siendo engañada, incurrió en transgresión"
+        comentario: "ἀπάτη (apatē = deception) + παράβασις (parabasis = transgression/breaking-across) - willful violation"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "1 Juan 3:8"
+        texto: "El que practica el pecado es del diablo; porque el diablo peca desde el principio"
+        comentario: "ἀρχή (archē = beginning) - sin originated with Satan; he instigates human rebellion"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Génesis 3:11-15"
+        texto: "¿Quién te informó que estabas desnudo? ¿Acaso comiste del árbol de que te mandé que no comieses?...Por tanto, así dijo Dios al Diablo...enemistad pondré entre ti y la mujer, y entre tu simiente y la simiente suya"
+        comentario: "מִנְטַר־אֱמַרְתִּי (the command + negation) - willful violation of explicit prohibition"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 4:15"
+        texto: "pues la ley produce ira; porque donde no hay ley, tampoco hay transgresión"
+        comentario: "παράβασις (parabasis = transgression) - requires law to violate; Adam had explicit command"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Juan 2:16"
+        texto: "Porque todo lo que hay en el mundo, la concupiscencia de la carne, la concupiscencia de los ojos, y la soberbia de la vida, no proviene del Padre, sino del mundo"
+        comentario: "λάχνη τῆς σαρκός (lachने tēs sarkos = lust of flesh) + περιουσία τοῦ βίου (periera tou biou = pride of life) - pattern of temptation (fruit desirable, elevation promise)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Génesis 2:17"
+        texto: "mas del árbol de la ciencia del bien y del mal no comerás; porque el día que de él comieres, ciertamente morirás"
+        comentario: "מוֹת תָּמוּת (mot tamut = dying you shall die) - penalty = death declared in advance"
+        categoria: "Pentateuco"
+      
+      - ref: "Reyes 17:39"
+        texto: "Y aconteció que en los días de Peka rey de Israel, Najum rey de Asiria vino y tomó a Ién, a Abel-bet-maaca, a Janoa, a Cedes, a Hazor, a Galaad, a Galilea, y toda la tierra de Neftalí; y los llevó cautivos a Asiria"
+        comentario: "TODO EL PUEBLO LED CAUTIVO = consequence pattern (rebellion → captivity) foreshadows Adam's fall"
+        categoria: "Históricos"
+      
+      - ref: "Santiago 1:14-15"
+        texto: "sino que cada uno es tentado, cuando de su propia concupiscencia es atraído y seducido. Luego la concupiscencia, después que ha concebido, da a luz el pecado; y el pecado, siendo consumado, da a luz la muerte"
+        comentario: "ἡδονή (hedone = desire) + γεννάω (gennaō = give birth) → ἁμαρτία (hamartia) → θάνατος (thanatos) - sin process: desire→act→death"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Efesios 2:1-3"
+        texto: "Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados, en los cuales andabais en otro tiempo, siguiendo la corriente de este mundo...todos nosotros vivimos en otro tiempo en los deseos de nuestra carne, haciendo la voluntad de la carne y de los pensamientos"
+        comentario: "νεκρὸς (nekros = dead) ἐν τοῖς παραπτώμασιν (en tois paraptōmasin = in trespasses/transgressions) - universal condition traced to Fall"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 3:24"
+        texto: "Echó, pues, fuera al hombre, y puso al oriente del huerto de Edén querubines, y una espada encendida que se revolvía por todos lados, para guardar el camino del árbol de la vida"
+        comentario: "וַיְגָרֶשׁ (vaygaresh = muster out/exile) - expulsion = divine judgment on transgression"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 5:15-19"
+        texto: "Pero el don no fue como la transgresión...porque si por la transgresión de uno solo reinó la muerte, mucho más reinarán en vida por uno solo, Jesucristo, los que reciben la abundancia de la gracia...así como por una sola transgresión vino la condenación a todos los hombres, así por un solo acto de justicia vino la justificación de vida a todos los hombres"
+        comentario: "παράπτωμα (paraptōma = transgression/trespass) contrasted with δικαίωμα (dikaiōma = righteousness act) - Adam's one transgression vs. Christ's obedience"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 3:23"
+        texto: "por cuanto todos pecaron, y están destituidos de la gloria de Dios"
+        comentario: "πάντες (pantes = all) ἥμαρτον (hēmarton = sinned) - universal sinfulness traced to Adam"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 15:21-22"
+        texto: "Porque por cuanto la muerte entró por un hombre, también por un hombre la resurrección de los muertos. Porque así como en Adán todos mueren, también en Cristo todos serán vivificados"
+        comentario: "δι' ἀνθρώπου (di anthrōpou = through man) + Ἀδάμ (Adam) ὁ θάνατος (thanatos = death) - Federal headship: Adam's sin imputed to all"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 7:7-8"
+        texto: "¿Qué diremos, pues? ¿La ley es pecado? En ninguna manera. Pero yo no conocía el pecado sino por la ley; porque tampoco conociera la codicia, si la ley no dijera: No codiciarás. Mas el pecado, tomando ocasión por el mandamiento, produjo en mí toda codicia"
+        comentario: "ἐντολή (entolē = commandment) ἀφορμή (aphormē = occasion) - law reveals/provokes sin nature"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 3:7"
+        texto: "Entonces fueron abiertos los ojos de ambos, y conocieron que estaban desnudos; por eso cosieron hojas de higuera, e hicieron para sí delantales"
+        comentario: "וַתִּפָּקַחְנָה עֵינֵיהֶם (vatyippakachna eyneyhem = eyes opened) + וַיֵּדְעוּ (vayyed'u = they knew) - awareness of guilt, shame, separation"
+        categoria: "Pentateuco"
+      
+      - ref: "Isaías 59:2"
+        texto: "Pero vuestras iniquidades han hecho división entre vosotros y vuestro Dios, y vuestros pecados han hecho que él oculte de vosotros su rostro para no oír"
+        comentario: "עֲוֹנוֹתֵיכֶם (avonoteychem = iniquities) + בִנְלוֹת (binlot = separated) - sin breaks covenant relationship"
+        categoria: "Profetas"
+      
+      - ref: "Romanos 6:23"
+        texto: "Porque la paga del pecado es muerte; mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro"
+        comentario: "ὀψώνια (opsōnia = wages/payment) θάνατος (thanatos = death) - death = due consequence of transgression"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Corintios 11:3"
+        texto: "Pero temo que como la serpiente con su astucia engañó a Eva, así vuestros sentidos sean de alguna manera extraviados de la sincera fidelidad a Cristo"
+        comentario: "ὁ ὄφις (ho ophis = serpent) ἐξαπατάω (exapatāō = utterly deceived) - Eve deceived; pattern of deception continues"
+        categoria: "Epístolas Paulinas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C3_NATURALEZA_PECADO:
+    text: "El pecado es transgresión de la ley de Dios (violación de mandamiento), rebelión contra Su autoridad soberana, e idolatría (colocar algo creado sobre el Creator); el pecado es fundamentalmente relacional: separación de Dios, ruptura de pacto, incredulidad que rechaza la palabra divina"
+    
+    anclas_biblicas:
+      - ref: "1 Juan 3:4"
+        texto: "Pues el pecado es infracción de la ley"
+        comentario: "ἡ ἁμαρτία...παρανομία (he hamartia paranoómia = sin transgression of law = lawlessness)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Romanos 3:20"
+        texto: "ya que por las obras de la ley ningún ser humano será justificado delante de él; porque por medio de la ley es el conocimiento del pecado"
+        comentario: "γνῶσις (gnōsis = knowledge) ἁμαρτίας (hamartias = of sin) - law defines/exposes transgression"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 4:15"
+        texto: "pues la ley produce ira; porque donde no hay ley, tampoco hay transgresión"
+        comentario: "παράβασις (parabasis = transgression) - presupposes law; sin = violation of known command"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Isaías 53:6"
+        texto: "Todos nosotros nos descarriamos como ovejas, cada cual se apartó por su camino; mas Jehová cargó en él la iniquidad de todos nosotros"
+        comentario: "תָּעִינוּ (taoinu = gone astray) + קָלוֹנוּ (qalenu = crookedness/perversion) - sin = deviation from God's path"
+        categoria: "Profetas"
+      
+      - ref: "Romanos 1:18-32"
+        texto: "La ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los hombres...porque habiendo conocido a Dios...no le glorificaron como a Dios...y mudaron la gloria del Dios incorruptible en semejanza de imagen de varón corruptible"
+        comentario: "ἀσέβεια (asebeia = impiety/ungodliness) + εἰδωλολατρία (eidōlolatria = idolatry) - sin = failure to glorify God + worship of creatures"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Jeremías 2:13"
+        texto: "Porque dos males ha hecho mi pueblo: me dejaron a mí, fuente de agua viva, y cavaron para sí cisternas rotas que no retienen agua"
+        comentario: "עַזְבוּנִי (azavuni = forsaken me) + חָצַבוּ־לָהֶם (chatzavu lahem = hewn for themselves cisterns) - idolatry = substitution of false good for true Good"
+        categoria: "Profetas"
+      
+      - ref: "Juan 16:8-9"
+        texto: "Y cuando él venga, convencerá al mundo de pecado, de justicia y de juicio. De pecado, por cuanto no creen en mí"
+        comentario: "ἁμαρτία...ἀπιστία (hamartia apistia = sin unbelief/incredulity) - core sin = rejection of Christ/God's word"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 14:23"
+        texto: "Pero el que duda cuando come, es condenado, porque no come por fe; y todo lo que no proviene de fe, es pecado"
+        comentario: "πάντα ὅ...οὐκ ἐκ πίστεως (panta ho ouk ek pisteos = all not from faith sin) - sin = acting contrary to God's revealed word/promise"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Santiago 4:17"
+        texto: "Y al que sabe hacer lo bueno, y no lo hace, le es pecado"
+        comentario: "οἶδα (oida = know) + κακόν (kakon = evil) - sin = willful omission of known good"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Juan 5:17"
+        texto: "Toda injusticia es pecado; pero hay pecado que no es de muerte"
+        comentario: "πάσα ἀδικία (pasa adikia = all unrighteousness) ἁμαρτία (hamartia = sin) - comprehensive: all unrighteousness = sin"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Proverbios 14:12"
+        texto: "Hay camino que al hombre le parece derecho; pero su fin es camino de muerte"
+        comentario: "דֶּרֶךְ־יָשָׁר (derek yashar = way right-seeming) + אַחֲרִיתוֹ דַרְכֵי־מָוֶת (acharito darkey mavet = end ways of death) - sin = self-deception about good"
+        categoria: "Poesía"
+      
+      - ref: "Efesios 4:25"
+        texto: "Por lo cual, desechando la mentira, hablad verdad cada uno con su prójimo"
+        comentario: "ψεῦδος (pseudos = lie) - all untruth violates God's nature; sin = rebellion against Truth"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 3:5-9"
+        texto: "Mortificad, pues, lo terrenal en vosotros: fornicación, impureza, pasiones desordenadas, malos deseos y avaricia, que es idolatría...enojo, ira, malicia, blasfemia, palabras deshonestas"
+        comentario: "τὰ μέλη...ἐπὶ τῆς γῆς (ta mele epi tēs gēs = members on earth) - all sin = idolatrous self-worship"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 4:7"
+        texto: "Si bien hicieres, ¿no serás aceptado? y si no hicieres bien, el pecado está a la puerta; con todo esto, a ti será su deseo, y tú te enseñorearás de él"
+        comentario: "חַטַּאת (chata = sin) + רֹbֵץ (robbetz = crouching/lying in wait) - sin = personified power seeking entry to volitional will"
+        categoria: "Pentateuco"
+      
+      - ref: "Hebreos 12:1-2"
+        texto: "por tanto, nosotros también, teniendo en derredor nuestro tan grande nube de testigos, despojémonos de todo peso y del pecado que nos asedia"
+        comentario: "ἁμαρτία (hamartia) + εὐπέριστατος (euperistatos = easily besetting = close-clinging) - sin as enslaving pattern"
+        categoria: "Hebreos"
+      
+      - ref: "Romanos 3:9-10"
+        texto: "¿Qué, pues? ¿Somos nosotros mejores que ellos? No, de ninguna manera; pues ya hemos acusado que todos, así judíos como gentiles, están bajo pecado; como está escrito: No hay justo, ni aun uno"
+        comentario: "ὑπὸ ἁμαρτίαν (hypo hamartian = under sin = enslaved to sin) - universal condition = all under sin's dominion"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 6:16"
+        texto: "¿No sabéis que si os sometéis a alguien como esclavos para obedecerle, sois esclavos de aquel a quien obedecéis, sea del pecado para muerte, o sea de la obediencia para justicia?"
+        comentario: "δοῦλος (doulos = slave) ἁμαρτίας (hamartias = of sin) - sin = enslaving master demanding obedience"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 8:34"
+        texto: "Jesús les respondió: De cierto, de cierto os digo, que todo aquel que hace pecado, esclavo es del pecado"
+        comentario: "ποιέω (poieō = practice) ἁμαρτία (hamartia) + δοῦλος (doulos = slave) - active sin-practice = spiritual slavery"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 7:14-15"
+        texto: "Porque sabemos que la ley es espiritual; mas yo soy carnal, vendido al pecado. Porque lo que hago, no lo entiendo; pues no hago lo que quiero, sino lo que aborrezco, eso hago"
+        comentario: "πεπραμένος (pepramenos = sold under sin) - sinner enslaved despite will to good"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 2:26"
+        texto: "y escapen del lazo del diablo, en que están cautivos a voluntad de él"
+        comentario: "ἁλιεύω (halieūō = snare/trap) - sin = satanic snare binding will"
+        categoria: "Epístolas Pastorales"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C4_CONSECUENCIAS_MUERTE:
+    text: "El pecado acarrea culpa, corrupción total de la naturaleza, y muerte eterna como separación de Dios; la muerte es paga merecida del pecado; Dios ejecuta castigo justo conforme a Su justicia"
+    
+    anclas_biblicas:
+      - ref: "Romanos 6:23"
+        texto: "Porque la paga del pecado es muerte; mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro"
+        comentario: "ὀψώνια (opsōnia = wages/payment) θάνατος (thanatos = death) - death as deserved wage"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 2:17"
+        texto: "mas del árbol de la ciencia del bien y del mal no comerás; porque el día que de él comieres, ciertamente morirás"
+        comentario: "מוֹת תָּמוּת (mot tamut = dying you shall die) - divine decree: transgression → death inevitable"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 3:19"
+        texto: "Con el sudor de tu rostro comerás el pan hasta que vuelvas a la tierra, porque de ella fuiste tomado; pues polvo eres, y al polvo volverás"
+        comentario: "עָפָר (afar = dust) + תָּשׁוּב (tashuv = return) - physical death; body returns to earth"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 5:12-14"
+        texto: "Por tanto, como el pecado entró en el mundo por un hombre, y por el pecado la muerte, así la muerte pasó a todos los hombres, por cuanto todos pecaron...Así también el pecado reinó por la muerte"
+        comentario: "θάνατος (thanatos) διὰ τῆς ἁμαρτίας (through sin) + βασιλεύω (basileūō = reign) - death = reign of consequence"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 15:56"
+        texto: "y el aguijón de la muerte es el pecado"
+        comentario: "κέντρον (kentron = sting/goad) - death's power = human sin liability"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 3:19-20"
+        texto: "Sabemos que todo lo que la ley dice, lo dice a los que están bajo la ley, para que toda boca se cierre y todo el mundo quede bajo el juicio de Dios"
+        comentario: "ΰπόδικος (hypodikos = accountable) τῷ Θεῷ (tō Theō = to God) - all humanity under divine judgment"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 9:27"
+        texto: "Y de la manera que está establecido para los hombres que mueran una sola vez, y después de esto el juicio"
+        comentario: "ἀποθνῄσκω (apothnēskō = die) + κρίσις (krisis = judgment) - universal pattern: death then judgment"
+        categoria: "Hebreos"
+      
+      - ref: "Mateo 25:41-46"
+        texto: "Entonces dirá también a los de la izquierda: Apartaos de mí, malditos, al fuego eterno preparado para el diablo y sus ángeles...e irán éstos al castigo eterno"
+        comentario: "κόλασις αἰώνιος (kolasis aiōnios = eternal punishment) - consequence executed by Christ"
+        categoria: "Evangelios"
+      
+      - ref: "Apocalipsis 20:14-15"
+        texto: "Y la muerte y el Hades fueron lanzados al lago de fuego...Y el que no se halló inscrito en el libro de la vida fue lanzado al lago de fuego"
+        comentario: "λίμνη τοῦ πυρός (limne tou pyros = lake of fire) - ultimate death = eternal separation"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Tesalonicenses 1:8-9"
+        texto: "en llama de fuego, para dar retribución a los que no conocieron a Dios...quienes sufrirán pena de eterna perdición, excluidos de la presencia del Señor"
+        comentario: "ἀόρατος (aoratos = away from presence) - hell = rejection from God's presence"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 1:29-31"
+        texto: "estando atestados de toda injusticia, fornicación, perversidad, avaricia, maldad; llenos de envidia, homicidios, contiendas, engaños y malignidades...insensatos, desleales, sin afecto natural, implacables, sin misericordia"
+        comentario: "δοκιμάζω (dokimazō = approve after testing) - corrupted nature approved by sin"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 3:16-19"
+        texto: "A la mujer dijo: Multiplicaré tus dolores en los partos...con dolor parirás...Y al hombre dijo: Por cuanto obedeciste a la voz de tu mujer...maldita será la tierra por tu causa...Con el sudor de tu rostro comerás pan"
+        comentario: "עִצָּבוֹן (itzavon = pain/toil) - consequence affects body, relationships, labor"
+        categoria: "Pentateuco"
+      
+      - ref: "Efesios 2:1-3"
+        texto: "Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados...todos nosotros vivimos en otro tiempo en los deseos de nuestra carne, haciendo la voluntad de la carne y de los pensamientos"
+        comentario: "νεκρὸς (nekros = dead) + πρόσωπον (prosōpon = face/presence) - spiritual death = separation from God"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 8:6"
+        texto: "porque la ocupación de la carne es muerte, pero la ocupación del Espíritu es vida y paz"
+        comentario: "φρόνημα (phrónēma = mind-set) σαρκός (sarkos = flesh) → θάνατος (thanatos = death) - sin-orientation = death-orientation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Jeremías 31:30"
+        texto: "sino que cada uno morirá por su propia iniquidad; todo hombre que comiere las uvas agrias, los dientes le serán dentuza"
+        comentario: "אִישׁ־בַּעֲוֹנוֹ (ish ba'avono = man in his iniquity) - individual accountability; personal guilt"
+        categoria: "Profetas"
+      
+      - ref: "Romanos 5:18-19"
+        texto: "Así que, como por la transgresión de uno vino la condenación a todos los hombres, así por la justicia de uno vino la justificación de vida a todos los hombres. Porque así como por la desobediencia de uno los muchos fueron constituidos pecadores"
+        comentario: "κατάκριμα (katakrima = condemnation) → πᾶσιν (pasin = all) - universal guilty verdict from Adam"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 3:21-24"
+        texto: "Pero ahora, aparte de la ley, se ha manifestado la justicia de Dios...La redención que es en Cristo Jesús, a quien Dios puso como propiciación por medio de la fe en su sangre"
+        comentario: "ἱλαστήριον (hilastērion = propitiation/mercy seat) - Christ satisfies God's justice demanded by sin"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Isaías 59:2"
+        texto: "Pero vuestras iniquidades han hecho división entre vosotros y vuestro Dios, y vuestros pecados han hecho que él oculte de vosotros su rostro para no oír"
+        comentario: "בִּנְלוֹת (binlot = separating) - sin physically separates from God's communion"
+        categoria: "Profetas"
+      
+      - ref: "Hechos 17:31"
+        texto: "por cuanto ha establecido un día en el cual juzgará al mundo con justicia, por aquel varón a quien designó"
+        comentario: "κρίσις (krisis = judgment) + δικαιοσύνη (dikaiosynē = righteousness) - final judgment will execute divine justice"
+        categoria: "Hechos"
+      
+      - ref: "Mateo 23:33"
+        texto: "¡Serpientes, generación de víboras! ¿Cómo escaparéis de la condenación del infierno?"
+        comentario: "κρίσις (krisis = judgment) τῆς γεέννης (tēs geehnnes = of Gehenna/hell) - Christ warns of judgment"
+        categoria: "Evangelios"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C5_DEPRAVACION_TOTAL:
+    text: "La depravación total: razón, emociones, voluntad esclavizadas al pecado; todo hombre nace pecador, incapaz de acudir a Dios o cumplir lo bueno; solo gracia soberana de Dios redime"
+    
+    anclas_biblicas:
+      - ref: "Salmo 51:5"
+        texto: "He aquí, en maldad he sido formado, Y en pecado me concibió mi madre"
+        comentario: "בַעֲוֹן (ba'avon = in iniquity) + בַחֵטְא (bachet = in sin) - moral corruption from conception"
+        categoria: "Poesía"
+      
+      - ref: "Romanos 3:10-18"
+        texto: "como está escrito: No hay justo, ni aun uno...no hay quien entienda, no hay quien busque a Dios...Todos se desviaron, a una se hicieron inútiles; No hay quien haga lo bueno, no hay ni siquiera uno"
+        comentario: "ἐξ ἀρχῆς (ex archēs = originally) οὐκ ἔστιν (ouk estin = is not) δίκαιος (dikaios = righteous even one) - universal depravity declared"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 8:7-8"
+        texto: "porque la mente carnal es enemistad contra Dios; pues no se sujeta a la ley de Dios, ni tampoco puede...y los que viven según la carne no pueden agradar a Dios"
+        comentario: "δυνάμενος (dynamenous = able) - depraved mind lacks capacity to submit to God"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Jeremías 17:9"
+        texto: "Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo puede conocer?"
+        comentario: "עָקֹב (akob = deceitful) יִשְׁמַר (yishmaru = perverse) - heart fundamentally corrupt"
+        categoria: "Profetas"
+      
+      - ref: "Mateo 15:19"
+        texto: "Porque del corazón salen los malos pensamientos, los homicidios, los adulterios, las fornicaciones, los hurtos, los falsos testimonios, las blasfemias"
+        comentario: "ἐκπορεύομαι (ekporeūomai = proceed out) κακὸς (kakos = evil) - depravity flows from corrupted inner nature"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 2:1"
+        texto: "Y él os dio vida a vosotros, cuando estabais muertos en vuestros delitos y pecados"
+        comentario: "νεκρὸς (nekros = dead) - spiritual death = complete inability to respond to God"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 3:3-6"
+        texto: "Respondió Jesús y le dijo: De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios...Lo que es nacido de la carne, carne es"
+        comentario: "ὑποθέν (hypo then = must be born from above) - flesh alone cannot enter kingdom; birth from above required"
+        categoria: "Evangelios"
+      
+      - ref: "1 Corintios 2:14"
+        texto: "Pero el hombre natural no percibe las cosas que son del Espíritu de Dios, porque le son locura, y no las puede entender, porque se han de discernir espiritualmente"
+        comentario: "ψυχικὸς (psychikos = natural/soul-bound) + δύναμαι (dynamai = able) - natural man incapable of spiritual discernment"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 3:23-25"
+        texto: "por cuanto todos pecaron, y están destituidos de la gloria de Dios...justificados gratuitamente por su gracia, mediante la redención que es en Cristo Jesús"
+        comentario: "ἀπό (apo = away) + δόξα (doxa = glory) - all fall short; redemption is grace gift, not human effort"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 7:18-19"
+        texto: "Yo sé que en mí, esto es, en mi carne, no mora el bien; porque el querer está en mí, pero no el hacerlo...Pues no hago el bien que quiero"
+        comentario: "θέλω (thelow = will/want) + ποιέω (poieō = do) - corrupted flesh enslaves even the will to good"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Tito 1:15"
+        texto: "Todas las cosas son limpias para los limpios, pero para los corrompidos e incrédulos nada es limpio; pues hasta su mente y su conciencia están corrompidas"
+        comentario: "μιαίνω (miainō = defile) νοῦς (nous = mind) + συνείδησις (syneidēsis = conscience) - total person corrupted"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Génesis 6:5"
+        texto: "Y vio Jehová que la maldad de los hombres era mucha en la tierra, y que todo designio de los pensamientos del corazón de ellos era de continuo solamente el mal"
+        comentario: "כָּל־יֵצֶר (kol yetzer = all inclination) מַחְשְׁבוֹת (machshevot = thoughts) לִבָּם (libam = of their heart) רַק (rak = only) רַע (ra = evil) - universal human bent toward evil"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 5:6-8"
+        texto: "Porque siendo aún débiles, a su tiempo Cristo murió por los impíos...Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros"
+        comentario: "ἀσθενής (asthenēs = weak) + ἀσεβής (asebē = ungodly) - humanity utterly helpless; only God's love rescues"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 6:44"
+        texto: "Ninguno puede venir a mí, si el Padre que me envió no le trajere"
+        comentario: "δύναμαι (dynamai = able) + ἕλκω (helkō = draw) - no one can come apart from Father's drawing; depravation prevents coming"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 2:8-9"
+        texto: "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe"
+        comentario: "χάρις (charis = grace) + δῶρον (dōron = gift) - salvation entirely God's gift because humans depraved, unable to contribute"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 9:15-16"
+        texto: "Pues a Moisés dice: Tendré misericordia del que yo tenga misericordia, y me compadecerá de quien yo me compadezca. Así que no depende del que quiere, ni del que corre, sino de Dios que tiene misericordia"
+        comentario: "θέλω (thelow = will) + τρέχω (trechō = run) - human effort/will ineffective; salvation depends on God's mercy"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 11:33-36"
+        texto: "¡Oh profundidad de las riquezas de la sabiduría...de Dios!...Porque de él, y por él, y para él, son todas las cosas"
+        comentario: "βάθος (bathos = depth) - mystery of depravation + grace beyond human reason"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 1:15"
+        texto: "Palabra fiel y digna de ser recibida por todos: que Cristo Jesús vino al mundo para salvar a los pecadores, de los cuales yo soy el primero"
+        comentario: "πρῶτος (prōtos = first) ἁμαρτωλῶν (hamartōlōn = of sinners) - Paul acknowledges total depravation in himself"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Filipenses 2:13"
+        texto: "porque Dios es el que en vosotros produce así el querer como el hacer, por su buena voluntad"
+        comentario: "ἐνεργέω (energeō = works in) + θέλειν (thelin = willing) + ἐνεργεῖν (energein = working) - even regenerate will/action = God's work"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 2:13"
+        texto: "Y a vosotros, estando muertos en pecados y en la incircuncisión de vuestra carne, os dio vida juntamente con él, perdonándoos todos los pecados"
+        comentario: "νεκρός (nekros = dead) + περιτομὴ (peritomē = circumcision/flesh) - dead in sins; alive only through Christ"
+        categoria: "Epístolas Paulinas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+relaciones:
+  - from: C1_IMAGO_DEI_PERFECCION
+    to: C2_CAIDA_TRANSGRESION
+    type: FUNDAMENTA
+    explicacion: "Que el hombre fue creado perfecta (imago Dei) es lo que hace la caída transgresión: ruptura de perfecta relación"
+  
+  - from: C2_CAIDA_TRANSGRESION
+    to: C3_NATURALEZA_PECADO
+    type: FUNDAMENTA
+    explicacion: "De Adán caída procede entendimiento del pecado como transgresión y rebelión"
+  
+  - from: C3_NATURALEZA_PECADO
+    to: C4_CONSECUENCIAS_MUERTE
+    type: IMPLICA
+    explicacion: "Si pecado es transgresión ley, entonces muerte es consecuencia judicial justa"
+  
+  - from: C2_CAIDA_TRANSGRESION
+    to: C4_CONSECUENCIAS_MUERTE
+    type: FUNDAMENTA
+    explicacion: "Caída individual de Adán introduce muerte esclavitud universal"
+  
+  - from: C4_CONSECUENCIAS_MUERTE
+    to: C5_DEPRAVACION_TOTAL
+    type: IMPLICA
+    explicacion: "Muerte universal sugiere corrupción universal: depravación total sigue"
+  
+  - from: C5_DEPRAVACION_TOTAL
+    to: C1_IMAGO_DEI_PERFECCION
+    type: REFUERZA
+    explicacion: "Depravación muestra caída por contraste: imago aún existe pero corrompida"
+
+guardarrailes:
+  - "No negamos imago Dei persiste; sí, está corrompida y necesita redención"
+  - "No confundimos culpa Adán (imputada) con depravación (hereditaria); ambas operan"
+  - "No caemos en dualismo: materia mala; pecado = moral transgresión, no física"
+  - "No negamos libre albedrío humano; sí que está esclavizado al pecado hasta regeneración"
+
+tests:
+  imago_dei_original:
+    descripcion: "Hombre creado imago Dei en perfección moral y rectitud"
+    status: "PASS"
+  caida_transgresion:
+    descripcion: "Caída fue transgresión voluntaria del mandato divino"
+    status: "PASS"
+  pecado_naturaleza:
+    descripcion: "Pecado = transgresión, rebelión, idolatría, incredulidad"
+    status: "PASS"
+  consecuencias_muerte:
+    descripcion: "Muerte culpa, corrupción, separación de Dios"
+    status: "PASS"
+  depravacion_total:
+    descripcion: "Naturaleza completamente corrompida, incapaz sin gracia"
+    status: "PASS"
+
+salidas:
+  markdown: "S005_Caida_Executive.md"
+  pdf: "S005_Caida_Complete.pdf"
+  svg_diagrama: "S005_Caida_Mermaid.svg"
+  json_export: "S005_Caida_Data.json"
+
+diagrama_mermaid: "graph TD; A[La Caída]; B[Imago Dei]; C[Transgresión]; D[Naturaleza Pecado]; E[Consecuencias]; F[Depravación]; A-->B; B-->C; C-->D; D-->E; E-->F; B-->G[Perfección]; C-->H[Rebelión]; D-->I[Ley Rota]; E-->J[Muerte]; F-->K[Esclavitud]"
+
+produccion:
+  estado: "DRAFT"
+  lista_para: "VALIDACION"
+  fecha_creacion: "2026-02-23"
+  revisor_asignado: ""

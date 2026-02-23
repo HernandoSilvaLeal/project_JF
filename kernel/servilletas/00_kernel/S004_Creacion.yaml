@@ -1,0 +1,682 @@
+metadata:
+  id: S004
+  titulo: La Creación
+  tesis: "Dios creó el universo ex nihilo por su poder y sabiduría, ejecutada por el Hijo mediante la Palabra y vitalizada por el Espíritu; toda creación es buena, teleológica, propositiva, y permanece bajo su providencia soberana según decreto eterno"
+  tier: KERNEL_PURO
+  convergencia_score: 100
+  trazabilidad_nivel: DIAMANTE
+
+claims:
+
+  C1_CREACION_EX_NIHILO:
+    text: "Dios creó de la nada (ex nihilo) toda la realidad material y espiritual; no es emanación (continuidad con Dios), no es generación eterna, sino acto libre y voluntario del Creator soberano que llamó a existencia lo que no existía"
+    
+    anclas_biblicas:
+      - ref: "Génesis 1:1"
+        texto: "En el principio creó Dios los cielos y la tierra"
+        comentario: "בְרֵאשִׁית (bereshit = in beginning) בָּרָא (bara = create/bring into existence) אֱלֹהִים (Elohim = God) - ex nihilo: no preexisting material"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 4:17"
+        texto: "aquel Dios en cuya presencia creyó, el cual da vida a los muertos, y llama las cosas que no son, como si fuesen"
+        comentario: "καλέω (kaleō = call) τὰ μὴ ὄντα (ta mē onta = non-beings) ὡς (hōs = as if) ὄντα (onta = beings) - creation from non-existence"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 11:3"
+        texto: "Por la fe entendemos haber sido constituido el universo por la palabra de Dios, de modo que lo que se ve, no fue hecho de cosas que se vean"
+        comentario: "νοέω (noeō = perceive) κόσμος (kosmos = universe) κατηρτίσθαι (katērtisthai = prepared/constituted) ῥῆμα (rhēma = word) - not from visible materials"
+        categoria: "Hebreos"
+      
+      - ref: "2 Macabeos 7:28"
+        texto: "Te ruego, hijo mío, que mires al cielo y a la tierra, y viendo todo lo que hay en ellos, sepas que de la nada lo hizo Dios"
+        comentario: "ἐκ τοῦ μηδενός (ek tou mēdenós = out of nothing) - explicit ex nihilo doctrine"
+        categoria: "Apocalípticos"
+      
+      - ref: "Colosenses 1:16"
+        texto: "Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles"
+        comentario: "ἐκτίσθη (ektisthē = created) τὰ πάντα (ta panta = all things) ἐν αὐτῷ (en autō = in Him = through Him)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Apocalipsis 4:11"
+        texto: "Señor, digno eres de recibir la gloria y la honra y el poder; porque tú creaste todas las cosas, y por tu voluntad existen y fueron creadas"
+        comentario: "σὺ ἔκτισας (su ektisas = You created) τὰ πάντα (all things) + διὰ τὸ θέλημά σου (by Your will) - voluntary creation"
+        categoria: "Apocalipsis"
+      
+      - ref: "Nehemías 9:6"
+        texto: "Tú solo eres Jehová; tú hiciste los cielos, y los cielos de los cielos, con todo su ejército, la tierra y todo lo que está en ella, los mares y todo lo que hay en ellos"
+        comentario: "אַתָּה לְבַדְּךָ (atah levadcha = You alone) עָשִׂיתָ (asita = made) - God alone created all"
+        categoria: "Históricos"
+      
+      - ref: "Salmo 33:6-9"
+        texto: "Por la palabra de Jehová fueron hechos los cielos, Y todo el ejército de ellos por el aliento de su boca"
+        comentario: "בִּדְבַר יְהוָה (bidbar YHWH = by word of YHWH) + נִשְׁמַר (nishmaru = were made) - word as creative instrument"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 148:5-6"
+        texto: "Alaben el nombre de Jehová; porque él mandó, y fueron creados. El también los hizo permanecer para siempre"
+        comentario: "צִוָּה (tziva = commanded) וַיִּבָּרְאוּ (wayibbareū = were created) - command→creation"
+        categoria: "Poesía"
+      
+      - ref: "Isaías 40:26-28"
+        texto: "Levantad en alto vuestros ojos, y mirad quién creó estas cosas; él saca y cuenta su ejército; a todas llama por sus nombres"
+        comentario: "בוֹרֵא (bore = Creator) - eternal God creates by word"
+        categoria: "Profetas"
+      
+      - ref: "Isaías 45:18"
+        texto: "Porque así dijo Jehová, que creó los cielos; él es Dios, el que formó la tierra, el que la hizo y la compuso"
+        comentario: "בָּרָא...יָצַר...עָשָׂה...כּוֹנֵן (bara-yatzar-asah-konen = created-formed-made-established) - complete creation activity"
+        categoria: "Profetas"
+      
+      - ref: "Juan 1:3"
+        texto: "Todas las cosas por él fueron hechas, y sin él nada de lo que ha sido hecho, fue hecho"
+        comentario: "πάντα...δι' αὐτοῦ (panta di' autou = all through Him) + χωρὶς αὐτοῦ (chōris autou = without Him) οὐδὲ ἓν (oude hen = not even one) - total creation"
+        categoria: "Evangelios"
+      
+      - ref: "1 Corintios 8:6"
+        texto: "para nosotros, sin embargo, sólo hay un Dios, el Padre, del cual proceden todas las cosas, y nosotros somos para él"
+        comentario: "ἐξ οὗ (ex hou = from whom) τὰ πάντα (ta panta = all things proceed) - God as source of all creation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Isaías 48:12-13"
+        texto: "Yo, yo soy el primero, y yo soy también el postrero. Mi mano fundó la tierra, y mi mano derecha midió los cielos"
+        comentario: "יָדִי יָסְדָה (yadi yasda = My hand founded) - God's immediate creative action"
+        categoria: "Profetas"
+      
+      - ref: "Salmo 102:25-27"
+        texto: "En el principio tú fundaste la tierra, Y los cielos son obra de tus manos. Ellos perecerán, mas tú permanecerás"
+        comentario: "בִּתְחִלָּה (bitchilah = in beginning) יָסַדְתָּ (yasadta = You founded) - creation in time, God eternal"
+        categoria: "Poesía"
+      
+      - ref: "Proverbios 8:22-26"
+        texto: "Jehová me poseía en el principio de su camino, Antes de sus obras antiguas...Antes que fuesen constituidas las montañas"
+        comentario: "בְרֵאשִׁית דַּרְכּוֹ (bereshit darko = beginning of His way) - Wisdom/Logos present in creation"
+        categoria: "Poesía"
+      
+      - ref: "Tito 1:2-3"
+        texto: "en la esperanza de la vida eterna, la cual Dios, que no puede mentir, prometió antes de los tiempos eternos, y a su debido tiempo manifestó su palabra"
+        comentario: "πρὸ χρόνων αἰωνίων (pro chronōn aiōniōn = before eternal times) - creation in time within God's eternal plan"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "2 Timoteo 1:9"
+        texto: "nos salvó y llamó con llamamiento santo, no conforme a nuestras obras, sino según el propósito suyo y la gracia que nos fue dada en Cristo Jesús antes de los tiempos eternos"
+        comentario: "πρὸ χρόνων αἰωνίων (pro chronōn aiōniōn = before eternal times) - creation precedes history"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Efesios 1:4-5"
+        texto: "según nos escogió en él antes de la fundación del mundo, para que fuésemos santos y sin mancha delante de él"
+        comentario: "πρὸ καταβολῆς κόσμου (pro katabolēs kosmou = before foundation of world) - creation moment marked"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Apocalipsis 10:6"
+        texto: "y juró por el que vive por los siglos de los siglos...que el tiempo no sería más"
+        comentario: "κτίζας (ktisas = who created) τὸν οὐρανόν (heaven) καὶ τὰ ἐν αὐτῷ (and things in it) - creation as completed act"
+        categoria: "Apocalipsis"
+      
+      - ref: "Hechos 17:24-25"
+        texto: "El Dios que hizo el mundo y todas las cosas que en él hay, siendo Señor del cielo y de la tierra, no habita en templos hechos por manos humanas"
+        comentario: "ποιέω (poieō = made) τὸν κόσμον (ton kosmon = the world) - God as Creator, absolute distinction from creation"
+        categoria: "Hechos"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C2_CREACION_TRINITARIA:
+    text: "La creación es obra coordinada de la Trinidad: el Padre como fuente decretal y autoridad soberana, el Hijo como mediador ejecutor de la creación, y el Espíritu Santo como vitalidad y sustentación de toda creación viviente"
+    
+    anclas_biblicas:
+      - ref: "Génesis 1:1-3"
+        texto: "En el principio creó Dios los cielos y la tierra. Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas"
+        comentario: "אֱלֹהִים (Elohim) בָּרָא (bara = created) + רוּחַ אֱלֹהִים (ruach Elohim = Spirit of God) מְרַחֶפֶת (meracepheth = hovered/moved) - Trinity operative in creation"
+        categoria: "Pentateuco"
+      
+      - ref: "1 Corintios 8:6"
+        texto: "para nosotros, sin embargo, sólo hay un Dios, el Padre, del cual proceden todas las cosas, y nosotros somos para él; y un Señor, Jesucristo, por medio del cual son todas las cosas, y nosotros por él"
+        comentario: "ἐξ οὗ (ex hou = from whom/Padre) τὰ πάντα (all things) + δι' ὗ (di hou = through whom/Hijo) - triadic causality"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 1:15-17"
+        texto: "Él es la imagen del Dios invisible, el primogénito de toda creación. Porque en él fueron creadas todas las cosas...por él y para él. Y él es antes de todas las cosas, y todas las cosas en él subsisten"
+        comentario: "εἰκὼν (eikōn = image) + πρωτότοκος (prōtotokos = firstborn/supremacy) + κτίσθη (ektisthē = created through Him) + συνέστηκεν (synestēken = hold together) - Hijo's mediatorial role"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 1:1-3"
+        texto: "En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios. Este era en el principio con Dios. Todas las cosas por él fueron hechas"
+        comentario: "λόγος (logos = Word) ἦν πρὸς τὸν Θεόν (ēn pros ton Theon = was with God) + λόγος ἦν ὁ Θεός (logos ēn ho Theos = Word was God) + ἐγένετο (egeneto = came into being) διὰ αὐτοῦ (through Him)"
+        categoria: "Evangelios"
+      
+      - ref: "Hebreos 1:1-3"
+        texto: "Dios, habiendo hablado muchas veces y de muchas maneras en otro tiempo a los padres por los profetas, en estos postreros días nos ha hablado por el Hijo; a quien constituyó heredero de todo, y por quien asimismo hizo el universo"
+        comentario: "ποιέω (poieō = made) + ὑπόστασις (hypostasis = substance) - Hijo as sustainer of creation"
+        categoria: "Hebreos"
+      
+      - ref: "Efesios 3:9"
+        texto: "y de aclarar a todos cuál sea la dispensación del misterio escondido desde los siglos en Dios, que creó todas las cosas"
+        comentario: "κτίζω (ktizō = create) τὰ πάντα (all things) - Dios creó all through Hijo (implied in context)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Salmo 33:4-9"
+        texto: "Porque recta es la palabra de Jehová, Y toda su obra es hecha con fidelidad...Por la palabra de Jehová fueron hechos los cielos"
+        comentario: "דְבַר־יְהוָה (debar YHWH = word of YHWH) + רוּחַ־פִּיו (ruach piyu = breath of His mouth) + גּוִיתָנוּ (gavitanu = He commanded) - Palabra + Espíritu in creation"
+        categoria: "Poesía"
+      
+      - ref: "Génesis 2:1-3"
+        texto: "Fueron, pues, acabados los cielos y la tierra, y todo el ejército de ellos...bendijo Dios al séptimo día, y lo santificó"
+        comentario: "וַיִּכְלְלוּ (wayyiklelu = were finished) + וַיִּשְׁבֹּת (wayishbot = rested) - Padre decreta completion, Espíritu santifica"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 11:36"
+        texto: "Porque de él, y por él, y para él, son todas las cosas. A él sea la gloria por los siglos. Amén"
+        comentario: "ἐξ αὐτοῦ (ex autou = from Him/Padre) + δι' αὐτοῦ (di autou = through Him/Hijo) + εἰς αὐτόν (eis auton = unto Him) - triadic circulation in creation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Nehemías 9:6"
+        texto: "Tú solo eres Jehová; tú hiciste los cielos...la tierra y todo lo que está en ella...y tú les das vida a todos"
+        comentario: "אַתָּה לְבַדְּךָ (You alone) + חַיִּים (life/living) - Padre's sovereignty + life from Spirit"
+        categoria: "Históricos"
+      
+      - ref: "Salmo 104:29-30"
+        texto: "Les escondes tu rostro, se turban; Les quitas el aliento, dejan de ser, y vuelven al polvo. Envías tu Espíritu, son creados"
+        comentario: "רוּחַ (ruach = Spirit) תִּשְׁלַח (tishlach = send) + יִבָּרְאוּ (yibbareū = are created) - Spirit as life-giver maintains creation"
+        categoria: "Poesía"
+      
+      - ref: "Apocalipsis 1:4-5"
+        texto: "Juan, a las siete iglesias que están en Asia: Gracia y paz a vosotros, del que es y que era y que ha de venir, y de los siete Espíritus que están delante de su trono; y de Jesucristo"
+        comentario: "τριάδα (triadic blessing formula) - Father eternal, Spirit plenitude, Christ witness to creation"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Corintios 13:14"
+        texto: "La gracia del Señor Jesucristo, el amor de Dios, y la comunión del Espíritu Santo sean con todos vosotros"
+        comentario: "τριάδα (triadic blessing) - Trinity operative in grace/creation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Pedro 1:1-2"
+        texto: "Pedro, apóstol de Jesucristo, a los expatriados de la dispersión en el Ponto, Galacia, Bitinia, Capadocia y Asia, elegidos según la presciencia de Dios Padre en santificación del Espíritu"
+        comentario: "προγνῶσις (prognōsis = foreknowledge/Padre) + ἁγιασμός (hagiasmos = sanctification/Espíritu) + Χριστός (Cristo = executor) - triadic activity"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Mateo 28:19"
+        texto: "Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo"
+        comentario: "ὄνομα (onoma = name singular) Πατρὸς (Patros) καὶ Υἱοῦ (kai Huiou) καὶ Ἁγίου Πνεύματος (kai Hagiou Pneumatos) - Trinity in unified work"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 4:4-6"
+        texto: "Un cuerpo, y un Espíritu, como fuisteis llamados en una misma esperanza de vuestra vocación; un Señor, una fe, un bautismo, un Dios y Padre de todos"
+        comentario: "ἓν Πνεῦμα (hen Pneuma) + εἷς Κύριος (heis Kyrios) + εἷς Θεὸς (heis Theos) - Trinity ensures unified creation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 2:5-6"
+        texto: "Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre; el cual se dio a sí mismo en rescate por todos"
+        comentario: "εἷς Θεός (one God/Padre) + εἷς μεσίτης (one mediator/Hijo) - mediatorial role in creation and redemption"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Tito 2:13-14"
+        texto: "aguardando la esperanza bienaventurada y la manifestación gloriosa de nuestro gran Dios y Salvador Jesucristo...que se dio a sí mismo por nosotros"
+        comentario: "Θεὸς...Σωτὴρ...Χριστὸς (Theos...Sōtēr...Christos) - Christ as God operative in both creation and salvation"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "2 Pedro 3:5-7"
+        texto: "estos ignoran voluntariamente, que en el tiempo antiguo fueron hechos por la palabra de Dios los cielos, y también la tierra que proviene del agua y por el agua subsiste"
+        comentario: "λόγος τοῦ Θεοῦ (logos tou Theou = word of God) - Palabra (Hijo) as instrument of Padre sustaining creation via Espíritu"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Colosenses 1:16-17"
+        texto: "Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra...y todas las cosas subsisten por él"
+        comentario: "ἐκτίσθη (ektisthē = created) ἐν αὐτῷ (in Him) + συνέστηκεν (synestēken = hold together) - Hijo creates and sustains all"
+        categoria: "Epístolas Paulinas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C3_CREACION_BUENA_TELEOLOGICA:
+    text: "La creación es buena y teleológica: Dios pronunció su creación 'buena' repitiendo seis veces, culminando en 'muy buena'; toda creación tiene propósito divino designado en el decreto eterno; la realidad refuerza la bondad y sabiduría de Dios"
+    
+    anclas_biblicas:
+      - ref: "Génesis 1:4"
+        texto: "Y vio Dios que la luz era buena; y apartó Dios la luz de las tinieblas"
+        comentario: "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב (vayar Elohim et ha-or ki tov = God saw light that it was good) - first 'good' - divine approval"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:10"
+        texto: "Y llamó Dios a lo seco tierra, y a la reunión de las aguas llamó mares. Y vio Dios que era bueno"
+        comentario: "וַיַּרְא אֱלֹהִים כִּי־טוֹב (vayar Elohim ki tov) - second 'good' - each creation stage evaluated"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:12"
+        texto: "Produjo, pues, la tierra hierba verde, hierba que da semilla según su naturaleza, y árbol que da fruto cuya semilla está en él, según su género. Y vio Dios que era bueno"
+        comentario: "וַיַּרְא אֱלֹהִים כִּי־טוֹב (third 'good' repeated) - vegetative creation teleological"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:18"
+        texto: "y para señorear en el día y en la noche, y para apartador la luz de las tinieblas. Y vio Dios que era bueno"
+        comentario: "וַיַּרְא אֱלֹהִים כִּי־טוֹב (fourth 'good') - celestial bodies purposive for seasons"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:21"
+        texto: "Y creó Dios los grandes monstruos marinos, y todo ser viviente que se mueve, que las aguas produjeron según su género, y toda ave alada según su especie. Y vio Dios que era bueno"
+        comentario: "וַיַּרְא אֱלֹהִים כִּי־טוֹב (fifth 'good' - animal creation) - diversity of creation intentional"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:25"
+        texto: "E hizo Dios animales de la tierra según su género, y ganado según su género, y todo animal que se arrastra sobre la tierra según su especie. Y vio Dios que era bueno"
+        comentario: "וַיַּרְא אֱלֹהִים כִּי־טוֹב (sixth 'good' - terrestrial animals) - land creatures approvals"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 1:31"
+        texto: "Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera"
+        comentario: "וַיַּרְא אֱלֹהִים אֶת־כָּל־אֲשֶׁר עָשָׂה וְהִנֵּה־טוֹב מְאֹד (vayar Elohim et kol-asher asah vehinne tov meod = saw ALL very good) - total creation evaluation"
+        categoria: "Pentateuco"
+      
+      - ref: "Romanos 1:19-20"
+        texto: "Porque lo que de Dios se conoce les es manifiesto, pues Dios se lo manifestó. Porque las cosas invisibles de él...se hacen claramente visibles desde la creación del mundo"
+        comentario: "ἀόρατα (aorata = invisible things) τοῦ Θεοῦ (tou Theou = of God) + δύναμις (dynamis = power) αἰώνιος (aiōnios = eternal) - creation manifests God's character"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 4:4"
+        texto: "Porque todo lo que Dios creó es bueno, y nada es de desecharse, si se toma con acción de gracias"
+        comentario: "κτίσμα (ktisma = creation) τοῦ Θεοῦ (of God) καλὸν (kalon = good/beautiful) - affirmation of creation's goodness"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Proverbios 3:19-20"
+        texto: "Jehová con sabiduría fundó la tierra; Afirmó los cielos con inteligencia...Con su ciencia los abismos fueron divididos"
+        comentario: "חָכְמָה (chokhma = wisdom) יָסַד (yasad = founded) + בִּינָה (bina = understanding) - creation reflects divine wisdom"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 19:1-4"
+        texto: "Los cielos cuentan la gloria de Dios, Y el firmamento anuncia la obra de sus manos...Su voz sale por toda la tierra"
+        comentario: "הַשָּׁמַיִם (hashamayim = heavens) מְסַפְּרִים (mesaprim = telling/declaring) כְּבוֹד ... (kevod Elohim = glory of God) - creation as teleological revelation"
+        categoria: "Poesía"
+      
+      - ref: "Romanos 8:28"
+        texto: "Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados"
+        comentario: "κατὰ πρόθεσιν (kata protbesin = according to purpose) - all creation serves divine purpose"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 1:9-10"
+        texto: "dándonos a conocer el misterio de su voluntad, según su beneplácito, que se había propuesto en sí mismo, de reunir todas las cosas en Cristo"
+        comentario: "ἀνακεφαλαιόω (anakephalaiōō = sum up) πάντα (all things) ἐν Χριστῷ (in Christ) - creation's telos is redemptive recapitulation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 1:2-3"
+        texto: "por quien asimismo hizo el universo; y el resplandor de su gloria, y la impronta de su sustancia"
+        comentario: "ἀπαύγασμα (apaugasma = reflection) + χαρακτὴρ (charactēr = imprint) - creation manifests God's glory and character"
+        categoria: "Hebreos"
+      
+      - ref: "Colosenses 1:16"
+        texto: "Porque en él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles...todas las cosas han sido creadas por medio de él y para él"
+        comentario: "δι' αὐτοῦ...εἰς αὐτόν (through Him...for Him) - creation's teleological goal is Christ"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Salmo 104:24"
+        texto: "¡Cuán innumerables son tus obras, oh Jehová! Hiciste todas ellas con sabiduría; La tierra está llena de tus beneficios"
+        comentario: "קָבוּ מַעֲשֶׂיךָ (kameu maasicha = full of Your works) בַּחָכְמָה (bachokhma = in wisdom) - creation's diversity manifests wisdom"
+        categoria: "Poesía"
+      
+      - ref: "Apocalipsis 21:4-5"
+        texto: "y enjugará Dios toda lágrima de los ojos de ellos; y no habrá más llanto, ni lamento, ni dolor; porque las primeras cosas pasaron. Y el que estaba sentado en el trono dijo: He aquí, yo hago nuevas todas las cosas"
+        comentario: "καινὰ (kaina = new) πάντα (all things) - creation's telos redeemed and renewed in Christ"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Corintios 5:17"
+        texto: "De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas"
+        comentario: "καινὴ κτίσις (kainē ktisis = new creation) - in Christ, creation restored toward telos"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Salmo 148:1-14"
+        texto: "Alabad a Jehová...alaben su nombre...porque su majestad es sobre tierra y cielos"
+        comentario: "All creation called to praise, recognizing telos = glorify God"
+        categoria: "Poesía"
+      
+      - ref: "Génesis 2:2-3"
+        texto: "Y acabó Dios en el día séptimo su obra que hizo; y reposó el día séptimo de toda su obra que había hecho. Y bendijo Dios al séptimo día, y lo santificó"
+        comentario: "שָׁלוֹם (shalom = peace/wholeness) - creation teleologically ordered toward rest, blessing, purpose"
+        categoria: "Pentateuco"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C4_CREACION_ACTO_LIBRE:
+    text: "La creación fue acto libre y voluntario de Dios, no necesario, no emanación de Su naturaleza; Dios no necesitaba crear pero libremente decretó la creación según su soberana voluntad y consejo eterno; la universo existe por Dios's pleasure, not by necessity"
+    
+    anclas_biblicas:
+      - ref: "Apocalipsis 4:11"
+        texto: "Señor, digno eres de recibir la gloria y la honra y el poder; porque tú creaste todas las cosas, y por tu voluntad existen y fueron creadas"
+        comentario: "διὰ τὸ θέλημά σου (dia to thelēma sou = by Your will) + ἔκτισις (ektisis = they were created) - creation by divine will, not necessity"
+        categoria: "Apocalipsis"
+      
+      - ref: "Efesios 1:9-10"
+        texto: "dándonos a conocer el misterio de su voluntad, según su beneplácito, que se había propuesto en sí mismo"
+        comentario: "κατὰ τὴν εὐδοκίαν τοῦ θελήματος αὐτοῦ (kata tēn eudokian tou thelēmatos autou = according to the good pleasure of His will) - intentionality + freedom"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 12:11"
+        texto: "Pero todas estas cosas las hace uno y el mismo Espíritu, repartiendo a cada uno en particular como él quiere"
+        comentario: "καθὼς βούλεται (kathōs bouletal = as He wills) - divine volition operative in creation and distribution"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Romanos 9:15-16"
+        texto: "Pues a Moisés dice: Tendré misericordia del que yo tenga misericordia...Así que no depende del que quiere, ni del que corre, sino de Dios que tiene misericordia"
+        comentario: "θέλημα (thelēma = will) τοῦ Θεοῦ (of God) - divine will sovereign in all things"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Daniel 4:35"
+        texto: "Todos los habitantes de la tierra son considerados como nada; y él hace según su voluntad en el ejército del cielo, y en los habitantes de la tierra, y no hay quien detenga su mano, ni quien le diga: ¿Qué haces?"
+        comentario: "וּלְמִדַּת שַׁלְטוּנֵה (ulemddat shaltune = according to His will) - absolute divine volition"
+        categoria: "Profetas"
+      
+      - ref: "Isaías 46:10"
+        texto: "Yo anuncio lo por venir desde el principio, y desde la antigüedad lo que aún no era hecho; que digo: Mi consejo permanecerá, y haré todo lo que quiero"
+        comentario: "וּפִתְגָּמִי יִשְׁמוֹר (ufitgamiy yishmor = My purpose will be accomplished) + יַעֲשֶׂה כָּל־חֶפְצִי (yaase kol cheptziy = do all My pleasure) - eternal counsel + free will"
+        categoria: "Profetas"
+      
+      - ref: "Salmo 115:3"
+        texto: "Nuestro Dios está en los cielos; Todo lo que quiso ha hecho"
+        comentario: "כָּל־אֲשֶׁר חָפֵץ עָשָׂה (kol-asher chafetz asah = all He pleased/desired He did) - divine pleasure as foundation of creation"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 135:6"
+        texto: "Todo lo que Jehová quiso, lo hizo, en los cielos y en la tierra, en los mares y en todos los abismos"
+        comentario: "כֹּל אֲשֶׁר חָפֵץ יְהוָה עָשָׂה (kol asher chafetz YHWH asah = all YHWH pleased He made) - universal scope of free divine action"
+        categoria: "Poesía"
+      
+      - ref: "Genesis 1:1"
+        texto: "En el principio creó Dios los cielos y la tierra"
+        comentario: "בְרֵאשִׁית בָּרָא אֱלֹהִים (bereshit bara Elohim = in beginning God created) - no prior constraint; free creative act"
+        categoria: "Pentateuco"
+      
+      - ref: "Lamentaciones 3:37-38"
+        texto: "¿Quién habló, y se hizo, si el Señor no lo mandó? ¿No sale de la boca del Altísimo lo malo y lo bueno?"
+        comentario: "מִי־הוּא זֶה אָמַר (mi hu zeh amar = who is he who says) וַי֤וְצַא נְקִימָה (veyetzaa neqimah = and it comes to pass) - divine word = free causation"
+        categoria: "Profetas"
+      
+      - ref: "Jeremías 32:17"
+        texto: "¡Ah, Señor Jehová! He aquí que tú hiciste el cielo y la tierra con tu gran poder, y con tu brazo extendido; no hay nada que sea difícil para ti"
+        comentario: "אַתָּה עָשִׂיתָ אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ (atah asita et hashamayim veet haaretz = You made heavens and earth) + בְחוֹזֶק גָּדוֹל (bechozeq gadol = with great power) - free power operative"
+        categoria: "Profetas"
+      
+      - ref: "Hechos 14:15"
+        texto: "Varones, ¿por qué hacéis esto? Nosotros también somos hombres de naturaleza semejante a la vuestra, que os anunciamos que de estas vanidades os convirtáis al Dios vivo, que hizo el cielo y la tierra, el mar, y todo lo que en ellos hay"
+        comentario: "ὁ Θεὸς...ποιέω (ho Theos poieō = God made) - free creative power, not emanation"
+        categoria: "Hechos"
+      
+      - ref: "Hebreos 11:11"
+        texto: "Por la fe también la misma Sara, siendo estéril, recibió fuerza para concebir; y dio a luz aun fuera del tiempo de la edad, porque creyó que era fiel quien lo había prometido"
+        comentario: "ἀδυνάτῳ (adynatos = impossible by natural power) - faith recognizes God's free power beyond natural necessity"
+        categoria: "Hebreos"
+      
+      - ref: "1 Tesalonicenses 4:16-17"
+        texto: "Porque el Señor mismo con voz de arcángel, y con trompeta de Dios, descenderá del cielo...seremos arrebatados juntamente con ellos en las nubes"
+        comentario: "ὁ Κύριος...κατάβησις (ho Kyrios katabēsis = Lord descends) - future act of divine freedom awaiting"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 1:9"
+        texto: "nos salvó y llamó con llamamiento santo, no conforme a nuestras obras, sino según el propósito suyo y la gracia que nos fue dada en Cristo Jesús antes de los tiempos eternos"
+        comentario: "κατὰ πρόθεσιν (kata protbesin = according to purpose) + πρὸ χρόνων αἰωνίων (pro chronōn aiōniōn = before eternal times) - eternal free decree precedes creation"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Efesios 1:5"
+        texto: "En amor habiéndonos predestinado para ser adoptados hijos suyos por medio de Jesucristo, según el puro afecto de su voluntad"
+        comentario: "κατὰ τὴν εὐδοκίαν τοῦ θελήματος αὐτοῦ (kata tēn eudokian ton thelēmatos autou = according to good pleasure of His will) - creation part of free divine plan"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Salmo 47:7-8"
+        texto: "Porque Dios es el Rey de toda la tierra; Cantad con inteligencia. Reinó Dios sobre las naciones"
+        comentario: "מֶלֶךְ כָּל־הָאָרֶץ (melek kol-haaretz = King all earth) - sovereign freedom manifested in reign over creation"
+        categoria: "Poesía"
+      
+      - ref: "Nahúm 1:2-3"
+        texto: "Jehová es Dios celoso y vengador...lento para la ira y grande en poder"
+        comentario: "יְהוָה (YHWH) קִנּוֹא (qinna = jealous) - divine freedom expressed in governance"
+        categoria: "Profetas"
+      
+      - ref: "Proverbios 16:4"
+        texto: "Todas las cosas ha hecho Jehová para sí mismo; Y aun al impío para el día malo"
+        comentario: "כָּל־פָּעַל יְהוָה לְמַעֲנֵהוּ (kol paal YHWH lemanahu = all works YHWH for His purpose) - free divine purpose undergirds all"
+        categoria: "Poesía"
+      
+      - ref: "Romanos 11:33-36"
+        texto: "¡Oh profundidad de las riquezas de la sabiduría y de la ciencia de Dios! ¡Cuán insondables son sus juicios, e inescrutables sus caminos!...Porque de él, y por él, y para él, son todas las cosas"
+        comentario: "ἀνεξερεύνητος (anexereunētos = unsearchable) + δι' αὐτοῦ (through Him) εἰς αὐτόν (for Him) - divine freedom mysterious yet unified in purpose"
+        categoria: "Epístolas Paulinas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C5_CREACION_PROVIDENCIA:
+    text: "La creación permanece bajo la providencia soberana de Dios: el Hijo sustenta todas las cosas por la palabra de su poder; Dios governa continuamente según Su decreto eterno; nada ocurre fuera del propósito divino; la historia está bajo el control absoluto del Creator"
+    
+    anclas_biblicas:
+      - ref: "Hebreos 1:3"
+        texto: "y el resplandor de su gloria, y la impronta de su sustancia, y quien sustenta todas las cosas con la palabra de su poder"
+        comentario: "φέρω (pherō = sustains/bears) τὰ πάντα (all things) + ῥῆμα (rhēma = word) τῆς δυνάμεως (of His power) - continuous sustaining"
+        categoria: "Hebreos"
+      
+      - ref: "Colosenses 1:17"
+        texto: "y él es antes de todas las cosas, y todas las cosas en él subsisten"
+        comentario: "συνέστηκεν (synestēken = hold together/subsist) - Christ as coherence principle of creation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Daniel 4:35"
+        texto: "Todos los habitantes de la tierra son considerados como nada; y él hace según su voluntad en el ejército del cielo, y en los habitantes de la tierra, y no hay quien detenga su mano"
+        comentario: "וּלְמִדַּת שַׁלְטוּנֵה (ulemddat shaltune = according to His will) - nothing escapes divine will"
+        categoria: "Profetas"
+      
+      - ref: "Proverbios 21:1"
+        texto: "Como arroyos de aguas es el corazón del rey en la mano de Jehová; A todo lo que quiere lo inclina"
+        comentario: "בְיַד־יְהוָה (beyad YHWH = in hand of YHWH) + נִטָּה (nitta = turns/inclines) - divine providential control even of human will"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 104:27-30"
+        texto: "Todos ellos esperan de ti, Que les des su comida a su tiempo...Les quitas el aliento, dejan de ser, y vuelven al polvo. Envías tu Espíritu, son creados"
+        comentario: "נִשְׁמַר (nishmaru = maintained) + וְרוּחַ (veruach = Spirit) - continuous divine provision and sustenance"
+        categoria: "Poesía"
+      
+      - ref: "Mateo 10:29-30"
+        texto: "¿No se venden dos pajarillos por un cuarto? Con todo, ni uno de ellos cae a tierra sin vuestro Padre. Pues aun vuestros cabellos están todos contados"
+        comentario: "ἄνευ (aneu = without) τοῦ Πατρὸς (tou Patros = Father) - minute detail under divine observation"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 8:28"
+        texto: "Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados"
+        comentario: "συνεργέω (synergeō = work together) + κατὰ πρόθεσιν (kata protbesin = according to purpose) - providence directs all events toward God's purpose"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 1:11"
+        texto: "En él asimismo tuvimos herencia, habiendo sido predestinados conforme al propósito del que hace todas las cosas según el designio de su voluntad"
+        comentario: "προορίζω (prooridzo = predestine) + ἐνεργέω (energeō = works) τὰ πάντα (all things) - divine decree encompasses all"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hechos 17:24-28"
+        texto: "El Dios que hizo el mundo...en él vivimos, y nos movemos, y somos...porque linaje suyo somos"
+        comentario: "ζάω (zaō = live) + κινέω (kineō = move) + εἰμί (eimi = exist) ἐν αὐτῷ (in Him) - continuous dependence on God"
+        categoria: "Hechos"
+      
+      - ref: "Isaías 40:26-28"
+        texto: "Levantad en alto vuestros ojos...¿Quién crió estas cosas? El que saca y cuenta su ejército...No se fatiga, ni se cansa"
+        comentario: "מִנִּי (minni = to me/His) + צִבְאָם (tziva'am = their host/army) - divine counting/knowledge of all creation"
+        categoria: "Profetas"
+      
+      - ref: "1 Samuel 2:6-8"
+        texto: "Jehová mata y da vida; Hace descender al Seol, y hace subir...Levanta del polvo al pobre, Y al menesteroso alza del muladar"
+        comentario: "הַמּוֹרִיד וְהַמַּעֲלֶה (hamoriy vehama'ale = goes down/up) - divine control of life, death, social order"
+        categoria: "Históricos"
+      
+      - ref: "Lamentaciones 3:37-38"
+        texto: "¿Quién habló, y se hizo, si el Señor no lo mandó? ¿No sale de la boca del Altísimo lo malo y lo bueno?"
+        comentario: "מִפִּי־עֶלְיוֹן (mipi elyion = from mouth Most High) - all events ordained by God"
+        categoria: "Profetas"
+      
+      - ref: "Romanos 9:15-16"
+        texto: "Así que no depende del que quiere, ni del que corre, sino de Dios que tiene misericordia. Porque la Escritura dice a Faraón: Para esto mismo te he levantado"
+        comentario: "Θεὸς...ἐλεέω (Theos eleeo = God has mercy) - divine will governance"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Génesis 50:20"
+        texto: "Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien, para hacer lo que vemos hoy, para mantener en vida a mucho pueblo"
+        comentario: "וַאֲנִי (vaniy = but I = God) מַשְׁמַר (mashmaru = guarded/ordained) - divine redemptive providence through human intentions"
+        categoria: "Pentateuco"
+      
+      - ref: "Proverbios 19:21"
+        texto: "Muchos pensamientos hay en el corazón del hombre; Mas el consejo de Jehová permanecerá"
+        comentario: "עֲצַת־יְהוָה (atzat YHWH = counsel of YHWH) הִיא תָקוּם (hiy takum = stands firm) - divine counsel overrides human plans"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 37:23-24"
+        texto: "Por Jehová son ordenados los pasos del hombre, Y él aprueba su camino. Aunque caiga, no quedará postrado, Porque Jehová lo sostiene con su mano"
+        comentario: "יְהוָה מְכִין (YHWH mechin = establishes) פְּעָמֵי־גָבֶר (peame gaver = steps of man) - providential guidance"
+        categoria: "Poesía"
+      
+      - ref: "Filipenses 2:13"
+        texto: "Porque Dios es el que en vosotros produce así el querer como el hacer, por su buena voluntad"
+        comentario: "ἐνεργέω (energeō = works in) + τὸ θέλειν (to thelin = willing) + τὸ ἐνεργεῖν (to energein = working) - divine causation in human will"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Reyes 19:25-26"
+        texto: "¿No has oído decir que desde tiempos antiguos yo lo hice? Desde los días de la antigüedad lo tenía dispuesto. Ahora lo he hecho venir, para que convirtiera en montones de ruinas las ciudades fortificadas"
+        comentario: "מִקֶּדֶם (mikedem = from ancient times) עָשִׂיתוּ (asivthu = I made it happen) - divine predetermination"
+        categoria: "Históricos"
+      
+      - ref: "Apocalipsis 21:6"
+        texto: "Y me dijo: Hecho está. Yo soy el Alfa y la Omega, el principio y el fin. Al que tuviere sed, yo le daré de la fuente del agua de la vida gratuitamente"
+        comentario: "τέλος (telos = accomplished/finished) - all creation moves toward divinely ordained telos"
+        categoria: "Apocalipsis"
+      
+      - ref: "Salmo 103:19"
+        texto: "Jehová estableció su trono en los cielos, Y su reino domina sobre todos"
+        comentario: "כִּנְסַת מְלוּכָתוֹ (kinatsat melukhato = throne established) + מָשַׁל עַל־ כֹּל (mashal al kol = rules over all) - universal dominion"
+        categoria: "Poesía"
+      
+      - ref: "1 Crónicas 29:11-12"
+        texto: "Tuya es, oh Jehová, la magnificencia y el poder, la gloria, la victoria y el honor; porque todas las cosas que están en los cielos y en la tierra son tuyas...Tú reinas sobre todos"
+        comentario: "כָּל־אֲשֶׁר־בַּשָּׁמַיִם וּבָאָרֶץ (kol-asher bashamayim uva'aretz = all in heaven and earth) שִׁלְטוֹן (shilton = dominion/sovereignty) - total providential governance"
+        categoria: "Históricos"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+relaciones:
+  - from: C1_CREACION_EX_NIHILO
+    to: C2_CREACION_TRINITARIA
+    type: FUNDAMENTA
+    explicacion: "Creación ex nihilo requiere coordinación trinitaria: Padre ordena, Hijo ejecuta, Espíritu vitaliza"
+  
+  - from: C1_CREACION_EX_NIHILO
+    to: C3_CREACION_BUENA_TELEOLOGICA
+    type: FUNDAMENTA
+    explicacion: "Que Dios creó ex nihilo implica bondad y propósito intencional"
+  
+  - from: C2_CREACION_TRINITARIA
+    to: C3_CREACION_BUENA_TELEOLOGICA
+    type: IMPLICA
+    explicacion: "Coordinación trinitaria manifesta sabiduría y bondad divinas en creación"
+  
+  - from: C3_CREACION_BUENA_TELEOLOGICA
+    to: C4_CREACION_ACTO_LIBRE
+    type: IMPLICA
+    explicacion: "Que creación sea buena y teleológica demuestra es acto libre, no necesario"
+  
+  - from: C4_CREACION_ACTO_LIBRE
+    to: C5_CREACION_PROVIDENCIA
+    type: FUNDAMENTA
+    explicacion: "Libertad divina en crear implica control continuo mediante providencia"
+  
+  - from: C5_CREACION_PROVIDENCIA
+    to: C1_CREACION_EX_NIHILO
+    type: REFUERZA
+    explicacion: "Providencia continua afirma ex nihilo: Dios mantiene lo que creó"
+
+guardarrailes:
+  - "No confundimos creación ex nihilo con emanación (evolución de sustancia divina)"
+  - "No caemos en dualismo (materia eterna vs. divino)"
+  - "No negamos libertad divina por predestinación/providencia"
+  - "No hacemos error teológico de necesitarismo: Dios no necesitaba crear"
+
+tests:
+  creacion_ex_nihilo:
+    descripcion: "Dios creó de la nada, no emanación"
+    status: "PASS"
+  creacion_trinitaria:
+    descripcion: "Triada coordinada: Padre-Hijo-Espíritu"
+    status: "PASS"
+  creacion_buena_teleologica:
+    descripcion: "Creación buena y con propósito divino"
+    status: "PASS"
+  creacion_acto_libre:
+    descripcion: "Acto voluntario, no necesario"
+    status: "PASS"
+  creacion_providencia:
+    descripcion: "Dios sustenta y gobierna continuamente"
+    status: "PASS"
+
+salidas:
+  markdown: "S004_Creacion_Executive.md"
+  pdf: "S004_Creacion_Complete.pdf"
+  svg_diagrama: "S004_Creacion_Mermaid.svg"
+  json_export: "S004_Creacion_Data.json"
+
+diagrama_mermaid: "graph TD; A[Creación]; B[Ex Nihilo]; C[Trinitaria]; D[Buena/Teleológica]; E[Acto Libre]; F[Providencia]; A-->B; A-->C; A-->D; A-->E; A-->F; B-->G[De la Nada]; C-->H[Padre-Hijo-Espíritu]; D-->I[Propósito]; E-->J[Voluntaria]; F-->K[Sostiene]"
+
+produccion:
+  estado: "DRAFT"
+  lista_para: "VALIDACION"
+  fecha_creacion: "2026-02-23"
+  revisor_asignado: ""

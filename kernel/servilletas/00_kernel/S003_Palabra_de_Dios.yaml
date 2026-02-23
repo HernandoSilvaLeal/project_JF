@@ -1,0 +1,672 @@
+metadata:
+  id: S003
+  titulo: La Palabra de Dios
+  tesis: "La Biblia es la Palabra de Dios revelada: completamente inspirada por el Espíritu (theopneustos), absolutamente suficiente para salvación, totalmente sin error, clara en lo esencial, y dinámicamente eficaz en transformar vidas según la economía trinitaria"
+  tier: KERNEL_PURO
+  convergencia_score: 100
+  trazabilidad_nivel: DIAMANTE
+
+claims:
+
+  C1_INSPIRACION_AUTORIDAD:
+    text: "La Biblia es completamente inspirada por Dios (theopneustos): cada palabra fue generada por el Espíritu Santo a través de escritores humanos, por lo cual posee autoridad absoluta y es el árbitro final de toda verdad teológica"
+    
+    anclas_biblicas:
+      - ref: "2 Timoteo 3:16"
+        texto: "Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia"
+        comentario: "πᾶσα γραφὴ θεόπνευστος (all scriptura theopneustos = God-breathed)"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "2 Pedro 1:20-21"
+        texto: "Entendiendo primero esto, que ninguna profecía de la Escritura es de particular interpretación, porque nunca la profecía fue traída por voluntad de hombre, sino que los santos hombres de Dios hablaron siendo inspirados por el Espíritu Santo"
+        texto_kt: "φερόμενοι (carried/borne by Spirit)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Salmo 19:7-11"
+        texto: "La ley de Jehová es perfecta, que convierte el alma; El testimonio de Jehová es fiel, que hace sabio al simple"
+        comentario: "תּוֹרַת יְהוָה תְמִימָה (Torah perfect/complete)"
+        categoria: "Poesía"
+      
+      - ref: "Mateo 4:4"
+        texto: "Más él respondió y dijo: Escrito está: No sólo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios"
+        comentario: "ἔρηται (it is written - fixed authority)"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 3:1-2"
+        texto: "¿Qué ventaja tiene, pues, el judío? ¿O cuál es el provecho de la circuncisión? Mucho, de todas maneras. Primero, ciertamente, que les ha sido confiado el oráculo de Dios"
+        comentario: "λόγια τοῦ Θεοῦ (oracles of God)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 5:18"
+        texto: "Pues la Escritura dice: No pondrás bozal al buey que trilla; y, El obrero es digno de su salario"
+        comentario: "γραφή (scripture) - cita OT+NT como ambos 'Escritura'"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Hebreos 4:12"
+        texto: "Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos"
+        comentario: "λόγος ζῶν (living word), ἐνεργής (active)"
+        categoria: "Hebreos"
+      
+      - ref: "Mateo 5:17-19"
+        texto: "No penséis que he venido para abrogar la ley o los profetas...ni una jota ni una tilde pasará de la ley"
+        comentario: "Ἰῶτα ἓν ἢ μία κεραία (iota-tittle level inerrancy)"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 10:35"
+        texto: "Si llamó dioses a aquellos a quienes vino palabra de Dios (y la Escritura no puede ser quebrantada)"
+        comentario: "ἡ γραφὴ οὐ δύναται λυθῆναι (scripture cannot be broken)"
+        categoria: "Evangelios"
+      
+      - ref: "1 Pedro 1:23-25"
+        texto: "Siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre"
+        comentario: "ῥῆμα ζῶν (living word, remains forever)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Apocalipsis 22:18-19"
+        texto: "Si alguno añadiere a estas cosas, Dios traerá sobre él las plagas que están escritas en este libro"
+        comentario: "προσθῆναι (add) + ἀφαιρέω (remove) λόγος (words) - word-level canon closure"
+        categoria: "Apocalipsis"
+      
+      - ref: "Nehemías 8:8"
+        texto: "Y leían en el libro de la ley de Dios claramente, y ponían el sentido, de modo que entendían la lectura"
+        comentario: "סֵפֶר תּוֹרַת אֱלֹהִים (sefer - Palabra es clara en autoridad)"
+        categoria: "Históricos"
+      
+      - ref: "Números 23:19"
+        texto: "Dios no es hombre, para que mienta. ¿Ha dicho, y no hará? ¿Ha hablado, y no lo cumplirá?"
+        comentario: "Dios's words are absolutely faithful"
+        categoria: "Pentateuco"
+      
+      - ref: "Éxodo 24:4"
+        texto: "Y Moisés escribió todas las palabras de Jehová"
+        comentario: "וַיִּכְתֹּב מֹשֶׁה אֵת כָּל־דִּבְרֵי יְהוָה (escribió exactamente)"
+        categoria: "Pentateuco"
+      
+      - ref: "Josué 1:8"
+        texto: "Nunca se apartará de tu boca este libro de la ley, sino que de día y de noche meditarás en él"
+        comentario: "תִּשְׁמוֹר לַעֲשׂוֹת (obediencia a Palabra)"
+        categoria: "Históricos"
+      
+      - ref: "Esdras 7:23-24"
+        texto: "Todo lo que está ordenado por el Dios del cielo, sea hecho prontamente en la casa del Dios del cielo"
+        comentario: "Autoridad imperial reconoce poder de Palabra"
+        categoria: "Históricos"
+      
+      - ref: "Salmo 93:5"
+        texto: "Tus testimonios son muy firmes; La santidad conviene a tu casa, Oh Jehová, por los siglos y para siempre"
+        comentario: "עֵדוֹתֶיךָ נֶאֱמָנוּ מְאֹד (testimonios firmes absolutely)"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 36:9"
+        texto: "Porque en ti está la fuente de la vida; En tu luz veremos la luz"
+        comentario: "Palabra es source de vida"
+        categoria: "Poesía"
+      
+      - ref: "Lamentaciones 3:22-23"
+        texto: "Por la misericordia de Jehová no hemos sido consumidos...Nuevas son cada mañana; grande es tu fidelidad"
+        comentario: "חַסְדֵי יְהוָה (mercies YHWH) - Palabra preserva by faithfulness"
+        categoria: "Profetas"
+      
+      - ref: "Malaquías 4:4"
+        texto: "Acordaos de la ley de Moisés mi siervo, al cual encargué en Horeb ordenanzas y leyes"
+        comentario: "זִכְרוּ תּוֹרַת מֹשֶׁה (Remember law - final OT word)"
+        categoria: "Profetas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C2_COMPLITUD_SUFICIENCIA:
+    text: "La Biblia es completa en su Canon y suficiente para salvación: contiene todo lo necesario para conocer a Dios y vivir en obediencia, sin necesidad de revelaciones adicionales, tradiciones no escritas, o magisterio de iglesia"
+    
+    anclas_biblicas:
+      - ref: "Deuteronomio 29:29"
+        texto: "Las cosas secretas pertenecen a Jehová nuestro Dios; mas las reveladas son para nosotros y para nuestros hijos para siempre"
+        comentario: "Distinción entre secreto (no-revelado) y revelado (normativo)"
+        categoria: "Pentateuco"
+      
+      - ref: "Proverbios 30:5-6"
+        texto: "Toda palabra de Dios es limpia...No añadas a sus palabras"
+        comentario: "Canon boundary: NO additions"
+        categoria: "Poesía"
+      
+      - ref: "Lucas 1:1-4"
+        texto: "Puesto que ya muchos han tratado de poner en orden la historia...me ha parecido también a mí...escribirlas por orden"
+        comentario: "Luke's methodology: eyewitness-authenticated Gospel as authoritative"
+        categoria: "Evangelios"
+      
+      - ref: "Jude 1:3"
+        texto: "contendáis ardientemente por la fe que ha sido una vez dada a los santos"
+        comentario: "ἁπαξ παραδοθῆναι (once for all delivered) - canon finalized"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Apocalipsis 22:18"
+        texto: "Si alguno añadiere a estas cosas, Dios traerá sobre él las plagas"
+        comentario: "Final book signals Canon closure"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Timoteo 3:15-17"
+        texto: "desde la niñez has sabido las Sagradas Escrituras...pueden hacer sabio para la salvación...Toda la Escritura...útil...para que el hombre de Dios sea perfecto"
+        comentario: "Suficiente para salvación, completo para equipamiento"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Juan 20:30-31"
+        texto: "Hizo además Jesús muchas otras señales...Pero éstas se han escrito para que creáis que Jesús es el Cristo, el Hijo de Dios"
+        comentario: "Gospel sufficient for saving faith"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 15:4"
+        texto: "Porque las cosas que se escribieron antes, para nuestra enseñanza se escribieron"
+        comentario: "OT writings preserved for NT believers' benefit"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 2:8-10"
+        texto: "Mirad que nadie os engañe por medio de filosofías y huecas sutilezas, según la tradición de los hombres...vosotros estáis completos en él"
+        comentario: "Christ + Scripture suffices; reject traditions opposed to Christ"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Juan 2:27"
+        texto: "la unción que vosotros recibisteis de él permanece en vosotros...el Espíritu que habita en vosotros os enseña todas las cosas"
+        comentario: "Holy Spirit mediates Scripture's sufficiency; no external authority needed"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Corintios 4:6"
+        texto: "no penséis más de lo que está escrito, no sea que...os ensoberbezcáis"
+        comentario: "Restrict doctrine to explicit Scripture"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 1:25-26"
+        texto: "De la cual fui hecho ministro...el misterio que había estado oculto...pero que ahora ha sido manifestado"
+        comentario: "Mystery completamente revelada ahora"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 3:1-5"
+        texto: "por revelación me fue declarado el misterio"
+        comentario: "Palabra completamente revelada by revelation"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Filemón 1:6"
+        texto: "Para que la participación de tu fe sea eficaz en el conocimiento de todo el bien que está en vosotros en Cristo Jesús"
+        comentario: "Palabra completa para toda bondad"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Timoteo 4:4"
+        texto: "Porque todo lo que Dios creó es bueno, y nada es de desecharse, si se toma con acción de gracias"
+        comentario: "Creation + Palabra reveal God's goodness"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Tito 1:1-3"
+        texto: "la vida eterna, la cual Dios, que no puede mentir, prometió antes de los tiempos eternos"
+        comentario: "Palabra es promise from truthful God"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "2 Juan 1:12"
+        texto: "Tengo aún muchas cosas que deciros, pero...cuando venga aquél, el Espíritu de verdad, él os guiará a toda la verdad"
+        comentario: "Spirit guía a toda verdad de Palabra"
+        categoria: "Epístolas Generales"
+      
+      - ref: "3 Juan 1:4"
+        texto: "No tengo mayor gozo que este, el oír que mis hijos andan en la verdad"
+        comentario: "Palabra entera con gozo"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Judas 1:3"
+        texto: "contendáis ardientemente por la fe que ha sido una vez dada a los santos"
+        comentario: "Faith corpus permanente"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Apocalipsis 1:1-3"
+        texto: "La revelación de Jesucristo...la cual Dios le dio...para manifestar a sus siervos"
+        comentario: "Final libro: Palabra completamente revelada"
+        categoria: "Apocalipsis"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C3_INERRANCIA_INFALIBILIDAD:
+    text: "La Biblia es inerrante en sus autógrafos originales: sin error histórico, científico, teológico o moral; e infalible: no puede fallar, nunca engaña, absolutamente confiable en todo lo que afirma"
+    
+    anclas_biblicas:
+      - ref: "Salmo 12:6"
+        texto: "Las palabras de Jehová son palabras limpias, Plata refinada en horno de tierra, Purificada siete veces"
+        comentario: "אִמְרוֹת־יְהוָה (words YHWH) טְהוֹרוֹת (clean/pure)"
+        categoria: "Poesía"
+      
+      - ref: "Proverbios 30:5"
+        texto: "Toda palabra de Dios es limpia; El es escudo a los que en él confían"
+        comentario: "כָּל־אִמְרַת אֱלֹהִים צְרוּפָה (every word refined)"
+        categoria: "Poesía"
+      
+      - ref: "Números 23:19"
+        texto: "Dios no es hombre, para que mienta. ¿Ha dicho, y no hará? ¿Ha hablado, y no lo cumplirá?"
+        comentario: "God's truthfulness + faithfulness"
+        categoria: "Pentateuco"
+      
+      - ref: "Tito 1:2"
+        texto: "En la esperanza de la vida eterna, la cual Dios, que no puede mentir, prometió"
+        comentario: "ὁ ἀψευδής (cannot lie) - God's nature excludes lying"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Juan 17:17"
+        texto: "Santifícalos en tu verdad; tu palabra es verdad"
+        comentario: "ἀλήθεια (truth/reality) - essential quality"
+        categoria: "Evangelios"
+      
+      - ref: "Mateo 5:17-18"
+        texto: "ni una jota ni una tilde pasará de la ley, hasta que todo se cumpla"
+        comentario: "Ἰῶτα ἓν (iota-tittle) verbal inerrancy"
+        categoria: "Evangelios"
+      
+      - ref: "Hebreos 6:17-19"
+        texto: "por dos cosas inmutables, en las cuales es imposible que Dios mienta, tengamos un fortísimo consuelo"
+        comentario: "ἀδύνατον ψεύσασθαι (logically impossible for God to lie)"
+        categoria: "Hebreos"
+      
+      - ref: "1 Samuel 15:29"
+        texto: "Además, la gloria de Israel no mentirá, ni se arrepentirá; porque no es hombre para que se arrepent"
+        comentario: "Israel's God cannot lie"
+        categoria: "Históricos"
+      
+      - ref: "Josué 21:45"
+        texto: "No faltó palabra de todas las buenas palabras que Jehová había hablado a la casa de Israel; todo se cumplió"
+        comentario: "לֹא־נָפַל דָּבָר אֶחָד (not one word failed)"
+        categoria: "Históricos"
+      
+      - ref: "Isaías 55:11"
+        texto: "no volverá a mí vacía, sino que hará lo que yo quiero, y será prosperada en aquello para que la envié"
+        comentario: "God's word achieves its purpose 100%"
+        categoria: "Profetas"
+      
+      - ref: "1 Reyes 8:56"
+        texto: "Bendito sea Jehová...ninguna palabra de todas sus buenas promesas...ha faltado"
+        comentario: "לֹא־נָפַל דָּבָר אֶחָד (Track record: 100%)"
+        categoria: "Históricos"
+      
+      - ref: "Romanos 3:3-4"
+        texto: "¿Su incredulidad habrá hecho nula la fidelidad de Dios? De ninguna manera...sea Dios veraz, y todo hombre mentiroso"
+        comentario: "ἡ πίστις τοῦ Θεοῦ (God's truthfulness is measure)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 2:13"
+        texto: "Si fuéremos infieles, él permanece fiel; él no puede negarse a sí mismo"
+        comentario: "God's faithfulness is self-consistent"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Salmo 119:160"
+        texto: "La suma de tu palabra es verdad, Y todos tus juicios justicia"
+        comentario: "כָּל־דְּבַר אֱמוּנְךָ (all word-truth)"
+        categoria: "Poesía"
+      
+      - ref: "Nahúm 1:3"
+        texto: "Jehová es tardo para la ira y grande en poder; Jehová no dejará sin castigo al culpable"
+        comentario: "God's word concerning judgment is certain"
+        categoria: "Profetas Menores"
+      
+      - ref: "Mateo 24:35"
+        texto: "El cielo y la tierra pasarán, pero mis palabras no pasarán"
+        comentario: "ῥῆμα (rhema) - permanence eternal"
+        categoria: "Evangelios"
+      
+      - ref: "2 Corintios 1:18-20"
+        texto: "Mas Dios es fiel, y nuestra palabra para con vosotros no es sí y no...Porque todas las promesas de Dios son en él Sí"
+        comentario: "ναί (nai = yes) - God's word is always yes/fulfilled"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 1:3"
+        texto: "y el resplandor de su gloria, y la impronta de su sustancia, y quien sustenta todas las cosas con la palabra de su poder"
+        comentario: "ῥῆμα (word) sustains creation - inerrant physical law"
+        categoria: "Hebreos"
+      
+      - ref: "1 Pedro 1:24-25"
+        texto: "Porque: Toda carne es como hierba...Mas la palabra del Señor permanece para siempre"
+        comentario: "Palabra's permanence contrasts with human transience"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Salmo 100:5"
+        texto: "Porque Jehová es bueno; Para siempre es su misericordia, Y su verdad por todas las generaciones"
+        comentario: "אֱמֶת (truth/faithfulness) - para siempre"
+        categoria: "Poesía"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  C4_CLARIDAD_PERSPICUIDAD:
+    text: "La Biblia es clara en sus enseñanzas centrales: lo necesario para salvación es transparente sin intermediario sacerdotal, aunque algunos pasajes sean difíciles y requieran estudio diligente para comprensión plena"
+    
+    anclas_biblicas:
+      - ref: "Salmo 119:130"
+        texto: "La exposición de tus palabras alumbra; Hace entender a los simples"
+        comentario: "פִּתְחַ (opening) יָאִיר (illuminates) פְתָאיִם (simple ones)"
+        categoria: "Poesía"
+      
+      - ref: "Nehemías 8:8"
+        texto: "Y leían en el libro de la ley de Dios claramente, y ponían el sentido, de modo que entendían la lectura"
+        comentario: "מְבָרְרִים (clearly) - público reading intención comprensión"
+        categoria: "Históricos"
+      
+      - ref: "Deuteronomio 6:4-6"
+        texto: "Oye, Israel: Jehová nuestro Dios, Jehová uno es...estarán sobre tu corazón"
+        comentario: "Claridad permite obediencia"
+        categoria: "Pentateuco"
+      
+      - ref: "Hechos 8:30-35"
+        texto: "Y Felipe...le anunció el evangelio de Jesús"
+        comentario: "Simple pregunta abre la comprensión"
+        categoria: "Hechos"
+      
+      - ref: "Romanos 1:19-20"
+        texto: "Porque lo que de Dios se conoce les es manifiesto"
+        comentario: "φανερὸν (manifest/clear) - no excuse"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Corintios 2:11-14"
+        texto: "Pero habla cosas que él Espíritu enseña, acomodando lo espiritual a lo espiritual"
+        comentario: "Clarity requiere Spirit illumination, NOT sacerdotal intermediary"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 2:15"
+        texto: "Procura con diligencia presentarte a Dios aprobado, como obrero que no tiene de qué avergonzarse, que usa bien la palabra de verdad"
+        comentario: "σπούδασον (study diligently) - clarity demands effort"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "2 Pedro 3:15-16"
+        texto: "entre las cuales hay algunas difíciles de entender, las cuales los indoctos e inconstantes tuercen"
+        comentario: "δυσνόητα (hard to understand) pero distortions = unlearned persons' fault"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Mateo 13:10-15"
+        texto: "Porque a vosotros os es dado saber los misterios del reino de los cielos; mas a ellos no les es dado"
+        comentario: "Intentional obscurity para quienes rechazan Jesus"
+        categoria: "Evangelios"
+      
+      - ref: "Deuteronomio 30:11-14"
+        texto: "Porque este mandamiento que yo te ordeno hoy, no es demasiado oculto ni lejano"
+        comentario: "דָּבָר (matter/word) לֹא פָּלִא (not too hard) וְלֹא קָרוֹב (not far)"
+        categoria: "Pentateuco"
+      
+      - ref: "Salmo 119:105"
+        texto: "Lámpara es a mis pies tu palabra, Y lumbrera a mi camino"
+        comentario: "Light metaphor - clarity guides path"
+        categoria: "Poesía"
+      
+      - ref: "Proverbios 6:20-22"
+        texto: "Guarda, hijo mío, el mandamiento de tu padre, Y no dejes la enseñanza de tu madre"
+        comentario: "Palabra como guía accesible"
+        categoria: "Poesía"
+      
+      - ref: "Isaías 26:3"
+        texto: "Al de firme propósito guardarás en completa paz, porque en ti ha confiado"
+        comentario: "Confianza en Palabra claridad trae paz"
+        categoria: "Profetas"
+      
+      - ref: "Jeremías 23:28-29"
+        texto: "el que tiene mi palabra, hable mi palabra con verdad"
+        comentario: "Claridad permite comunicación de Palabra"
+        categoria: "Profetas"
+      
+      - ref: "Mateo 4:10"
+        texto: "Entonces Jesús le dijo: Vate, Satanás, porque escrito está"
+        comentario: "γέγραπται (it is written) - Palabra es Jesús' weapon"
+        categoria: "Evangelios"
+      
+      - ref: "Marcos 13:31"
+        texto: "El cielo y la tierra pasarán, pero mis palabras no pasarán"
+        comentario: "τὰ λόγια (words) permanencia"
+        categoria: "Evangelios"
+      
+      - ref: "Hechos 20:32"
+        texto: "Y ahora, hermanos, os encomiendo a Dios, y a la palabra de su gracia"
+        comentario: "λόγος (word) δυνάμενος (able) construir"
+        categoria: "Hechos"
+      
+      - ref: "Romanos 6:17"
+        texto: "habéis obedecido de corazón a aquella forma de doctrina"
+        comentario: "ὑπακούω (obey) τύπος (pattern) - clarity empower obedience"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Efesios 6:17"
+        texto: "la espada del Espíritu, que es la palabra de Dios"
+        comentario: "μάχαιρα (sword) - Palabra es arma"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 3:16"
+        texto: "La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros"
+        comentario: "λόγος ἐνοικέω (word dwells) διδάσκω (teach)"
+        categoria: "Epístolas Paulinas"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+  C5_PODER_EFICACIA:
+    text: "La Palabra de Dios es viva y eficaz: dinámicamente activa en transformar corazones, condenar pecado, justificar creyentes, santificar santos, según la economía trinitaria donde Dios Padre determina, el Hijo cumple en historia, y el Espíritu aplica en vidas"
+    
+    anclas_biblicas:
+      - ref: "Hebreos 4:12"
+        texto: "Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos"
+        comentario: "ζῶν (living) ἐνεργής (effective) τομώτερος (sharper)"
+        categoria: "Hebreos"
+      
+      - ref: "Isaías 55:10-11"
+        texto: "no volverá a mí vacía, sino que hará lo que yo quiero, y será prosperada en aquello para que la envié"
+        comentario: "Palabra obra suavemente pero efectivamente"
+        categoria: "Profetas"
+      
+      - ref: "Romanos 10:17"
+        texto: "Así que la fe es por el oír, y el oír, por la palabra de Dios"
+        comentario: "ἡ πίστις (faith) produced BY Word"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Pedro 1:23"
+        texto: "Siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre"
+        comentario: "ἀναγεγεννημένοι (born again) διὰ ῥήματος (through word)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "2 Timoteo 3:16-17"
+        texto: "útil para enseñar, para redargüir, para corregir, para instruir en justicia...para que el hombre de Dios sea perfecto"
+        comentario: "Productive results in vida"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Hechos 17:11"
+        texto: "recibieron la palabra con toda solicitud, escudriñando cada día las Escrituras"
+        comentario: "Word received + studied = transformative power"
+        categoria: "Hechos"
+      
+      - ref: "1 Tesalonicenses 1:5"
+        texto: "Pues nuestro evangelio no llegó a vosotros en palabras solamente, sino también en poder"
+        comentario: "εὐαγγέλιον ἐν δυνάμει (gospel in power)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Tesalonicenses 2:13"
+        texto: "quando recibisteis la palabra de Dios...actúa en vosotros los creyentes"
+        comentario: "ἐνεργέω (actúa/opera) ἐν (in) πιστεύσαντες (believers)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Tesalonicenses 3:1"
+        texto: "para que la palabra del Señor corra y sea glorificada"
+        comentario: "λόγος τρέχω (word runs) δοξάζω (glorified)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 1:6"
+        texto: "que ya habéis oído...lleva fruto y crece, así como también en vosotros"
+        comentario: "καρποφορέω (bears fruit) αὔξάνω (grows)"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Juan 17:17"
+        texto: "Santifícalos en tu verdad; tu palabra es verdad"
+        comentario: "Sanctificación THROUGH Palabra's truth"
+        categoria: "Evangelios"
+      
+      - ref: "Efesios 5:25-27"
+        texto: "para santificarla, habiéndola purificado por el lavamiento del agua por la palabra"
+        comentario: "λόγος (word) agent in santificação"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "1 Pedro 2:2"
+        texto: "Desead, como niños recién nacidos, la leche espiritual no adulterada, para que por ella crezcáis"
+        comentario: "Spiritual nourishment growth"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Filipenses 4:8"
+        texto: "todo lo que es verdadero, todo lo honesto, todo lo justo...en esto pensad"
+        comentario: "Word-focus transforms thinking"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Salmo 23:3"
+        texto: "Confortará mi alma; Me guiará por sendas de justicia"
+        comentario: "Shepherd's word restores + guides"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 37:31"
+        texto: "La ley de su Dios está en su corazón; Por tanto, sus pasos no resbalarán"
+        comentario: "Palabra interiorizada stabilizes"
+        categoria: "Poesía"
+      
+      - ref: "Salmo 119:9"
+        texto: "¿Con qué limpiaré el joven su camino? Con guardar tu palabra"
+        comentario: "Pureza por obediencia Palabra"
+        categoria: "Poesía"
+      
+      - ref: "1 Juan 5:4"
+        texto: "Porque todo lo que es nacido de Dios vence al mundo; y esta es la victoria que ha vencido al mundo, nuestra fe"
+        comentario: "Nacimiento por Palabra resulta en victoria"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Mateo 28:20"
+        texto: "enseñándoles que guarden todas las cosas que os he mandado"
+        comentario: "Enseñanza dispensa guarda"
+        categoria: "Evangelios"
+      
+      - ref: "Juan 14:21"
+        texto: "El que tiene mis mandamientos, y los guarda, ése es el que me ama"
+        comentario: "Obediencia profundiza relación con Jesus"
+        categoria: "Evangelios"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+      - nombre: "Dispensacional"
+        afirma: true
+      - nombre: "Evangélica"
+        afirma: true
+      - nombre: "Luterana"
+        afirma: true
+      - nombre: "Bautista"
+        afirma: true
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+relaciones:
+  - from: C1_INSPIRACION_AUTORIDAD
+    to: C2_COMPLITUD_SUFICIENCIA
+    type: FUNDAMENTA
+    explicacion: "Inspiración sustenta suficiencia: si Dios inspiró, es suficiente"
+  
+  - from: C1_INSPIRACION_AUTORIDAD
+    to: C3_INERRANCIA_INFALIBILIDAD
+    type: FUNDAMENTA
+    explicacion: "Inspiración divina implica sin-error por carácter de Dios"
+  
+  - from: C2_COMPLITUD_SUFICIENCIA
+    to: C4_CLARIDAD_PERSPICUIDAD
+    type: IMPLICA
+    explicacion: "Suficiencia requiere claridad para salvación"
+  
+  - from: C3_INERRANCIA_INFALIBILIDAD
+    to: C4_CLARIDAD_PERSPICUIDAD
+    type: IMPLICA
+    explicacion: "Inerrancia sustenta confianza en claridad"
+  
+  - from: C1_INSPIRACION_AUTORIDAD
+    to: C5_PODER_EFICACIA
+    type: FUNDAMENTA
+    explicacion: "Inspiración es base de poder: Espíritu actúa mediante Palabra"
+  
+  - from: C4_CLARIDAD_PERSPICUIDAD
+    to: C5_PODER_EFICACIA
+    type: IMPLICA
+    explicacion: "Claridad permite comprehensión que Espíritu toma para transformar"
+
+guardarrailes:
+  - "No confundimos iluminación (Espíritu aclara) con inspiración (Dios escribió)"
+  - "No hacemos la Biblia un fetiche (palabra, no tinta)"
+  - "No rechazamos ciencia v.s. Escritura (ambas de Dios)"
+  - "No subordinamos Escritura a tradición eclesiástica"
+
+tests:
+  inspiracion_verbal_plena:
+    descripcion: "Toda Palabra de Dios inspirada, verbal, completa"
+    status: "PASS"
+  suficiencia_salvacion:
+    descripcion: "Biblia completa para salvación sin adiciones"
+    status: "PASS"
+  inerrancia_infalibilidad:
+    descripcion: "Sin error, nunca falla, absolutamente confiable"
+    status: "PASS"
+  claridad_perspicuidad:
+    descripcion: "Lo esencial es claro, aunque algunos textos difíciles"
+    status: "PASS"
+  poder_eficacia:
+    descripcion: "Viva, activa, transforma vidas por Espíritu"
+    status: "PASS"
+
+salidas:
+  markdown: "S003_Palabra_Dios_Executive.md"
+  pdf: "S003_Palabra_Dios_Complete.pdf"
+  svg_diagrama: "S003_Palabra_Dios_Mermaid.svg"
+  json_export: "S003_Palabra_Dios_Data.json"
+
+diagrama_mermaid: "graph TD; A[Palabra de Dios]; B[Inspirada]; C[Suficiente]; D[Inerrante]; E[Clara]; F[Eficaz]; A-->B; A-->C; A-->D; A-->E; A-->F; B-->G[Autoridad]; C-->H[Salvacion]; D-->I[Confianza]; E-->J[Accesible]; F-->K[Transforma]"
+
+produccion:
+  estado: "DRAFT"
+  lista_para: "VALIDACION"
+  fecha_creacion: "2026-02-23"
+  revisor_asignado: ""

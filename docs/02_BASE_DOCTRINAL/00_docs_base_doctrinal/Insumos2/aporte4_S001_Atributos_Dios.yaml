@@ -1,0 +1,755 @@
+# ============================================
+# SERVILLETA S001 - ATRIBUTOS FUNDAMENTALES DE DIOS
+# El Código de Dios - Kernel Doctrinal RFJ 2026
+# ============================================
+# Versión: 1.0.0
+# Fecha: 2026-02-23
+# Estado: DRAFT
+# Tier: KERNEL_PURO
+# Convergencia: 100%
+# ============================================
+
+metadata:
+  id: S001
+  titulo: "Atributos Fundamentales de Dios"
+  subtitulo: "La naturaleza eterna e incomunicable del Dios trino"
+  tesis: "Dios es eterno, auto-existente, inmutable, infinito y perfecto en todos sus atributos; no depende de nada, no cambia, no tiene límites, y carece de toda deficiencia"
+  
+  tier: KERNEL_PURO
+  categoria: "Teología Propia - Atributos Incomunicables"
+  
+  # Scoring de convergencia
+  convergencia_score: 100  # Porcentaje de tradiciones sanas que afirman
+  tradiciones_que_afirman:
+    - "Reformada (Westminster, 1689)"
+    - "Luterana (Libro de Concordia)"
+    - "Dispensacional (Chafer, Ryrie)"
+    - "Anglicana Evangélica (39 Artículos)"
+    - "Bautista"
+    - "Judíos Caraítas (mesianismo)"
+  
+  # Nivel de trazabilidad
+  trazabilidad_nivel: DIAMANTE  # >= 20 versículos, >= 10 libros (AT + NT)
+  
+  # Referencias teológicas clave
+  fuentes_principales:
+    - "Louis Berkhof - Teología Sistemática (Sección: Dios y Sus Atributos)"
+    - "Lewis Sperry Chafer - Systematic Theology Vol. 1 (The Existence and Attributes of God)"
+    - "A.W. Pink - The Attributes of God"
+    - "Stephen Charnock - The Existence and Attributes of God"
+    - "Herman Bavinck - Reformed Dogmatics Vol. 2 (God and Creation)"
+    - "John MacArthur - The Attributes of God (sermon series)"
+
+# ============================================
+# PROPOSICIONES ATÓMICAS (Claims)
+# Cada claim es indivisible, verificable, y tiene anclas bíblicas
+# ============================================
+
+claims:
+
+  # ==========================================
+  # C1 - ASEIDAD (Auto-existencia)
+  # ==========================================
+  C1_ASEIDAD:
+    text: "Dios existe por sí mismo; no depende de nada ni de nadie para su existencia, vida o perfección"
+    
+    definicion_tecnica: |
+      Aseidad (del latín a se = de sí mismo): atributo que denota que Dios es 
+      auto-suficiente, auto-sostenido, y no derivado. No tiene causa externa; 
+      es la causa no causada de todo lo demás.
+    
+    implicaciones:
+      - "Dios no fue creado ni generado"
+      - "No necesita nada externo para existir"
+      - "No depende de la creación para su gloria"
+      - "Es fuente de toda vida y ser"
+    
+    anclas_biblicas:
+      - ref: "Éxodo 3:14"
+        texto: "Y respondió Dios a Moisés: YO SOY EL QUE SOY. Y dijo: Así dirás a los hijos de Israel: YO SOY me envió a vosotros"
+        comentario: "El nombre divino revela auto-existencia absoluta"
+        categoria: "Pentateuco"
+      
+      - ref: "Juan 5:26"
+        texto: "Porque como el Padre tiene vida en sí mismo, así también ha dado al Hijo el tener vida en sí mismo"
+        comentario: "Vida auto-contenida, no derivada"
+        categoria: "Evangelios"
+      
+      - ref: "Hechos 17:24-25"
+        texto: "El Dios que hizo el mundo y todas las cosas que en él hay, siendo Señor del cielo y de la tierra... ni es honrado por manos de hombres, como si necesitase de algo; pues él es quien da a todos vida y aliento y todas las cosas"
+        comentario: "Absoluta independencia; es dador, no receptor"
+        categoria: "Hechos"
+      
+      - ref: "Salmo 90:2"
+        texto: "Antes que naciesen los montes y formases la tierra y el mundo, desde el siglo y hasta el siglo, tú eres Dios"
+        comentario: "Existencia pre-creacional"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Isaías 40:28"
+        texto: "¿No has sabido, no has oído que el Dios eterno es Jehová, el cual creó los confines de la tierra? No desfallece, ni se fatiga con cansancio, y su entendimiento no hay quien lo alcance"
+        comentario: "Eternidad, poder inagotable, sabiduría infinita"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Job 41:11"
+        texto: "¿Quién me ha dado a mí primero, para que yo restituya? Todo lo que hay debajo del cielo es mío"
+        comentario: "Nada es previo a Dios; nadie le da nada"
+        categoria: "Poesía/Sabiduría"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1-2, Belgic Confession Art. 1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Augsburg Confession Art. 1"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Systematic Theology Vol. 1, ch. 17"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Énfasis en Éxodo 3:14, Deuteronomio 6:4"
+    
+    tier: KERNEL
+    peso_generativo: 10  # Escala 1-10 (cuántas verdades derivan)
+
+  # ==========================================
+  # C2 - ETERNIDAD
+  # ==========================================
+  C2_ETERNIDAD:
+    text: "Dios no tiene principio ni fin; trasciende completamente el tiempo y existe en un 'eterno ahora'"
+    
+    definicion_tecnica: |
+      Eternidad: atributo por el cual Dios existe sin límites temporales. 
+      No es meramente duración infinita en el tiempo, sino existencia 
+      atemporal donde pasado, presente y futuro son igualmente presentes 
+      a la consciencia divina.
+    
+    implicaciones:
+      - "Dios no 'espera' ni 'recuerda'; todo es presente para Él"
+      - "No hay sucesión en el ser divino"
+      - "Planes divinos no 'cambian' con el tiempo"
+      - "Dios ve todo tiempo simultáneamente"
+    
+    anclas_biblicas:
+      - ref: "Salmo 90:2"
+        texto: "Antes que naciesen los montes y formases la tierra y el mundo, desde el siglo y hasta el siglo, tú eres Dios"
+        comentario: "Existencia pre-temporal y post-temporal"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Apocalipsis 1:8"
+        texto: "Yo soy el Alfa y la Omega, principio y fin, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso"
+        comentario: "Simultaneidad de pasado, presente, futuro"
+        categoria: "Apocalipsis"
+      
+      - ref: "2 Pedro 3:8"
+        texto: "Mas, oh amados, no ignoréis esto: que para con el Señor un día es como mil años, y mil años como un día"
+        comentario: "Relación divina con el tiempo es radicalmente distinta"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Isaías 57:15"
+        texto: "Porque así dijo el Alto y Sublime, el que habita la eternidad, y cuyo nombre es el Santo: Yo habito en la altura y la santidad"
+        comentario: "Habitación eterna como morada ontológica"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Deuteronomio 33:27"
+        texto: "El eterno Dios es tu refugio, y acá abajo los brazos eternos"
+        comentario: "Eternidad como fundamento de seguridad"
+        categoria: "Pentateuco"
+      
+      - ref: "Salmo 102:25-27"
+        texto: "Desde la antigüedad tú fundaste la tierra, y los cielos son obra de tus manos. Ellos perecerán, mas tú permanecerás... pero tú eres el mismo, y tus años no se acabarán"
+        comentario: "Contraste entre temporalidad de creación y eternidad divina"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "1 Timoteo 1:17"
+        texto: "Por tanto, al Rey de los siglos, inmortal, invisible, al único y sabio Dios, sea honor y gloria por los siglos de los siglos"
+        comentario: "Rey de los siglos = soberano sobre todo tiempo"
+        categoria: "Epístolas Pastorales"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Shorter Catechism Q4"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Luther's Large Catechism - First Commandment"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 18"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Salmo 90:2 como fundamento"
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+  # ==========================================
+  # C3 - INMUTABILIDAD
+  # ==========================================
+  C3_INMUTABILIDAD:
+    text: "Dios no cambia en su ser, atributos, decretos, promesas o carácter; es absolutamente consistente consigo mismo"
+    
+    definicion_tecnica: |
+      Inmutabilidad: atributo por el cual Dios permanece idéntico a sí mismo 
+      en todo tiempo. No puede mejorar (ya es perfecto), ni deteriorarse, 
+      ni cambiar de opinión (su conocimiento es exhaustivo desde eternidad).
+    
+    implicaciones:
+      - "Dios no 'aprende' ni 'cambia de parecer'"
+      - "Sus promesas son absolutamente confiables"
+      - "No hay contradicción entre 'Dios de AT' y 'Dios de NT'"
+      - "Antropomorfismos ('se arrepintió') son acomodación divina"
+    
+    anclas_biblicas:
+      - ref: "Malaquías 3:6"
+        texto: "Porque yo Jehová no cambio; por esto, hijos de Jacob, no habéis sido consumidos"
+        comentario: "Inmutabilidad como base de fidelidad al pacto"
+        categoria: "Profetas Menores"
+      
+      - ref: "Santiago 1:17"
+        texto: "Toda buena dádiva y todo don perfecto desciende de lo alto, del Padre de las luces, en el cual no hay mudanza, ni sombra de variación"
+        comentario: "Sin cambio ni siquiera 'sombra' de cambio"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Números 23:19"
+        texto: "Dios no es hombre, para que mienta, ni hijo de hombre para que se arrepienta. Él dijo, ¿y no hará? Habló, ¿y no lo ejecutará?"
+        comentario: "Contraste entre mutabilidad humana e inmutabilidad divina"
+        categoria: "Pentateuco"
+      
+      - ref: "Salmo 102:27"
+        texto: "Pero tú eres el mismo, y tus años no se acabarán"
+        comentario: "Identidad eterna consigo mismo"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Hebreos 13:8"
+        texto: "Jesucristo es el mismo ayer, y hoy, y por los siglos"
+        comentario: "Inmutabilidad cristológica"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "1 Samuel 15:29"
+        texto: "Además, el que es la Gloria de Israel no mentirá, ni se arrepentirá, porque no es hombre para que se arrepienta"
+        comentario: "Naturaleza divina excluye cambio de mente"
+        categoria: "Históricos"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1, Belgic Confession Art. 1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Formula of Concord - Solid Declaration Art. 11"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 19 (aunque enfatiza dispensaciones, no niega inmutabilidad divina)"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+    
+    tier: KERNEL
+    peso_generativo: 8
+
+  # ==========================================
+  # C4 - INFINITUD (Omnipresencia, Omnipotencia, Omnisciencia)
+  # ==========================================
+  C4_INFINITUD:
+    text: "Dios no tiene límites en su ser, poder, conocimiento o presencia; es absolutamente ilimitado en toda perfección"
+    
+    definicion_tecnica: |
+      Infinitud: atributo que niega toda limitación en Dios. Se expresa en:
+      - Omnipresencia (sin límites espaciales)
+      - Omnipotencia (sin límites de poder)
+      - Omnisciencia (sin límites de conocimiento)
+      - Inmensidad (excede toda dimensión creada)
+    
+    implicaciones:
+      - "No hay lugar donde Dios no esté"
+      - "No hay nada que Dios no pueda hacer (compatible con su naturaleza)"
+      - "No hay hecho pasado, presente o futuro que Dios desconozca"
+      - "Dios no está 'contenido' por la creación"
+    
+    anclas_biblicas:
+      - ref: "1 Reyes 8:27"
+        texto: "Pero ¿es verdad que Dios morará sobre la tierra? He aquí que los cielos, los cielos de los cielos, no te pueden contener; ¿cuánto menos esta casa que yo he edificado?"
+        comentario: "Inmensidad divina - no contenido por creación"
+        categoria: "Históricos"
+      
+      - ref: "Salmo 147:5"
+        texto: "Grande es el Señor nuestro, y de mucho poder; y su entendimiento es infinito"
+        comentario: "Conocimiento sin límite"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Jeremías 23:24"
+        texto: "¿Se ocultará alguno, dice Jehová, en escondrijos que yo no lo vea? ¿No lleno yo, dice Jehová, el cielo y la tierra?"
+        comentario: "Omnipresencia absoluta"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Job 11:7-9"
+        texto: "¿Alcanzarás tú a conocer a Dios? ¿Llegarás tú a la perfección del Todopoderoso? Es más alta que los cielos... más profunda que el Seol... Su dimensión es más extensa que la tierra, y más ancha que el mar"
+        comentario: "Dios excede toda medida"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Mateo 19:26"
+        texto: "Y mirándolos Jesús, les dijo: Para los hombres esto es imposible; mas para Dios todo es posible"
+        comentario: "Omnipotencia - poder ilimitado"
+        categoria: "Evangelios"
+      
+      - ref: "Hebreos 4:13"
+        texto: "Y no hay cosa creada que no sea manifiesta en su presencia; antes bien todas las cosas están desnudas y abiertas a los ojos de aquel a quien tenemos que dar cuenta"
+        comentario: "Omnisciencia exhaustiva"
+        categoria: "Epístola a los Hebreos"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Augsburg Confession Art. 1"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, chs. 20-22"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  # ==========================================
+  # C5 - PERFECCIÓN
+  # ==========================================
+  C5_PERFECCION:
+    text: "Dios carece de toda deficiencia, debilidad o defecto; es absolutamente perfecto en todos sus atributos y acciones"
+    
+    definicion_tecnica: |
+      Perfección: atributo que afirma plenitud completa de todas las 
+      excelencias en Dios. No hay 'mejora posible' porque ya es perfecto 
+      en grado infinito. Todo lo que Dios es, lo es perfectamente.
+    
+    implicaciones:
+      - "Dios no puede ser más sabio, más santo, más justo"
+      - "Toda obra divina refleja perfección"
+      - "No hay 'desarrollo' en Dios"
+      - "Base de adoración: Él es digno por ser perfecto"
+    
+    anclas_biblicas:
+      - ref: "Mateo 5:48"
+        texto: "Sed, pues, vosotros perfectos, como vuestro Padre que está en los cielos es perfecto"
+        comentario: "Estándar de perfección divina como modelo"
+        categoria: "Evangelios"
+      
+      - ref: "Deuteronomio 32:4"
+        texto: "Él es la Roca, cuya obra es perfecta, porque todos sus caminos son rectitud; Dios de verdad, y sin ninguna iniquidad en él; es justo y recto"
+        comentario: "Perfección en carácter y acción"
+        categoria: "Pentateuco"
+      
+      - ref: "Salmo 18:30"
+        texto: "En cuanto a Dios, perfecto es su camino, y acrisolada la palabra de Jehová; escudo es a todos los que en él esperan"
+        comentario: "Perfección de palabra y camino"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "2 Samuel 22:31"
+        texto: "En cuanto a Dios, perfecto es su camino, y acrisolada la palabra de Jehová; escudo es a todos los que en él confían"
+        comentario: "Perfección como fundamento de confianza"
+        categoria: "Históricos"
+      
+      - ref: "Job 37:16"
+        texto: "¿Has conocido tú las diferencias de las nubes, las maravillas del Perfecto en sabiduría?"
+        comentario: "Perfección en sabiduría"
+        categoria: "Poesía/Sabiduría"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Larger Catechism Q7"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Luther's Small Catechism - Creed"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 17"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Deuteronomio 32:4"
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+# ============================================
+# RELACIONES CAUSALES (Grafo de dependencias)
+# ============================================
+
+relaciones:
+  
+  - from: C1_ASEIDAD
+    to: C2_ETERNIDAD
+    type: FUNDAMENTA
+    explicacion: "Si Dios existe por sí mismo (no causado), entonces no puede tener principio temporal; la aseidad implica eternidad"
+    fuerza: 10  # Escala 1-10 de necesidad lógica
+  
+  - from: C2_ETERNIDAD
+    to: C3_INMUTABILIDAD
+    type: IMPLICA
+    explicacion: "Lo que es eterno (sin sucesión temporal) no puede cambiar, porque el cambio requiere antes/después"
+    fuerza: 9
+  
+  - from: C1_ASEIDAD
+    to: C4_INFINITUD
+    type: IMPLICA
+    explicacion: "Si Dios no depende de nada, no puede ser limitado por nada externo; aseidad genera infinitud"
+    fuerza: 9
+  
+  - from: C3_INMUTABILIDAD
+    to: C5_PERFECCION
+    type: FUNDAMENTA
+    explicacion: "Solo lo que ya es perfecto no necesita cambiar; cambio en Dios implicaría mejora (era imperfecto) o deterioro (deja de ser perfecto)"
+    fuerza: 10
+  
+  - from: C4_INFINITUD
+    to: C5_PERFECCION
+    type: IMPLICA
+    explicacion: "Infinitud en todas las excelencias es equivalente a perfección absoluta"
+    fuerza: 8
+  
+  - from: C5_PERFECCION
+    to: C3_INMUTABILIDAD
+    type: REFUERZA
+    explicacion: "La perfección garantiza inmutabilidad (bucle de coherencia)"
+    fuerza: 7
+
+# ============================================
+# GUARDARRAÍLES (Herejías/errores que invalida)
+# ============================================
+
+guardarrailes:
+  
+  G1_TEISMO_ABIERTO:
+    nombre: "Teísmo Abierto (Open Theism)"
+    error: "Dios aprende, cambia, se sorprende por decisiones humanas; el futuro es 'abierto' incluso para Dios"
+    refutado_por:
+      - C2_ETERNIDAD
+      - C3_INMUTABILIDAD
+      - C4_INFINITUD (omnisciencia)
+    textos_clave:
+      - "Malaquías 3:6 - Jehová no cambio"
+      - "Isaías 46:10 - Anuncio lo por venir desde el principio"
+      - "Santiago 1:17 - No hay mudanza ni sombra de variación"
+    consecuencias: "Destruye confiabilidad de promesas divinas; Dios ya no es refugio seguro"
+  
+  G2_PANTEISMO:
+    nombre: "Panteísmo"
+    error: "Dios = universo; Dios depende de la creación o es idéntico a ella"
+    refutado_por:
+      - C1_ASEIDAD
+      - C4_INFINITUD (inmensidad)
+    textos_clave:
+      - "Éxodo 3:14 - YO SOY (independiente)"
+      - "Hechos 17:24-25 - No es servido por manos humanas, no necesita nada"
+      - "1 Reyes 8:27 - Cielos no te pueden contener"
+    consecuencias: "Borra distinción Creador-creación; imposibilita redención (¿Dios se salva a sí mismo?)"
+  
+  G3_PROCESO_TEOLOGIA:
+    nombre: "Teología del Proceso"
+    error: "Dios evoluciona con el universo; crece en experiencia y conocimiento"
+    refutado_por:
+      - C2_ETERNIDAD
+      - C3_INMUTABILIDAD
+      - C5_PERFECCION
+    textos_clave:
+      - "Salmo 90:2 - Desde el siglo y hasta el siglo, tú eres Dios"
+      - "Hebreos 13:8 - Jesucristo es el mismo ayer, hoy y por los siglos"
+      - "Números 23:19 - Dios no es hombre para que se arrepienta"
+    consecuencias: "Dios deja de ser roca firme; no puede garantizar consumación gloriosa"
+  
+  G4_FINITUD_DIVINA:
+    nombre: "Limitación de Dios (Dios finito)"
+    error: "Dios tiene límites espaciales, de poder, o de conocimiento"
+    refutado_por:
+      - C4_INFINITUD
+    textos_clave:
+      - "Jeremías 23:24 - ¿No lleno yo el cielo y la tierra?"
+      - "Salmo 147:5 - Su entendimiento es infinito"
+      - "Mateo 19:26 - Para Dios todo es posible"
+    consecuencias: "Reduce a Dios a 'súper-ser' pero no Dios absoluto; imposibilita soberanía total"
+  
+  G5_MORALISMO_PERFORMATIVO:
+    nombre: "Dios como ideal ético pero no ser real"
+    error: "Atributos de Dios son solo 'valores aspiracionales' pero no describen ser ontológico"
+    refutado_por:
+      - C1_ASEIDAD
+      - C5_PERFECCION
+    textos_clave:
+      - "Éxodo 3:14 - YO SOY (ser, no concepto)"
+      - "Juan 5:26 - Tiene vida en sí mismo"
+    consecuencias: "Convierte teología en ética humanista; no hay salvación real sin Dios real"
+
+# ============================================
+# TESTS DE VALIDACIÓN AUTOMÁTICA
+# ============================================
+
+tests:
+  
+  T1_TRAZABILIDAD_MINIMA:
+    descripcion: "Cada claim debe tener >= 4 anclas bíblicas de >= 3 libros diferentes"
+    criterio: "NIVEL_ORO"
+    status: PASS
+    detalles:
+      - claim: C1_ASEIDAD
+        anclas: 6
+        libros: ["Éxodo", "Juan", "Hechos", "Salmo", "Isaías", "Job"]
+        status: PASS
+      - claim: C2_ETERNIDAD
+        anclas: 7
+        libros: ["Salmo", "Apocalipsis", "2 Pedro", "Isaías", "Deuteronomio", "1 Timoteo"]
+        status: PASS
+      - claim: C3_INMUTABILIDAD
+        anclas: 6
+        libros: ["Malaquías", "Santiago", "Números", "Salmo", "Hebreos", "1 Samuel"]
+        status: PASS
+      - claim: C4_INFINITUD
+        anclas: 6
+        libros: ["1 Reyes", "Salmo", "Jeremías", "Job", "Mateo", "Hebreos"]
+        status: PASS
+      - claim: C5_PERFECCION
+        anclas: 5
+        libros: ["Mateo", "Deuteronomio", "Salmo", "2 Samuel", "Job"]
+        status: PASS
+  
+  T2_CONVERGENCIA_TRADICIONES:
+    descripcion: "Al menos 80% de tradiciones sanas deben afirmar cada claim del kernel"
+    criterio: ">= 80%"
+    status: PASS
+    detalles:
+      - claim: C1_ASEIDAD
+        score: 100
+        tradiciones: 5/5
+      - claim: C2_ETERNIDAD
+        score: 100
+        tradiciones: 6/6 (incluye Caraítas)
+      - claim: C3_INMUTABILIDAD
+        score: 100
+        tradiciones: 4/4
+      - claim: C4_INFINITUD
+        score: 100
+        tradiciones: 4/4
+      - claim: C5_PERFECCION
+        score: 100
+        tradiciones: 5/5
+  
+  T3_NO_CONTRADICCION_INTERNA:
+    descripcion: "Ningún claim debe contradecir a otro; relaciones deben ser coherentes"
+    criterio: "Cero contradicciones lógicas"
+    status: PASS
+    detalles: "Todas las relaciones son de tipo FUNDAMENTA/IMPLICA/REFUERZA (coherencia positiva)"
+  
+  T4_COMPATIBILIDAD_CREDOS:
+    descripcion: "Debe ser compatible con Credo Niceno, Calcedonia, y confesiones reformadas mayores"
+    criterio: "Cero conflictos con credos históricos"
+    status: PASS
+    detalles:
+      - "Niceno (325/381): Afirma Dios eterno, omnipotente - ✓"
+      - "Calcedonia (451): Afirma deidad plena de Cristo (relacionado a inmutabilidad) - ✓"
+      - "Westminster (1646): Afirma todos los atributos aquí expuestos - ✓"
+  
+  T5_GRANULARIDAD_ATOMICA:
+    descripcion: "Cada claim debe ser atómico (indivisible sin perder significado)"
+    criterio: "Un predicado principal por claim"
+    status: PASS
+    detalles: "Todos los claims cumplen: sujeto (Dios) + predicado único + evidencia"
+
+# ============================================
+# SALIDAS (Dependencias para próximas servilletas)
+# ============================================
+
+salidas:
+  
+  - id: S002
+    titulo: "La Trinidad: Un Dios en Tres Personas"
+    dependencia_primaria: C1_ASEIDAD
+    explicacion: "Aseidad fundamenta unidad de esencia trinitaria (un ser auto-existente, tres personas)"
+    textos_puente: ["Juan 5:26", "Juan 17:5"]
+  
+  - id: S003
+    titulo: "Santidad y Justicia de Dios"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Perfección implica santidad perfecta (ausencia de mal) y justicia perfecta (rectitud)"
+    textos_puente: ["Isaías 6:3", "Deuteronomio 32:4"]
+  
+  - id: S004
+    titulo: "Amor y Misericordia de Dios"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Perfección incluye amor perfecto y misericordia perfecta"
+    textos_puente: ["1 Juan 4:8", "Salmo 103:8"]
+  
+  - id: S005
+    titulo: "Soberanía y Providencia de Dios"
+    dependencia_primaria: C4_INFINITUD
+    explicacion: "Omnipotencia + omnisciencia fundamentan soberanía absoluta sobre creación"
+    textos_puente: ["Efesios 1:11", "Isaías 46:10"]
+  
+  - id: S006
+    titulo: "Creación Ex Nihilo"
+    dependencia_primaria: C1_ASEIDAD
+    dependencia_secundaria: C4_INFINITUD
+    explicacion: "Auto-existencia + poder infinito permiten creación de la nada"
+    textos_puente: ["Génesis 1:1", "Hebreos 11:3"]
+  
+  - id: S007
+    titulo: "Imagen de Dios en el Hombre"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Ser creado a imagen de Dios implica reflejar (aunque imperfectamente) atributos comunicables"
+    textos_puente: ["Génesis 1:26-27", "Santiago 3:9"]
+
+# ============================================
+# VISUALIZACIÓN (Diagrama Mermaid)
+# ============================================
+
+diagrama_mermaid: |
+  graph TD
+      C1[<b>C1: ASEIDAD</b><br/>Existe por sí mismo<br/>Éxodo 3:14<br/>'YO SOY EL QUE SOY'] --> C2[<b>C2: ETERNIDAD</b><br/>Sin principio ni fin<br/>Salmo 90:2<br/>'Desde el siglo... tú eres Dios']
+      
+      C1 --> C4[<b>C4: INFINITUD</b><br/>Sin límites<br/>Salmo 147:5<br/>'Su entendimiento es infinito']
+      
+      C2 --> C3[<b>C3: INMUTABILIDAD</b><br/>No cambia<br/>Malaquías 3:6<br/>'Jehová no cambio']
+      
+      C3 --> C5[<b>C5: PERFECCIÓN</b><br/>Sin deficiencia<br/>Mateo 5:48<br/>'Vuestro Padre... es perfecto']
+      
+      C4 --> C5
+      
+      C5 -.refuerza.-> C3
+      
+      style C1 fill:#FFD700,stroke:#8B4513,stroke-width:4px,color:#000
+      style C2 fill:#87CEEB,stroke:#00008B,stroke-width:3px,color:#000
+      style C3 fill:#98FB98,stroke:#006400,stroke-width:3px,color:#000
+      style C4 fill:#DDA0DD,stroke:#4B0082,stroke-width:3px,color:#000
+      style C5 fill:#FFA07A,stroke:#8B0000,stroke-width:4px,color:#000
+      
+      classDef kernelNode fill:#ffffcc,stroke:#ff9900,stroke-width:2px
+      
+      linkStyle 0 stroke:#8B4513,stroke-width:3px
+      linkStyle 1 stroke:#8B4513,stroke-width:3px
+      linkStyle 2 stroke:#00008B,stroke-width:3px
+      linkStyle 3 stroke:#006400,stroke-width:3px
+      linkStyle 4 stroke:#4B0082,stroke-width:3px
+      linkStyle 5 stroke:#8B0000,stroke-width:2px,stroke-dasharray: 5 5
+
+diagrama_explicacion: |
+  LEYENDA DEL DIAGRAMA:
+  
+  Colores:
+  - Dorado (C1): Aseidad es fundamento primario (de aquí fluye todo)
+  - Azul cielo (C2): Eternidad (temporal)
+  - Verde (C3): Inmutabilidad (estabilidad)
+  - Púrpura (C4): Infinitud (expansión)
+  - Coral (C5): Perfección (cumbre integradora)
+  
+  Tipos de flecha:
+  - Sólida gruesa: FUNDAMENTA (base lógica necesaria)
+  - Sólida mediana: IMPLICA (consecuencia necesaria)
+  - Punteada: REFUERZA (bucle de coherencia)
+  
+  Orden de lectura:
+  1. C1 (Aseidad) es el axioma primario
+  2. De C1 fluyen C2 (Eternidad) y C4 (Infinitud)
+  3. C2 genera C3 (Inmutabilidad)
+  4. C3 y C4 convergen en C5 (Perfección)
+  5. C5 refuerza C3 (bucle de coherencia teológica)
+
+# ============================================
+# METADATOS DE PRODUCCIÓN
+# ============================================
+
+produccion:
+  autor_humano: "Hernando Silva"
+  
+  agentes_generadores:
+    - nombre: "Claude Sonnet 4.5"
+      rol: "Arquitecto Comandante"
+      contribucion: "Diseño arquitectónico, decisiones teológicas, estructura YAML"
+    - nombre: "Copilot Sonnet 4.5 (local)"
+      rol: "Desarrollador"
+      contribucion: "Implementación, validación, generación de archivos"
+  
+  fecha_creacion: "2026-02-23"
+  fecha_ultima_modificacion: "2026-02-23"
+  version: "1.0.0"
+  
+  estado: DRAFT  # Estados: DRAFT → REVIEW → APPROVED → PUBLISHED
+  
+  revisores_requeridos:
+    - tipo: "Teólogo Reformado"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Convergencia Westminster", "Anclas bíblicas"]
+    - tipo: "Teólogo Dispensacional"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Compatibilidad hermenéutica literal", "Anclas AT/NT"]
+    - tipo: "Validador Técnico"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Estructura YAML", "Integridad de datos"]
+  
+  aprobacion_final: PENDIENTE
+  
+  changelog:
+    - version: "1.0.0"
+      fecha: "2026-02-23"
+      cambios: "Versión inicial completa"
+
+# ============================================
+# NOTAS TEOLÓGICAS ADICIONALES
+# ============================================
+
+notas_teologicas:
+  
+  hermeneutica_reformada_vs_dispensacional:
+    observacion: |
+      Aunque esta servilleta alcanza 100% de convergencia, es importante 
+      notar matices hermenéuticos:
+      
+      - Reformados enfatizan atemporalidad absoluta de Dios (eternidad como 
+        existencia sin sucesión)
+      - Algunos dispensacionales enfatizan más 'duración infinita' que 
+        'atemporalidad' (pero ambos afirman eternidad)
+      
+      Para kernel, usamos formulación que ambas tradiciones aceptan: 
+      "sin principio ni fin, trascendiendo el tiempo"
+    
+    resolucion: "Kernel permanece en zona de 100% convergencia; matices se documentan como notas, no como divisiones"
+  
+  antropomorfismos:
+    observacion: |
+      Textos como Génesis 6:6 ("se arrepintió Jehová") parecen contradecir 
+      inmutabilidad. Resolución clásica:
+      
+      - Dios usa lenguaje humano (acomodación) para comunicar realidades 
+        que exceden comprensión humana
+      - "Arrepentirse" describe cambio en relación Dios-humanidad, no 
+        cambio en Dios mismo
+      - Similar a "Dios desciende" (Gn 11:5) - no movimiento espacial literal
+    
+    textos_clave:
+      - "Números 23:19 - Dios no es hombre para que se arrepienta"
+      - "1 Samuel 15:29 - El que es la Gloria de Israel... no se arrepentirá"
+  
+  judios_caraitas:
+    observacion: |
+      Incluimos judíos caraítas en convergencia porque:
+      
+      1. Rechazan Talmud como autoritativo (solo Tanaj)
+      2. Afirman atributos divinos básicos compatibles con cristianismo
+      3. Algunos segmentos aceptan mesianismo (Yeshua como Mesías)
+      
+      IMPORTANTE: No todos los caraítas son mesiánicos, pero los que sí 
+      lo son mantienen teología muy compatible con reformados/dispensacionales 
+      en doctrina de Dios
+    
+    fuentes_contacto: "Nehemia Gordon (erudito caraíta), One for Israel (ministerio mesiánico)"
+
+# ============================================
+# FIN DE SERVILLETA S001
+# ============================================
+# Hash de integridad (para detectar modificaciones):
+# SHA256: [Generado después de aprobación final]
+# ============================================

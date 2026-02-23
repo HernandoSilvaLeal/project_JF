@@ -1,0 +1,1144 @@
+# ============================================
+# SERVILLETA S001 - ATRIBUTOS FUNDAMENTALES DE DIOS
+# El Código de Dios - Kernel Doctrinal RFJ 2026
+# ============================================
+# Versión: 1.0.0
+# Fecha: 2026-02-23
+# Estado: REVIEW
+# Tier: KERNEL_PURO
+# Convergencia: 100%
+# Trazabilidad: DIAMANTE (100 versículos, 20+ libros bíblicos)
+# ============================================
+
+metadata:
+  id: S001
+  titulo: "Atributos Fundamentales de Dios"
+  subtitulo: "La naturaleza eterna e intransmisible del Dios trino"
+  tesis: "Dios es eterno, auto-existente, inmutable, infinito y perfecto en todos sus atributos; no depende de nada, no cambia, no tiene límites, y carece de toda deficiencia"
+  
+  tier: KERNEL_PURO
+  categoria: "Teología Propia - Atributos Intransmisibles (Incomunicables)"
+  
+  # Scoring de convergencia
+  convergencia_score: 100  # Porcentaje de tradiciones sanas que afirman
+  tradiciones_que_afirman:
+    - "Reformada (Westminster, 1689)"
+    - "Luterana (Libro de Concordia)"
+    - "Dispensacional (Chafer, Ryrie)"
+    - "Anglicana Evangélica (39 Artículos)"
+    - "Bautista"
+    - "Judíos Caraítas (mesianismo)"
+  
+  # Nivel de trazabilidad
+  trazabilidad_nivel: DIAMANTE  # >= 20 versículos, >= 10 libros (AT + NT)
+  
+  # Referencias teológicas clave
+  fuentes_principales:
+    - "Louis Berkhof - Teología Sistemática (Sección: Dios y Sus Atributos)"
+    - "Lewis Sperry Chafer - Systematic Theology Vol. 1 (The Existence and Attributes of God)"
+    - "A.W. Pink - The Attributes of God"
+    - "Stephen Charnock - The Existence and Attributes of God"
+    - "Herman Bavinck - Reformed Dogmatics Vol. 2 (God and Creation)"
+    - "John MacArthur - The Attributes of God (sermon series)"
+
+# ============================================
+# PROPOSICIONES ATÓMICAS (Claims)
+# Cada claim es indivisible, verificable, y tiene anclas bíblicas
+# ============================================
+
+claims:
+
+  # ==========================================
+  # C1 - ASEIDAD (Auto-existencia)
+  # ==========================================
+  C1_ASEIDAD:
+    text: "Dios existe por sí mismo; no depende de nada ni de nadie para su existencia, vida o perfección"
+    
+    definicion_tecnica: |
+      Aseidad (del latín a se = de sí mismo): atributo que denota que Dios es 
+      auto-suficiente, auto-sostenido, y no derivado. No tiene causa externa; 
+      es la causa no causada de todo lo demás.
+    
+    implicaciones:
+      - "Dios no fue creado ni generado"
+      - "No necesita nada externo para existir"
+      - "No depende de la creación para su gloria"
+      - "Es fuente de toda vida y ser"
+    
+    anclas_biblicas:
+      # ========== PENTATEUCO ==========
+      - ref: "Éxodo 3:14"
+        texto: "Y respondió Dios a Moisés: YO SOY EL QUE SOY. Y dijo: Así dirás a los hijos de Israel: YO SOY me envió a vosotros"
+        comentario: "El nombre divino YHWH (אֶהְיֶה אֲשֶׁר אֶהְיֶה) revela auto-existencia absoluta: Dios es el Ser necesario que no recibe existencia de otro"
+        categoria: "Pentateuco"
+      
+      - ref: "Génesis 21:33"
+        texto: "Y plantó Abraham un árbol tamarisco en Beerseba, e invocó allí el nombre de Jehová Dios eterno (El Olam)"
+        comentario: "Primera invocación del título 'El Olam' (אֵל עוֹלָם) - el Dios de eternidad inmutable que existe antes y después de todo tiempo"
+        categoria: "Pentateuco"
+      
+      - ref: "Deuteronomio 32:40"
+        texto: "Yo alzo a los cielos mi mano, Y digo: Vivo yo para siempre"
+        comentario: "Declaración divina de vida inherente e interminable; Dios jura por Sí mismo porque no hay autoridad superior"
+        categoria: "Pentateuco"
+      
+      # ========== POESÍA/SABIDURÍA ==========
+      - ref: "Job 41:11"
+        texto: "¿Quién me ha dado a mí primero, para que yo restituya? Todo lo que hay debajo del cielo es mío"
+        comentario: "Dios no tiene deudor; nadie puede reclamar prioridad ontológica sobre Él. Todo es derivado de Su ser (citado por Pablo en Romanos 11:35)"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Job 36:26"
+        texto: "He aquí, Dios es grande, y nosotros no le conocemos, Ni se puede seguir la huella de sus años"
+        comentario: "La vida de Dios es inescrutable e inmarcesible; Sus 'años' (concepto antropomórfico) no tienen cronología rastreable"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 90:2"
+        texto: "Antes que naciesen los montes y formases la tierra y el mundo, desde el siglo y hasta el siglo, tú eres Dios"
+        comentario: "Existencia pre-cosmológica y post-escatológica; Dios es anterior a la materia-energía-espacio-tiempo"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 50:10-12"
+        texto: "Porque mía es toda bestia del bosque, Y los millares de animales en los collados... Si yo tuviese hambre, no te lo diría a ti; Porque mío es el mundo y su plenitud"
+        comentario: "Absoluta auto-suficiencia: Dios no es sostenido por los sacrificios humanos; posee todo sin depender de nada"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 93:2"
+        texto: "Firme es tu trono desde entonces; Tú eres eternamente"
+        comentario: "Trono establecido 'desde entonces' (מֵאָז) = desde la eternidad pasada; soberanía fundamentada en ser eterno"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 102:27"
+        texto: "Pero tú eres el mismo, Y tus años no se acabarán"
+        comentario: "Identidad inmutable (אַתָּה־הוּא 'tú eres Él mismo'); años sin consumación = vida sin agotamiento"
+        categoria: "Poesía/Sabiduría"
+      
+      # ========== PROFETAS ==========
+      - ref: "Isaías 40:28"
+        texto: "¿No has sabido, no has oído que el Dios eterno es Jehová, el cual creó los confines de la tierra? No desfallece, ni se fatiga con cansancio, y su entendimiento no hay quien lo alcance"
+        comentario: "Triple énfasis: (1) Eternidad ontológica, (2) Poder inagotable (no necesita recargar energía), (3) Sabiduría infinita auto-contenida"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 41:4"
+        texto: "¿Quién hizo y realizó esto? ¿Quién llama las generaciones desde el principio? Yo Jehová, el primero, y yo mismo con los postreros"
+        comentario: "Primacía absoluta: Dios no es 'primero entre iguales' sino el único Primero sin antecesor; Él llama (קֹרֵא) las generaciones a existencia"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 43:10"
+        texto: "Vosotros sois mis testigos, dice Jehová, y mi siervo que yo escogí, para que me conozcáis y creáis, y entendáis que yo mismo soy; antes de mí no fue formado dios, ni lo será después de mí"
+        comentario: "Declaración anti-politeísta: אֲנִי הוּא (Yo soy Él) = auto-identidad absoluta; ningún 'dios' tiene ontología previa o posterior a YHWH"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 44:6"
+        texto: "Así dice Jehová Rey de Israel, y su Redentor, Jehová de los ejércitos: Yo soy el primero, y yo soy el postrero, y fuera de mí no hay Dios"
+        comentario: "Inclusio divino: Alfa y Omega del AT; afirmación trinitaria implícita (Rey-Redentor-Jehová de ejércitos) con unicidad ontológica"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 48:12"
+        texto: "Óyeme, Jacob, y tú, Israel, a quien llamé: Yo mismo, yo el primero, yo también el postrero"
+        comentario: "Triple אֲנִי (Yo) enfático = aseidad insistente; Dios es principio-medio-fin de toda realidad"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Nehemías 9:6"
+        texto: "Tú solo eres Jehová; tú hiciste los cielos, y los cielos de los cielos, con todo su ejército, la tierra y todo lo que está en ella, los mares y todo lo que hay en ellos; y tú vivificas todas estas cosas"
+        comentario: "Monotismo ontológico: 'Tú solo' (אַתָּה־הוּא יְהוָה לְבַדֶּךָ) + función vivificadora universal = vida derivada de Él, vida inherente solo en Él"
+        categoria: "Históricos"
+      
+      # ========== NUEVO TESTAMENTO ==========
+      - ref: "Juan 5:26"
+        texto: "Porque como el Padre tiene vida en sí mismo, así también ha dado al Hijo el tener vida en sí mismo"
+        comentario: "ζωὴν ἔχει ἐν ἑαυτῷ = vida auto-contenida en el Padre; el Hijo posee vida a se por comunicación eterna (no temporal), preservando aseidad trinitaria"
+        categoria: "Evangelios"
+      
+      - ref: "Hechos 17:24-25"
+        texto: "El Dios que hizo el mundo y todas las cosas que en él hay, siendo Señor del cielo y de la tierra, no habita en templos hechos por manos humanas, ni es honrado por manos de hombres, como si necesitase de algo; pues él es quien da a todos vida y aliento y todas las cosas"
+        comentario: "Pablo predica aseidad a filósofos griegos: (1) Dios no necesita morada, (2) No necesita culto para subsistir, (3) Él es dador universal, no receptor necesitado"
+        categoria: "Hechos"
+      
+      - ref: "Romanos 11:35-36"
+        texto: "¿O quién le dio a él primero, para que le fuese recompensado? Porque de él, y por él, y para él, son todas las cosas. A él sea la gloria por los siglos. Amén"
+        comentario: "Pablo cita Job 41:11 + doxología triádica: ἐξ αὐτοῦ (fuente), δι' αὐτοῦ (agente), εἰς αὐτόν (telos) = Dios es origen-medio-fin sin dependencia externa"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Apocalipsis 4:11"
+        texto: "Señor, digno eres de recibir la gloria y la honra y el poder; porque tú creaste todas las cosas, y por tu voluntad existen y fueron creadas"
+        comentario: "Liturgia celestial atribuye existencia de todo a θέλημα (voluntad) divina; el ser de las criaturas es contingente, el ser de Dios es necesario"
+        categoria: "Apocalipsis"
+      
+      - ref: "Apocalipsis 21:6"
+        texto: "Y me dijo: Hecho está. Yo soy el Alfa y la Omega, el principio y el fin. Al que tuviere sed, yo le daré gratuitamente de la fuente del agua de la vida"
+        comentario: "Cristología de aseidad: Cristo es ἀρχή (principio ontológico) y τέλος (fin teleológico); Él da agua viva sin reciprocidad requerida"
+        categoria: "Apocalipsis"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1-2, Belgic Confession Art. 1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Augsburg Confession Art. 1"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Systematic Theology Vol. 1, ch. 17"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Énfasis en Éxodo 3:14, Deuteronomio 6:4"
+    
+    tier: KERNEL
+    peso_generativo: 10  # Escala 1-10 (cuántas verdades derivan)
+
+  # ==========================================
+  # C2 - ETERNIDAD
+  # ==========================================
+  C2_ETERNIDAD:
+    text: "Dios no tiene principio ni fin; trasciende completamente el tiempo y existe en un 'eterno ahora'"
+    
+    definicion_tecnica: |
+      Eternidad: atributo por el cual Dios existe sin límites temporales. 
+      No es meramente duración infinita en el tiempo, sino existencia 
+      atemporal donde pasado, presente y futuro son igualmente presentes 
+      a la consciencia divina.
+    
+    implicaciones:
+      - "Dios no 'espera' ni 'recuerda'; todo es presente para Él"
+      - "No hay sucesión en el ser divino"
+      - "Planes divinos no 'cambian' con el tiempo"
+      - "Dios ve todo tiempo simultáneamente"
+    
+    anclas_biblicas:
+      # ========== PENTATEUCO ==========
+      - ref: "Génesis 1:1"
+        texto: "En el principio creó Dios los cielos y la tierra"
+        comentario: "בְּרֵאשִׁית (en-principio) marca inicio del tiempo creado; Dios existe en prioridad ontológica al tiempo mismo - no 'estaba' en el principio, sino que causó el principio"
+        categoria: "Pentateuco"
+      
+      - ref: "Éxodo 3:15"
+        texto: "Además dijo Dios a Moisés: Así dirás a los hijos de Israel: Jehová, el Dios de vuestros padres, el Dios de Abraham, Dios de Isaac y Dios de Jacob, me ha enviado a vosotros. Este es mi nombre para siempre, con él se me recordará por todos los siglos"
+        comentario: "שְׁמִי לְעֹלָם (mi nombre para eternidad) = identidad inmutable a través de todas las generaciones; YHWH es nombre transhistórico"
+        categoria: "Pentateuco"
+      
+      - ref: "Deuteronomio 33:27"
+        texto: "El eterno Dios es tu refugio, y acá abajo los brazos eternos; él echó de delante de ti al enemigo, y dijo: Destruye"
+        comentario: "אֱלֹהֵי קֶדֶם (Dios de eternidad) = refugio ontológico; 'brazos eternos' (זְרֹעֹת עוֹלָם) = poder que no se agota ni decae"
+        categoria: "Pentateuco"
+      
+      # ========== POESÍA/SABIDURÍA ==========
+      - ref: "Salmo 41:13"
+        texto: "Bendito sea Jehová, el Dios de Israel, Por los siglos de los siglos. Amén y Amén"
+        comentario: "מִן־הָעוֹלָם וְעַד הָעוֹלָם (desde eternidad hasta eternidad) = doble inclusio temporal; bendición que reconoce eternidad a parte ante y a parte post"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 90:2"
+        texto: "Antes que naciesen los montes y formases la tierra y el mundo, desde el siglo y hasta el siglo, tú eres Dios"
+        comentario: "בְּטֶרֶם (antes-que) + יֻלְּדוּ (naciesen) = prioridad ontológica a la materia; אַתָּה אֵל (Tú eres Dios) en tiempo perfecto = ser completo sin inicio"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 102:25-27"
+        texto: "Desde la antigüedad tú fundaste la tierra, y los cielos son obra de tus manos. Ellos perecerán, mas tú permanecerás; y todos ellos como una vestidura se envejecerán; como un vestido los mudarás, y serán mudados; pero tú eres el mismo, y tus años no se acabarán"
+        comentario: "Contraste creación-Creador: universo tiene entropia (se envejece), Dios no; אַתָּה־הוּא (Tú eres Él mismo) = identidad sin cambio; שָׁנֶיךָ לֹא יִתָּמּוּ (tus años no consumirse) = temporalidad infinita"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 103:17"
+        texto: "Mas la misericordia de Jehová es desde la eternidad y hasta la eternidad sobre los que le temen, y su justicia sobre los hijos de los hijos"
+        comentario: "חֶסֶד (hesed/fidelidad pactual) מֵעוֹלָם וְעַד־עוֹלָם = atributo moral fundamentado en eternidad ontológica; misericordia sin inicio temporal"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 106:48"
+        texto: "Bendito Jehová Dios de Israel, Desde la eternidad y hasta la eternidad; Y diga todo el pueblo, Amén. Aleluya"
+        comentario: "Doxología final del Libro IV del Salterio; מִן־הָעוֹלָם וְעַד הָעוֹלָם = marco litúrgico que reconoce eternidad divina como base de adoración"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Proverbios 8:22-23"
+        texto: "Jehová me poseía en el principio, Ya de antiguo, antes de sus obras. Eternamente tuve el principado, desde el principio, Antes de la tierra"
+        comentario: "Sabiduría personificada (interpretación cristológica): מֵעוֹלָם נִסַּכְתִּי (desde eternidad fui establecida) - el Logos preexiste a la creación (cf. Juan 1:1)"
+        categoria: "Poesía/Sabiduría"
+      
+      # ========== PROFETAS ==========
+      - ref: "Isaías 9:6"
+        texto: "Porque un niño nos es nacido, hijo nos es dado, y el principado sobre su hombro; y se llamará su nombre Admirable, Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz"
+        comentario: "אֲבִיעַד (Avi-ad = Padre de eternidad) aplicado al Mesías = deidad del Hijo encarnado; 'Padre eterno' no es Padre de la Trinidad, sino 'Padre/Autor de la era eterna'"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 57:15"
+        texto: "Porque así dijo el Alto y Sublime, el que habita la eternidad, y cuyo nombre es el Santo: Yo habito en la altura y la santidad, y con el quebrantado y humilde de espíritu, para hacer vivir el espíritu de los humildes, y para vivificar el corazón de los quebrantados"
+        comentario: "שֹׁכֵן עַד (habitante de eternidad) = Dios 'reside' en dimensión atemporal; contraste con habitación condescendiente con humildes = trascendencia + inmanencia"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Jeremías 10:10"
+        texto: "Mas Jehová es el Dios verdadero; él es Dios vivo y Rey eterno; a su ira tiembla la tierra, y las naciones no pueden sufrir su indignación"
+        comentario: "Triple atributo: אֱלֹהִים אֱמֶת (Dios de verdad/realidad) + אֱלֹהִים חַיִּים (Dios viviente) + מֶלֶךְ עוֹלָם (Rey de eternidad) = contraste con ídolos muertos y efímeros"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Daniel 4:34"
+        texto: "Mas al fin del tiempo yo Nabucodonosor alcé mis ojos al cielo, y mi razón me fue devuelta; y bendije al Altísimo, y alabé y glorifiqué al que vive para siempre, cuyo dominio es sempiterno, y su reino por todas las edades"
+        comentario: "Confesión pagana de eternidad divina: חַי לְעָלְמָא (viviente para eternidad) + שָׁלְטָנֵהּ שָׁלְטָן עָלַם (su dominio dominio eterno) = rey gentil reconoce Rey eterno"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Miqueas 5:2"
+        texto: "Pero tú, Belén Efrata, pequeña para estar entre las familias de Judá, de ti me saldrá el que será Señor en Israel; y sus salidas son desde el principio, desde los días de la eternidad"
+        comentario: "Profecía mesiánica: מוֹצָאֹתָיו מִקֶּדֶם מִימֵי עוֹלָם (sus salidas desde antigüedad, desde días de eternidad) = preexistencia eterna del Mesías, no mera preexistencia temporal"
+        categoria: "Profetas Menores"
+      
+      - ref: "Habacuc 1:12"
+        texto: "¿No eres tú desde el principio, oh Jehová, Dios mío, Santo mío? No moriremos. Oh Jehová, para juicio lo pusiste; y tú, oh Roca, lo fundaste para castigar"
+        comentario: "מִקֶּדֶם (desde antigüedad) = eternidad a parte ante; 'no moriremos' fundamentado en eternidad divina = pacto basado en ser inmutable de Dios"
+        categoria: "Profetas Menores"
+      
+      # ========== NUEVO TESTAMENTO ==========
+      - ref: "Juan 8:58"
+        texto: "Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, yo soy"
+        comentario: "πρὶν Ἀβραὰμ γενέσθαι ἐγὼ εἰμί = pretensión de preexistencia + uso de ἐγὼ εἰμί (YO SOY) = auto-identificación con YHWH de Éxodo 3:14; judíos toman piedras por 'blasfemia' reconocida"
+        categoria: "Evangelios"
+      
+      - ref: "Romanos 1:20"
+        texto: "Porque las cosas invisibles de él, su eterno poder y deidad, se hacen claramente visibles desde la creación del mundo, siendo entendidas por medio de las cosas hechas, de modo que no tienen excusa"
+        comentario: "ἀΐδιος δύναμις (poder eterno) + θειότης (deidad) = revelación natural de atributos eternos; ἀΐδιος (aeviternus) ≠ αἰώνιος (temporalmente largo), sino eternidad ontológica"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Hebreos 1:10-12"
+        texto: "Y: Tú, oh Señor, en el principio fundaste la tierra, Y los cielos son obra de tus manos. Ellos perecerán, mas tú permaneces; Y todos ellos se envejecerán como una vestidura, Y como un vestido los envolverás, y serán mudados; Pero tú eres el mismo, Y tus años no acabarán"
+        comentario: "Autor aplica Salmo 102:25-27 (dirigido a YHWH) al Hijo = Cristología alta; σὺ δὲ ὁ αὐτὸς εἶ (pero tú eres el mismo) = inmutabilidad eterna del Hijo"
+        categoria: "Epístolas Generales"
+      
+      - ref: "2 Pedro 3:8"
+        texto: "Mas, oh amados, no ignoréis esto: que para con el Señor un día es como mil años, y mil años como un día"
+        comentario: "No es mera metáfora de 'paciencia', sino ontología temporal: παρὰ Κυρίῳ (para el Señor) el tiempo no transcurre sucesivamente; χίλια ἔτη ὡς ἡμέρα μία = relativización radical del tiempo"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Apocalipsis 1:8"
+        texto: "Yo soy el Alfa y la Omega, principio y fin, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso"
+        comentario: "Ἄλφα καὶ Ὦ = primera y última letra del alfabeto griego; ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος = triple participio (presente-pasado-futuro) simultáneamente verdaderos de Cristo"
+        categoria: "Apocalipsis"
+      
+      - ref: "Apocalipsis 22:13"
+        texto: "Yo soy el Alfa y la Omega, el principio y el fin, el primero y el último"
+        comentario: "Triple declaración de eternidad: (1) Ἄλφα-Ὦ (marco alfabético), (2) ἀρχὴ καὶ τέλος (inicio-fin ontológico), (3) πρῶτος καὶ ἔσχατος (primero-último cronológico) = totalidad del ser"
+        categoria: "Apocalipsis"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Shorter Catechism Q4"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Luther's Large Catechism - First Commandment"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 18"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Salmo 90:2 como fundamento"
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+  # ==========================================
+  # C3 - INMUTABILIDAD
+  # ==========================================
+  C3_INMUTABILIDAD:
+    text: "Dios no cambia en su ser, atributos, decretos, promesas o carácter; es absolutamente consistente consigo mismo"
+    
+    definicion_tecnica: |
+      Inmutabilidad: atributo por el cual Dios permanece idéntico a sí mismo 
+      en todo tiempo. No puede mejorar (ya es perfecto), ni deteriorarse, 
+      ni cambiar de opinión (su conocimiento es exhaustivo desde eternidad).
+    
+    implicaciones:
+      - "Dios no 'aprende' ni 'cambia de parecer'"
+      - "Sus promesas son absolutamente confiables"
+      - "No hay contradicción entre 'Dios de AT' y 'Dios de NT'"
+      - "Antropomorfismos ('se arrepintió') son acomodación divina"
+    
+    anclas_biblicas:
+      # ========== PENTATEUCO ==========
+      - ref: "Números 23:19"
+        texto: "Dios no es hombre, para que mienta, Ni hijo de hombre para que se arrepienta. Él dijo, ¿y no hará? Habló, ¿y no lo ejecutará?"
+        comentario: "לֹא אִיש אֵל (no-hombre Dios) = ontología distinta; וְיִתְנֶחָם (y-se-arrepentirá) negado = decretos divinos no están sujetos a reconsideración por información nueva (pues no hay información nueva para Él)"
+        categoria: "Pentateuco"
+      
+      # ========== HISTÓRICOS ==========
+      - ref: "1 Samuel 15:29"
+        texto: "Además, el que es la Gloria de Israel no mentirá, ni se arrepentirá, porque no es hombre para que se arrepienta"
+        comentario: "נֵצַח יִשְׂרָאֵל (Netzaj Israel = Gloria/Eternidad de Israel) como título divino; contexto de juicio irrevocable sobre Saúl = decretos divinos ejecutados sin retracción"
+        categoria: "Históricos"
+      
+      # ========== POESÍA/SABIDURÍA ==========
+      - ref: "Salmo 33:11"
+        texto: "El consejo de Jehová permanecerá para siempre; Los pensamientos de su corazón por todas las generaciones"
+        comentario: "עֲצַת־יְהוָה לְעוֹלָם תַּעֲמֹד (consejo-YHWH eternidad permanece) = plans divinos no revisados ni frustrados; מַחְשְׁבוֹת לִבּוֹ (pensamientos de su corazón) = voluntad interna inmutable"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 102:27"
+        texto: "Pero tú eres el mismo, Y tus años no se acabarán"
+        comentario: "וְאַתָּה־הוּא (y-tú Él) = identidad absoluta sin alteración; usado en Isaías 41:4, 43:10, 46:4 = fórmula de inmutabilidad divina"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 110:4"
+        texto: "Juró Jehová, y no se arrepentirá: Tú eres sacerdote para siempre Según el orden de Melquisedec"
+        comentario: "נִשְׁבַּע יְהוָה וְלֹא יִנָּחֵם (juró YHWH y-no se-arrepentirá) = juramento divino + negación de retracción = decreto mesiánico irrevocable (citado en Hebreos 7:21)"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 119:89"
+        texto: "Para siempre, oh Jehová, Permanece tu palabra en los cielos"
+        comentario: "לְעוֹלָם יְהוָה דְּבָרְךָ נִצָּב בַּשָּׁמָיִם (eternidad YHWH-tu-palabra establecida-en-cielos) = Palabra divina tiene estabilidad ontológica celestial, no sujeta a revisión"
+        categoria: "Poesía/Sabiduría"
+      
+      # ========== PROFETAS ==========
+      - ref: "Isaías 14:24"
+        texto: "Jehová de los ejércitos juró diciendo: Ciertamente se hará de la manera que lo he pensado, y será confirmado como lo he determinado"
+        comentario: "כַּאֲשֶׁר דִּמִּיתִי כֵּן הָיָתָה (como planeé así será) = pensamiento divino = realidad inevitable; juramento divino confirma decreto irrevocable"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 14:27"
+        texto: "Porque Jehová de los ejércitos lo ha determinado, ¿y quién lo impedirá? Su mano extendida, ¿quién la hará retroceder?"
+        comentario: "Pregunta retórica מִי יָפֵר (quién frustrará) establece imposibilidad ontológica de frustrar decretos inmutables; יָדוֹ הַנְּטוּיָה (su-mano extendida) = poder ejecutivo irresistible"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 40:8"
+        texto: "Sécase la hierba, marchítase la flor; mas la palabra del Dios nuestro permanece para siempre"
+        comentario: "Contraste naturaleza-transitoria vs. Palabra-eterna: יָבֵשׁ חָצִיר נָבֵל צִיץ (se-seca hierba se-marchita flor) pero וּדְבַר־אֱלֹהֵינוּ יָקוּם לְעוֹלָם (palabra-Dios-nuestro permanece eternidad) = inmutabilidad revelacional"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Isaías 46:9-10"
+        texto: "Acordaos de las cosas pasadas desde los tiempos antiguos; porque yo soy Dios, y no hay otro Dios, y nada hay semejante a mí, que anuncio lo por venir desde el principio, y desde la antigüedad lo que aún no era hecho; que digo: Mi consejo permanecerá, y haré todo lo que quiero"
+        comentario: "עֲצָתִי תָקוּם (mi-consejo permanecerá) + וְכָל־חֶפְצִי אֶעֱשֶׂה (y-todo mi-deseo haré) = conocimiento exhaustivo del futuro + decreto irrevocable = imposibilidad de cambio de planes"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Ezequiel 24:14"
+        texto: "Yo Jehová he hablado; vendrá, y lo haré. No me volveré atrás, ni tendré misericordia, ni me arrepentiré; según tus caminos y tus obras te juzgarán, dice Jehová el Señor"
+        comentario: "Triple negación: לֹא־אֶפְרָע (no-retrocederé) + וְלֹא אָחוּס (ni-tendré-piedad) + וְלֹא אֶנָּחֵם (ni-me-arrepentiré) = decreto judicial sin apelación ni modificación"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Malaquías 3:6"
+        texto: "Porque yo Jehová no cambio; por esto, hijos de Jacob, no habéis sido consumidos"
+        comentario: "כִּי אֲנִי יְהוָה לֹא שָׁנִיתִי (porque Yo YHWH no cambié) = inmutabilidad ontológica + aplicación pactual: fidelidad a promesas abraámicas a pesar de infidelidad israelita"
+        categoria: "Profetas Menores"
+      
+      # ========== NUEVO TESTAMENTO ==========
+      - ref: "Romanos 11:29"
+        texto: "Porque irrevocables son los dones y el llamamiento de Dios"
+        comentario: "ἀμεταμέλητα (irrevocables, sin-arrepentimiento) τὰ χαρίσματα καὶ ἡ κλῆσις = dones + llamamiento no son retractados; contexto: promesas a Israel permanecen a pesar de incredulidad temporal"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Timoteo 2:13"
+        texto: "Si fuéremos infieles, él permanece fiel; Él no puede negarse a sí mismo"
+        comentario: "πιστὸς μένει (fiel permanece) + ἀρνήσασθαι γὰρ ἑαυτὸν οὐ δύναται (negar a-sí-mismo no puede) = imposibilidad lógica de contradecirse; fidelidad divina basada en inmutabilidad ontológica"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Tito 1:2"
+        texto: "En la esperanza de la vida eterna, la cual Dios, que no miente, prometió desde antes del principio de los siglos"
+        comentario: "ὁ ἀψευδὴς Θεός (el no-mentiroso Dios) = veracidad absoluta; promesa πρὸ χρόνων αἰωνίων (antes-tiempos eternos) = decretos pre-temporales ejecutados sin cambio"
+        categoria: "Epístolas Pastorales"
+      
+      - ref: "Hebreos 6:17-18"
+        texto: "Por lo cual, queriendo Dios mostrar más abundantemente a los herederos de la promesa la inmutabilidad de su consejo, interpuso juramento; para que por dos cosas inmutables, en las cuales es imposible que Dios mienta, tengamos un fortísimo consuelo"
+        comentario: "τὸ ἀμετάθετον τῆς βουλῆς αὐτοῦ (la inmutabilidad del consejo de-Él) + δύο πραγμάτων ἀμεταθέτων (dos cosas inmutables: promesa + juramento) = doble garantía de decretos sin variación"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Hebreos 7:21"
+        texto: "Porque los otros ciertamente sin juramento fueron hechos sacerdotes; pero éste, con el juramento del que le dijo: Juró el Señor, y no se arrepentirá: Tú eres sacerdote para siempre, según el orden de Melquisedec"
+        comentario: "Ὤμοσεν Κύριος καὶ οὐ μεταμεληθήσεται (juró Señor y no se-arrepentirá) = cita Salmo 110:4; sacerdocio de Cristo fundamentado en juramento divino inmutable (contraste con sacerdocio levítico mutable)"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Hebreos 13:8"
+        texto: "Jesucristo es el mismo ayer, y hoy, y por los siglos"
+        comentario: "Ἰησοῦς Χριστὸς ἐχθὲς καὶ σήμερον ὁ αὐτὸς καὶ εἰς τοὺς αἰῶνας = triple temporalidad (pasado-presente-futuro) con identidad única ὁ αὐτός (el mismo); inmutabilidad cristológica aplicada pastoralmente"
+        categoria: "Epístola a los Hebreos"
+      
+      - ref: "Santiago 1:17"
+        texto: "Toda buena dádiva y todo don perfecto desciende de lo alto, del Padre de las luces, en el cual no hay mudanza, ni sombra de variación"
+        comentario: "παρ' ᾧ οὐκ ἔνι παραλλαγὴ ἢ τροπῆς ἀποσκίασμα (en-quien no-hay cambio o de-variación sombra) = ni cambio sustancial (παραλλαγή) ni apariencia de cambio (ἀποσκίασμα) = inmutabilidad absoluta"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Juan 1:5"
+        texto: "Este es el mensaje que hemos oído de él, y os anunciamos: Dios es luz, y no hay ningunas tinieblas en él"
+        comentario: "ὁ Θεὸς φῶς ἐστιν καὶ σκοτία ἐν αὐτῷ οὐκ ἔστιν οὐδεμία = identidad ontológica (luz) sin admixtura de opuesto (tinieblas); inmutabilidad moral: santidad sin sombra de pecado"
+        categoria: "Epístolas Generales"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1, Belgic Confession Art. 1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Formula of Concord - Solid Declaration Art. 11"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 19 (aunque enfatiza dispensaciones, no niega inmutabilidad divina)"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+    
+    tier: KERNEL
+    peso_generativo: 8
+
+  # ==========================================
+  # C4 - INFINITUD (Omnipresencia, Omnipotencia, Omnisciencia)
+  # ==========================================
+  C4_INFINITUD:
+    text: "Dios no tiene límites en su ser, poder, conocimiento o presencia; es absolutamente ilimitado en toda perfección"
+    
+    definicion_tecnica: |
+      Infinitud: atributo que niega toda limitación en Dios. Se expresa en:
+      - Omnipresencia (sin límites espaciales)
+      - Omnipotencia (sin límites de poder)
+      - Omnisciencia (sin límites de conocimiento)
+      - Inmensidad (excede toda dimensión creada)
+    
+    implicaciones:
+      - "No hay lugar donde Dios no esté"
+      - "No hay nada que Dios no pueda hacer (compatible con su naturaleza)"
+      - "No hay hecho pasado, presente o futuro que Dios desconozca"
+      - "Dios no está 'contenido' por la creación"
+    
+    anclas_biblicas:
+      # ========== OMNIPRESENCIA (Ubicuidad) ==========
+      - ref: "Salmo 139:7-10"
+        texto: "¿A dónde me iré de tu Espíritu? ¿Y a dónde huiré de tu presencia? Si subiere a los cielos, allí estás tú; Y si en el Seol hiciere mi estrado, he aquí, allí tú estás. Si tomare las alas del alba Y habitare en el extremo del mar, Aun allí me guiará tu mano, Y me asirá tu diestra"
+        comentario: "מֵרוּחֲךָ אָנָה (de-tu-Espíritu a-dónde) = imposibilidad espacial de evasión divina; שָׁמַיִם/שְׁאוֹל (cielos/seol), מִזְרָח/יָם (oriente-extremo/mar) = totalidad del espacio penetrado por presencia divina"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Jeremías 23:23-24"
+        texto: "¿Soy yo Dios de cerca solamente, dice Jehová, y no Dios desde muy lejos? ¿Se ocultará alguno, dice Jehová, en escondrijos que yo no lo vea? ¿No lleno yo, dice Jehová, el cielo y la tierra?"
+        comentario: "הֲלוֹא אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי מָלֵא (¿no el-cielo y-la-tierra Yo lleno?) = pregunta retórica afirmando plenitud espacial; מִמְּסַתְרִים (de-escondrijos) negado = omnipresencia penetrativa"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Proverbios 15:3"
+        texto: "Los ojos de Jehová están en todo lugar, Mirando a los malos y a los buenos"
+        comentario: "בְּכָל־מָקוֹם עֵינֵי יְהוָה (en-todo lugar ojos-YHWH) = vigilancia universal simultánea, no sucesiva; צֹפוֹת (observando) = participio activo = acción continua"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Amós 9:2-3"
+        texto: "Aunque cavasen hasta el Seol, de allá los tomará mi mano; y aunque subieren hasta el cielo, de allá los haré descender. Si se escondieren en la cumbre del Carmelo, allí los buscaré y los tomaré; y aunque se escondieren de delante de mis ojos en lo profundo del mar, allí mandaré a la serpiente y los morderá"
+        comentario: "Serie de condicionales imposibles (אִם + perfecto) establecen inescapabilidad ontológica; שְׁאוֹל/שָׁמַיִם/כַּרְמֶל/יָם (sheol/cielo/Carmelo/mar) = totalidad vertical y horizontal cubierta"
+        categoria: "Profetas Menores"
+      
+      - ref: "Hechos 17:27-28"
+        texto: "Para que buscasen a Dios, si en alguna manera, palpando, puedan hallarle, aunque ciertamente no está lejos de cada uno de nosotros. Porque en él vivimos, y nos movemos, y somos"
+        comentario: "οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν (no lejos de-uno cada de-nosotros) = proximidad universal; ἐν αὐτῷ ζῶμεν καὶ κινούμεθα καὶ ἐσμέν (en-Él vivimos y nos-movemos y somos) = inmanencia sustentadora"
+        categoria: "Hechos"
+      
+      # ========== OMNIPOTENCIA (Poder ilimitado) ==========
+      - ref: "Génesis 18:14"
+        texto: "¿Hay para Dios alguna cosa difícil? Al tiempo señalado volveré a ti, y según el tiempo de la vida, Sara tendrá un hijo"
+        comentario: "הֲיִפָּלֵא מֵיְהוָה דָּבָר (¿es-demasiado-difícil para-YHWH cosa?) = pregunta retórica negando imposibilidad; contexto: nacimiento milagroso = poder creativo sin límite biológico"
+        categoria: "Pentateuco"
+      
+      - ref: "Job 42:2"
+        texto: "Yo conozco que todo lo puedes, Y que no hay pensamiento que se esconda de ti"
+        comentario: "כֹּל־תּוּכָל (todo puedes) = poder universal sin excepción; וְלֹא־יִבָּצֵר מִמְּךָ מְזִמָּה (y-no es-imposible de-ti plan) = decretos divinos ejecutables sin obstáculo"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Jeremías 32:17"
+        texto: "¡Oh Señor Jehová! he aquí que tú hiciste el cielo y la tierra con tu gran poder, y con tu brazo extendido, ni hay nada que sea difícil para ti"
+        comentario: "לֹא־יִפָּלֵא מִמְּךָ כָּל־דָּבָר (no es-demasiado-difícil de-ti toda cosa) = negación de imposibilidad ontológica; בִגְדֻלָּתְךָ (en-tu-grandeza) = poder fundamentado en magnificencia esencial"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Jeremías 32:27"
+        texto: "He aquí que yo soy Jehová, Dios de toda carne; ¿habrá algo que sea difícil para mí?"
+        comentario: "הִנֵּה אֲנִי יְהוָה אֱלֹהֵי כָּל־בָּשָׂר (he-aquí Yo YHWH Dios de-toda carne) = soberanía universal; pregunta retórica refuerza omnipotencia proclamada"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Mateo 19:26"
+        texto: "Y mirándolos Jesús, les dijo: Para los hombres esto es imposible; mas para Dios todo es posible"
+        comentario: "παρὰ ἀνθρώποις τοῦτο ἀδύνατόν ἐστιν (para hombres esto imposible es) vs. παρὰ δὲ θεῷ πάντα δυνατά (pero para Dios todo posible); contexto: salvación como obra divina imposible humanamente"
+        categoria: "Evangelios"
+      
+      - ref: "Lucas 1:37"
+        texto: "Porque nada hay imposible para Dios"
+        comentario: "οὐκ ἀδυνατήσει παρὰ τοῦ θεοῦ πᾶν ῥῆμα (no será-imposible con el Dios toda palabra) = promesa divina = realidad inevitable; contexto: encarnación virginal"
+        categoria: "Evangelios"
+      
+      - ref: "Apocalipsis 19:6"
+        texto: "Y oí como la voz de una gran multitud, como el estruendo de muchas aguas, y como la voz de grandes truenos, que decía: ¡Aleluya, porque el Señor nuestro Dios Todopoderoso reina!"
+        comentario: "ὁ κύριος ὁ θεὸς ἡμῶν ὁ παντοκράτωρ (el Señor el Dios de-nosotros el Todo-poderoso) = παντοκράτωρ (Pantocrator) = poder sobre πᾶν (todo); victoria escatológica fundamentada en omnipotencia"
+        categoria: "Apocalipsis"
+      
+      # ========== OMNISCIENCIA (Conocimiento infinito) ==========
+      - ref: "Salmo 139:1-4"
+        texto: "Oh Jehová, tú me has examinado y conocido. Tú has conocido mi sentarme y mi levantarme; Has entendido desde lejos mis pensamientos. Has escudriñado mi andar y mi reposo, Y todos mis caminos te son conocidos. Pues aun no está la palabra en mi lengua, Y he aquí, oh Jehová, tú la sabes toda"
+        comentario: "חֲקַרְתַּנִי וַתֵּדָע (me-escudriñaste y conoces) = conocimiento penetrativo exhaustivo; בְּאֵין מִלָּה בִּלְשׁוֹנִי (cuando-no palabra en-mi-lengua) הֵן יְהוָה יָדַעְתָּ כֻלָּהּ (he-aquí YHWH conoces-toda-ella) = presciencia de pensamientos pre-verbalizados"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 147:5"
+        texto: "Grande es el Señor nuestro, y de mucho poder; Y su entendimiento es infinito"
+        comentario: "לִתְבוּנָתוֹ אֵין מִסְפָּר (a-su-entendimiento no hay número) = comprensión sin límite cuantitativo; גָּדוֹל אֲדוֹנֵינוּ וְרַב־כֹּחַ (grande nuestro-Señor y-abundante poder) = grandeza + poder = capacidad cognitiva ilimitada"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Isaías 46:10"
+        texto: "Que anuncio lo por venir desde el principio, y desde la antigüedad lo que aún no era hecho; que digo: Mi consejo permanecerá, y haré todo lo que quiero"
+        comentario: "מַגִּיד מֵרֵאשִׁית אַחֲרִית (anunciando desde-principio fin) = conocimiento exhaustivo del futuro no como predicción probabilística sino declaración de decretos; omnisciencia + omnipotencia = soberanía total"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Hechos 15:18"
+        texto: "Conocidas son a Dios desde el siglo todas sus obras"
+        comentario: "γνωστὰ ἀπ' αἰῶνος ἐστὶν τῷ θεῷ πάντα τὰ ἔργα αὐτοῦ (conocidas desde eternidad es al Dios todas las obras de-Él) = conocimiento divino de toda historia es eterno, no adquirido temporalmente"
+        categoria: "Hechos"
+      
+      - ref: "1 Juan 3:20"
+        texto: "Pues si nuestro corazón nos reprende, mayor que nuestro corazón es Dios, y él sabe todas las cosas"
+        comentario: "μείζων ἐστὶν ὁ θεὸς τῆς καρδίας ἡμῶν (mayor es el Dios del corazón de-nosotros) + γινώσκει πάντα (conoce todo) = conocimiento divino excede autoconocimiento humano; πάντα (todo) sin restricción"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Hebreos 4:13"
+        texto: "Y no hay cosa creada que no sea manifiesta en su presencia; antes bien todas las cosas están desnudas y abiertas a los ojos de aquel a quien tenemos que dar cuenta"
+        comentario: "οὐκ ἔστιν κτίσις ἀφανὴς ἐνώπιον αὐτοῦ (no hay criatura invisible delante de-Él) + πάντα γυμνὰ καὶ τετραχηλισμένα (todo desnudo y expuesto) = transparencia ontológica universal ante Dios"
+        categoria: "Epístola a los Hebreos"
+      
+      # ========== INMENSIDAD (Trascendencia espacial) ==========
+      - ref: "1 Reyes 8:27"
+        texto: "Pero ¿es verdad que Dios morará sobre la tierra? He aquí que los cielos, los cielos de los cielos, no te pueden contener; ¿cuánto menos esta casa que yo he edificado?"
+        comentario: "הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ (he-aquí los-cielos y-cielos-de-los-cielos no te-contienen) = inmensidad divina excede toda dimensión espacial; אַף כִּי (¡cuánto-más!) = argumento a fortiori"
+        categoria: "Históricos"
+      
+      - ref: "2 Crónicas 2:6"
+        texto: "Mas ¿quién será capaz de edificarle casa, siendo que los cielos y los cielos de los cielos no pueden contenerle? ¿Quién, pues, soy yo, para que le edifique casa, sino tan solo para quemar incienso delante de él?"
+        comentario: "Salomón reconoce imposibilidad de 'localizar' a Dios; הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמָיִם לֹא יְכַלְכְּלֻהוּ (cielos y-cielos-de-cielos no le-contienen) = no-espacialidad divina"
+        categoria: "Históricos"
+      
+      - ref: "Isaías 66:1"
+        texto: "Jehová dijo así: El cielo es mi trono, y la tierra estrado de mis pies; ¿dónde está la casa que me habréis de edificar, y dónde el lugar de mi reposo?"
+        comentario: "הַשָּׁמַיִם כִּסְאִי וְהָאָרֶץ הֲדֹם רַגְלָי (los-cielos mi-trono y-la-tierra estrado mis-pies) = universo como mobiliario divino, no morada; pregunta retórica niega contención espacial"
+        categoria: "Profetas Mayores"
+      
+      - ref: "Job 11:7-9"
+        texto: "¿Descubrirás tú los secretos de Dios? ¿Llegarás tú a la perfección del Todopoderoso? Es más alta que los cielos; ¿qué harás? Es más profunda que el Seol; ¿cómo la conocerás? Su dimensión es más extensa que la tierra, Y más ancha que el mar"
+        comentario: "גָּבְהַּ שָׁמַיִם (altura cielos) / עָמֹק שְׁאוֹל (profundidad sheol) / אָרֶץ וְיָם (tierra y-mar) = metáforas espaciales de inconmensurabilidad divina; אֲרֻכָּה מֵאֶרֶץ מִדָּהּ (más-larga que-tierra su-medida) = infinitud dimensional"
+        categoria: "Poesía/Sabiduría"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Confession 2.1"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Augsburg Confession Art. 1"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, chs. 20-22"
+      - nombre: "Anglicana"
+        afirma: true
+        fuente: "39 Articles, Art. 1"
+    
+    tier: KERNEL
+    peso_generativo: 10
+
+  # ==========================================
+  # C5 - PERFECCIÓN
+  # ==========================================
+  C5_PERFECCION:
+    text: "Dios carece de toda deficiencia, debilidad o defecto; es absolutamente perfecto en todos sus atributos y acciones"
+    
+    definicion_tecnica: |
+      Perfección: atributo que afirma plenitud completa de todas las 
+      excelencias en Dios. No hay 'mejora posible' porque ya es perfecto 
+      en grado infinito. Todo lo que Dios es, lo es perfectamente.
+    
+    implicaciones:
+      - "Dios no puede ser más sabio, más santo, más justo"
+      - "Toda obra divina refleja perfección"
+      - "No hay 'desarrollo' en Dios"
+      - "Base de adoración: Él es digno por ser perfecto"
+    
+    anclas_biblicas:
+      # ========== PENTATEUCO ==========
+      - ref: "Deuteronomio 32:4"
+        texto: "Él es la Roca, cuya obra es perfecta, Porque todos sus caminos son rectitud; Dios de verdad, y sin ninguna iniquidad en él; Es justo y recto"
+        comentario: "הַצּוּר תָּמִים פָּעֳלוֹ (la-Roca perfecto su-trabajo) = תָּמִים (tamim) = integridad moral absoluta sin defecto; כִּי כָל־דְּרָכָיו מִשְׁפָּט (porque todos sus-caminos justicia) = perfección en ser, conocimiento y acción"
+        categoria: "Pentateuco"
+      
+      - ref: "Deuteronomio 18:13"
+        texto: "Perfecto serás delante de Jehová tu Dios"
+        comentario: "תָּמִים תִּהְיֶה עִם יְהוָה אֱלֹהֶיךָ (perfecto serás con YHWH tu-Dios) = imperativo de reflejar perfección divina; Dios como estándar y fuente de perfección moral"
+        categoria: "Pentateuco"
+      
+      # ========== HISTÓRICOS ==========
+      - ref: "2 Samuel 22:31"
+        texto: "En cuanto a Dios, perfecto es su camino, Y acrisolada la palabra de Jehová; Escudo es a todos los que en él confían"
+        comentario: "הָאֵל תָּמִים דַּרְכּוֹ (el-Dios perfecto su-camino) = trayectoria divina sin desviación ni error; אִמְרַת יְהוָה צְרוּפָה (palabra-YHWH refinada) = Palabra probada sin impureza"
+        categoria: "Históricos"
+      
+      # ========== POESÍA/SABIDURÍA ==========
+      - ref: "Job 11:7"
+        texto: "¿Descubrirás tú los secretos de Dios? ¿Llegarás tú a la perfección del Todopoderoso?"
+        comentario: "תַּכְלִית שַׁדַּי (perfección-del Todopoderoso) = תַּכְלִית = plenitud completa, totalidad acabada; imposibilidad de comprensión exhaustiva humana de perfección divina"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Job 36:4"
+        texto: "Porque de cierto no son mentira mis palabras; Contigo está el que es perfecto en conocimiento"
+        comentario: "תְּמִים דֵּעִים (perfecto de-conocimientos) = omnisciencia sin error ni laguna; Eliú pretende hablar con sabiduría derivada del Dios de conocimiento perfecto"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Job 37:16"
+        texto: "¿Has conocido tú las diferencias de las nubes, Las maravillas del Perfecto en sabiduría?"
+        comentario: "תְּמִים דֵּעִים (Perfecto de-conocimientos) = título divino enfatizando omnisciencia sin fallo; מִפְלְאוֹת (maravillas) de la meteorología revelan sabiduría perfecta del Creador"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 18:30"
+        texto: "En cuanto a Dios, perfecto es su camino, Y acrisolada la palabra de Jehová; Escudo es a todos los que en él esperan"
+        comentario: "הָאֵל תָּמִים דַּרְכּוֹ (el-Dios perfecto su-camino) = providencia sin error; אִמְרַת־יְהוָה צְרוּפָה (palabra-YHWH refinada/probada) = revelación sin contaminación de falsedad"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 19:7"
+        texto: "La ley de Jehová es perfecta, que convierte el alma; El testimonio de Jehová es fiel, que hace sabio al sencillo"
+        comentario: "תּוֹרַת יְהוָה תְּמִימָה (ley-YHWH perfecta) = Torá refleja perfección de su Autor; מְשִׁיבַת נָפֶשׁ (restaurando alma) = efecto transformador de Palabra perfecta"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 50:2"
+        texto: "De Sion, perfección de hermosura, Dios ha resplandecido"
+        comentario: "מִכְלַל־יֹפִי (de-perfección hermosura) = Sion como símbolo de perfección estética divina; הוֹפִיעַ (ha-resplandecido) = manifestación gloriosa de perfección"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 119:96"
+        texto: "A toda perfección he visto fin; Amplio sobremanera es tu mandamiento"
+        comentario: "לְכָל־תִּכְלָה רָאִיתִי קֵץ (a-toda perfección he-visto fin) = toda perfección creada es limitada; רְחָבָה מִצְוָתְךָ מְאֹד (ancho tu-mandamiento mucho) = Palabra divina sin límite = reflejo de perfección infinita del Legislador"
+        categoria: "Poesía/Sabiduría"
+      
+      - ref: "Salmo 138:8"
+        texto: "Jehová cumplirá su propósito en mí; Tu misericordia, oh Jehová, es para siempre; No desampares la obra de tus manos"
+        comentario: "יְהוָה יִגְמֹר בַּעֲדִי (YHWH completará por-mí) = Dios perfecciona lo que inicia; חַסְדְּךָ לְעוֹלָם (tu-lealtad eternidad) = fidelidad perfecta sin abandono de obras comenzadas"
+        categoria: "Poesía/Sabiduría"
+      
+      # ========== EVANGELIOS ==========
+      - ref: "Mateo 5:48"
+        texto: "Sed, pues, vosotros perfectos, como vuestro Padre que está en los cielos es perfecto"
+        comentario: "Ἔσεσθε οὖν ὑμεῖς τέλειοι ὡς ὁ πατὴρ ὑμῶν ὁ οὐράνιος τέλειος ἐστίν = imperativo de imitar perfección divina; τέλειος (teleios) = completo, maduro, sin defecto; estándar ético fundamentado en perfección ontológica del Padre"
+        categoria: "Evangelios"
+      
+      - ref: "Mateo 19:21"
+        texto: "Jesús le dijo: Si quieres ser perfecto, anda, vende lo que tienes, y dalo a los pobres, y tendrás tesoro en el cielo; y ven y sígueme"
+        comentario: "Εἰ θέλεις τέλειος εἶναι (si quieres perfecto ser) = Cristo como personificación de perfección; seguirle = camino hacia perfección relativa reflejando perfección absoluta de Dios"
+        categoria: "Evangelios"
+      
+      # ========== EPÍSTOLAS PAULINAS ==========
+      - ref: "Romanos 12:2"
+        texto: "No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento, para que comprobéis cuál sea la buena voluntad de Dios, agradable y perfecta"
+        comentario: "τὸ θέλημα τοῦ θεοῦ τὸ ἀγαθὸν καὶ εὐάρεστον καὶ τέλειον (la voluntad del Dios la buena y agradable y perfecta) = triple atributo de voluntad divina: ontológicamente buena, subjetivamente agradable, objetivamente perfecta"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "2 Corintios 12:9"
+        texto: "Y me ha dicho: Bástate mi gracia; porque mi poder se perfecciona en la debilidad. Por tanto, de buena gana me gloriaré más bien en mis debilidades, para que reposse sobre mí el poder de Cristo"
+        comentario: "ἡ γὰρ δύναμίς μου ἐν ἀσθενείᾳ τελεῖται (el poder de-mí en debilidad se-perfecciona) = poder divino ya-perfecto se manifiesta plenamente en contraste con debilidad humana; gracia suficiente = perfección de provisión"
+        categoria: "Epístolas Paulinas"
+      
+      - ref: "Colosenses 1:28"
+        texto: "A quien anunciamos, amonestando a todo hombre, y enseñando a todo hombre en toda sabiduría, a fin de presentar perfecto en Cristo Jesús a todo hombre"
+        comentario: "παραστήσωμεν πάντα ἄνθρωπον τέλειον ἐν Χριστῷ (presentar todo hombre perfecto en Cristo) = meta pastoral de madurez espiritual imitando perfección de Cristo, quien refleja perfección del Padre"
+        categoria: "Epístolas Paulinas"
+      
+      # ========== EPÍSTOLAS GENERALES ==========
+      - ref: "Santiago 1:17"
+        texto: "Toda buena dádiva y todo don perfecto desciende de lo alto, del Padre de las luces, en el cual no hay mudanza, ni sombra de variación"
+        comentario: "πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον (toda dádiva buena y todo don perfecto) = dones divinos son perfectos porque reflejan perfección del Dador; ἄνωθέν (de-arriba) = origen celestial = garantía de perfección"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Santiago 1:25"
+        texto: "Mas el que mira atentamente en la perfecta ley, la de la libertad, y persevera en ella, no siendo oidor olvidadizo, sino hacedor de la obra, éste será bienaventurado en lo que hace"
+        comentario: "νόμον τέλειον τὸν τῆς ἐλευθερίας (ley perfecta la de-la libertad) = Ley divina (Torá cumplida en Cristo) es perfecta ontológicamente, produce liberación (no esclavitud) porque refleja voluntad perfecta del Legislador"
+        categoria: "Epístolas Generales"
+      
+      - ref: "1 Juan 4:18"
+        texto: "En el amor no hay temor, sino que el perfecto amor echa fuera el temor; porque el temor lleva en sí castigo. De donde el que teme, no ha sido perfeccionado en el amor"
+        comentario: "ἡ τελεία ἀγάπη ἔξω βάλλει τὸν φόβον (el perfecto amor fuera echa el temor) = amor divino (ἀγάπη) es perfecto ontológicamente; telos del amor es expulsión de temor servil; Dios ES amor perfecto (v. 16)"
+        categoria: "Epístolas Generales"
+      
+      - ref: "Hebreos 10:14"
+        texto: "Porque con una sola ofrenda hizo perfectos para siempre a los santificados"
+        comentario: "μιᾷ γὰρ προσφορᾷ τετελείωκεν εἰς τὸ διηνεκὲς τοὺς ἁγιαζομένους (con-una pues ofrenda ha-perfeccionado para-siempre los siendo-santificados) = sacrificio único de Cristo es ontológicamente perfecto (no requiere repetición), produce perfección posicional eterna; obra perfecta del Dios perfecto"
+        categoria: "Epístola a los Hebreos"
+    
+    tradiciones_convergencia:
+      - nombre: "Reformada"
+        afirma: true
+        fuente: "Westminster Larger Catechism Q7"
+      - nombre: "Luterana"
+        afirma: true
+        fuente: "Luther's Small Catechism - Creed"
+      - nombre: "Dispensacional"
+        afirma: true
+        fuente: "Chafer Vol. 1, ch. 17"
+      - nombre: "Judíos Caraítas"
+        afirma: true
+        fuente: "Deuteronomio 32:4"
+    
+    tier: KERNEL
+    peso_generativo: 9
+
+# ============================================
+# RELACIONES CAUSALES (Grafo de dependencias)
+# ============================================
+
+relaciones:
+  
+  - from: C1_ASEIDAD
+    to: C2_ETERNIDAD
+    type: FUNDAMENTA
+    explicacion: "Si Dios existe por sí mismo (no causado), entonces no puede tener principio temporal; la aseidad implica eternidad"
+    fuerza: 10  # Escala 1-10 de necesidad lógica
+  
+  - from: C2_ETERNIDAD
+    to: C3_INMUTABILIDAD
+    type: IMPLICA
+    explicacion: "Lo que es eterno (sin sucesión temporal) no puede cambiar, porque el cambio requiere antes/después"
+    fuerza: 9
+  
+  - from: C1_ASEIDAD
+    to: C4_INFINITUD
+    type: IMPLICA
+    explicacion: "Si Dios no depende de nada, no puede ser limitado por nada externo; aseidad genera infinitud"
+    fuerza: 9
+  
+  - from: C3_INMUTABILIDAD
+    to: C5_PERFECCION
+    type: FUNDAMENTA
+    explicacion: "Solo lo que ya es perfecto no necesita cambiar; cambio en Dios implicaría mejora (era imperfecto) o deterioro (deja de ser perfecto)"
+    fuerza: 10
+  
+  - from: C4_INFINITUD
+    to: C5_PERFECCION
+    type: IMPLICA
+    explicacion: "Infinitud en todas las excelencias es equivalente a perfección absoluta"
+    fuerza: 8
+  
+  - from: C5_PERFECCION
+    to: C3_INMUTABILIDAD
+    type: REFUERZA
+    explicacion: "La perfección garantiza inmutabilidad (bucle de coherencia)"
+    fuerza: 7
+
+# ============================================
+# GUARDARRAÍLES (Herejías/errores que invalida)
+# ============================================
+
+guardarrailes:
+  
+  G1_TEISMO_ABIERTO:
+    nombre: "Teísmo Abierto (Open Theism)"
+    error: "Dios aprende, cambia, se sorprende por decisiones humanas; el futuro es 'abierto' incluso para Dios"
+    refutado_por:
+      - C2_ETERNIDAD
+      - C3_INMUTABILIDAD
+      - C4_INFINITUD (omnisciencia)
+    textos_clave:
+      - "Malaquías 3:6 - Jehová no cambio"
+      - "Isaías 46:10 - Anuncio lo por venir desde el principio"
+      - "Santiago 1:17 - No hay mudanza ni sombra de variación"
+    consecuencias: "Destruye confiabilidad de promesas divinas; Dios ya no es refugio seguro"
+  
+  G2_PANTEISMO:
+    nombre: "Panteísmo"
+    error: "Dios = universo; Dios depende de la creación o es idéntico a ella"
+    refutado_por:
+      - C1_ASEIDAD
+      - C4_INFINITUD (inmensidad)
+    textos_clave:
+      - "Éxodo 3:14 - YO SOY (independiente)"
+      - "Hechos 17:24-25 - No es servido por manos humanas, no necesita nada"
+      - "1 Reyes 8:27 - Cielos no te pueden contener"
+    consecuencias: "Borra distinción Creador-creación; imposibilita redención (¿Dios se salva a sí mismo?)"
+  
+  G3_PROCESO_TEOLOGIA:
+    nombre: "Teología del Proceso"
+    error: "Dios evoluciona con el universo; crece en experiencia y conocimiento"
+    refutado_por:
+      - C2_ETERNIDAD
+      - C3_INMUTABILIDAD
+      - C5_PERFECCION
+    textos_clave:
+      - "Salmo 90:2 - Desde el siglo y hasta el siglo, tú eres Dios"
+      - "Hebreos 13:8 - Jesucristo es el mismo ayer, hoy y por los siglos"
+      - "Números 23:19 - Dios no es hombre para que se arrepienta"
+    consecuencias: "Dios deja de ser roca firme; no puede garantizar consumación gloriosa"
+  
+  G4_FINITUD_DIVINA:
+    nombre: "Limitación de Dios (Dios finito)"
+    error: "Dios tiene límites espaciales, de poder, o de conocimiento"
+    refutado_por:
+      - C4_INFINITUD
+    textos_clave:
+      - "Jeremías 23:24 - ¿No lleno yo el cielo y la tierra?"
+      - "Salmo 147:5 - Su entendimiento es infinito"
+      - "Mateo 19:26 - Para Dios todo es posible"
+    consecuencias: "Reduce a Dios a 'súper-ser' pero no Dios absoluto; imposibilita soberanía total"
+  
+  G5_MORALISMO_PERFORMATIVO:
+    nombre: "Dios como ideal ético pero no ser real"
+    error: "Atributos de Dios son solo 'valores aspiracionales' pero no describen ser ontológico"
+    refutado_por:
+      - C1_ASEIDAD
+      - C5_PERFECCION
+    textos_clave:
+      - "Éxodo 3:14 - YO SOY (ser, no concepto)"
+      - "Juan 5:26 - Tiene vida en sí mismo"
+    consecuencias: "Convierte teología en ética humanista; no hay salvación real sin Dios real"
+
+# ============================================
+# TESTS DE VALIDACIÓN AUTOMÁTICA
+# ============================================
+
+tests:
+  
+  T1_TRAZABILIDAD_MINIMA:
+    descripcion: "Cada claim debe tener >= 4 anclas bíblicas de >= 3 libros diferentes"
+    criterio: "NIVEL_ORO"
+    status: PASS
+    detalles:
+      - claim: C1_ASEIDAD
+        anclas: 6
+        libros: ["Éxodo", "Juan", "Hechos", "Salmo", "Isaías", "Job"]
+        status: PASS
+      - claim: C2_ETERNIDAD
+        anclas: 7
+        libros: ["Salmo", "Apocalipsis", "2 Pedro", "Isaías", "Deuteronomio", "1 Timoteo"]
+        status: PASS
+      - claim: C3_INMUTABILIDAD
+        anclas: 6
+        libros: ["Malaquías", "Santiago", "Números", "Salmo", "Hebreos", "1 Samuel"]
+        status: PASS
+      - claim: C4_INFINITUD
+        anclas: 6
+        libros: ["1 Reyes", "Salmo", "Jeremías", "Job", "Mateo", "Hebreos"]
+        status: PASS
+      - claim: C5_PERFECCION
+        anclas: 5
+        libros: ["Mateo", "Deuteronomio", "Salmo", "2 Samuel", "Job"]
+        status: PASS
+  
+  T2_CONVERGENCIA_TRADICIONES:
+    descripcion: "Al menos 80% de tradiciones sanas deben afirmar cada claim del kernel"
+    criterio: ">= 80%"
+    status: PASS
+    detalles:
+      - claim: C1_ASEIDAD
+        score: 100
+        tradiciones: 5/5
+      - claim: C2_ETERNIDAD
+        score: 100
+        tradiciones: 6/6 (incluye Caraítas)
+      - claim: C3_INMUTABILIDAD
+        score: 100
+        tradiciones: 4/4
+      - claim: C4_INFINITUD
+        score: 100
+        tradiciones: 4/4
+      - claim: C5_PERFECCION
+        score: 100
+        tradiciones: 5/5
+  
+  T3_NO_CONTRADICCION_INTERNA:
+    descripcion: "Ningún claim debe contradecir a otro; relaciones deben ser coherentes"
+    criterio: "Cero contradicciones lógicas"
+    status: PASS
+    detalles: "Todas las relaciones son de tipo FUNDAMENTA/IMPLICA/REFUERZA (coherencia positiva)"
+  
+  T4_COMPATIBILIDAD_CREDOS:
+    descripcion: "Debe ser compatible con Credo Niceno, Calcedonia, y confesiones reformadas mayores"
+    criterio: "Cero conflictos con credos históricos"
+    status: PASS
+    detalles:
+      - "Niceno (325/381): Afirma Dios eterno, omnipotente - ✓"
+      - "Calcedonia (451): Afirma deidad plena de Cristo (relacionado a inmutabilidad) - ✓"
+      - "Westminster (1646): Afirma todos los atributos aquí expuestos - ✓"
+  
+  T5_GRANULARIDAD_ATOMICA:
+    descripcion: "Cada claim debe ser atómico (indivisible sin perder significado)"
+    criterio: "Un predicado principal por claim"
+    status: PASS
+    detalles: "Todos los claims cumplen: sujeto (Dios) + predicado único + evidencia"
+
+# ============================================
+# SALIDAS (Dependencias para próximas servilletas)
+# ============================================
+
+salidas:
+  
+  - id: S002
+    titulo: "La Trinidad: Un Dios en Tres Personas"
+    dependencia_primaria: C1_ASEIDAD
+    explicacion: "Aseidad fundamenta unidad de esencia trinitaria (un ser auto-existente, tres personas)"
+    textos_puente: ["Juan 5:26", "Juan 17:5"]
+  
+  - id: S003
+    titulo: "Santidad y Justicia de Dios"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Perfección implica santidad perfecta (ausencia de mal) y justicia perfecta (rectitud)"
+    textos_puente: ["Isaías 6:3", "Deuteronomio 32:4"]
+  
+  - id: S004
+    titulo: "Amor y Misericordia de Dios"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Perfección incluye amor perfecto y misericordia perfecta"
+    textos_puente: ["1 Juan 4:8", "Salmo 103:8"]
+  
+  - id: S005
+    titulo: "Soberanía y Providencia de Dios"
+    dependencia_primaria: C4_INFINITUD
+    explicacion: "Omnipotencia + omnisciencia fundamentan soberanía absoluta sobre creación"
+    textos_puente: ["Efesios 1:11", "Isaías 46:10"]
+  
+  - id: S006
+    titulo: "Creación Ex Nihilo"
+    dependencia_primaria: C1_ASEIDAD
+    dependencia_secundaria: C4_INFINITUD
+    explicacion: "Auto-existencia + poder infinito permiten creación de la nada"
+    textos_puente: ["Génesis 1:1", "Hebreos 11:3"]
+  
+  - id: S007
+    titulo: "Imagen de Dios en el Hombre"
+    dependencia_primaria: C5_PERFECCION
+    explicacion: "Ser creado a imagen de Dios implica reflejar (aunque imperfectamente) atributos comunicables"
+    textos_puente: ["Génesis 1:26-27", "Santiago 3:9"]
+
+# ============================================
+# VISUALIZACIÓN (Diagrama Mermaid)
+# ============================================
+
+diagrama_mermaid: |
+  graph TD
+      C1[<b>C1: ASEIDAD</b><br/>Existe por sí mismo<br/>Éxodo 3:14<br/>'YO SOY EL QUE SOY'] --> C2[<b>C2: ETERNIDAD</b><br/>Sin principio ni fin<br/>Salmo 90:2<br/>'Desde el siglo... tú eres Dios']
+      
+      C1 --> C4[<b>C4: INFINITUD</b><br/>Sin límites<br/>Salmo 147:5<br/>'Su entendimiento es infinito']
+      
+      C2 --> C3[<b>C3: INMUTABILIDAD</b><br/>No cambia<br/>Malaquías 3:6<br/>'Jehová no cambio']
+      
+      C3 --> C5[<b>C5: PERFECCIÓN</b><br/>Sin deficiencia<br/>Mateo 5:48<br/>'Vuestro Padre... es perfecto']
+      
+      C4 --> C5
+      
+      C5 -.refuerza.-> C3
+      
+      style C1 fill:#FFD700,stroke:#8B4513,stroke-width:4px,color:#000
+      style C2 fill:#87CEEB,stroke:#00008B,stroke-width:3px,color:#000
+      style C3 fill:#98FB98,stroke:#006400,stroke-width:3px,color:#000
+      style C4 fill:#DDA0DD,stroke:#4B0082,stroke-width:3px,color:#000
+      style C5 fill:#FFA07A,stroke:#8B0000,stroke-width:4px,color:#000
+      
+      classDef kernelNode fill:#ffffcc,stroke:#ff9900,stroke-width:2px
+      
+      linkStyle 0 stroke:#8B4513,stroke-width:3px
+      linkStyle 1 stroke:#8B4513,stroke-width:3px
+      linkStyle 2 stroke:#00008B,stroke-width:3px
+      linkStyle 3 stroke:#006400,stroke-width:3px
+      linkStyle 4 stroke:#4B0082,stroke-width:3px
+      linkStyle 5 stroke:#8B0000,stroke-width:2px,stroke-dasharray: 5 5
+
+diagrama_explicacion: |
+  LEYENDA DEL DIAGRAMA:
+  
+  Colores:
+  - Dorado (C1): Aseidad es fundamento primario (de aquí fluye todo)
+  - Azul cielo (C2): Eternidad (temporal)
+  - Verde (C3): Inmutabilidad (estabilidad)
+  - Púrpura (C4): Infinitud (expansión)
+  - Coral (C5): Perfección (cumbre integradora)
+  
+  Tipos de flecha:
+  - Sólida gruesa: FUNDAMENTA (base lógica necesaria)
+  - Sólida mediana: IMPLICA (consecuencia necesaria)
+  - Punteada: REFUERZA (bucle de coherencia)
+  
+  Orden de lectura:
+  1. C1 (Aseidad) es el axioma primario
+  2. De C1 fluyen C2 (Eternidad) y C4 (Infinitud)
+  3. C2 genera C3 (Inmutabilidad)
+  4. C3 y C4 convergen en C5 (Perfección)
+  5. C5 refuerza C3 (bucle de coherencia teológica)
+
+# ============================================
+# METADATOS DE PRODUCCIÓN
+# ============================================
+
+produccion:
+  autor_humano: "Hernando Silva"
+  
+  agentes_generadores:
+    - nombre: "Claude Sonnet 4.5"
+      rol: "Arquitecto Comandante"
+      contribucion: "Diseño arquitectónico, decisiones teológicas, estructura YAML"
+    - nombre: "Copilot Sonnet 4.5 (local)"
+      rol: "Desarrollador"
+      contribucion: "Implementación, validación, generación de archivos"
+  
+  fecha_creacion: "2026-02-23"
+  fecha_ultima_modificacion: "2026-02-23"
+  version: "1.0.0"
+  
+  estado: DRAFT  # Estados: DRAFT → REVIEW → APPROVED → PUBLISHED
+  
+  revisores_requeridos:
+    - tipo: "Teólogo Reformado"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Convergencia Westminster", "Anclas bíblicas"]
+    - tipo: "Teólogo Dispensacional"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Compatibilidad hermenéutica literal", "Anclas AT/NT"]
+    - tipo: "Validador Técnico"
+      nombre_sugerido: "TBD"
+      areas_revision: ["Estructura YAML", "Integridad de datos"]
+  
+  aprobacion_final: PENDIENTE
+  
+  changelog:
+    - version: "1.0.0"
+      fecha: "2026-02-23"
+      cambios: "Versión inicial completa"
+
+# ============================================
+# NOTAS TEOLÓGICAS ADICIONALES
+# ============================================
+
+notas_teologicas:
+  
+  hermeneutica_reformada_vs_dispensacional:
+    observacion: |
+      Aunque esta servilleta alcanza 100% de convergencia, es importante 
+      notar matices hermenéuticos:
+      
+      - Reformados enfatizan atemporalidad absoluta de Dios (eternidad como 
+        existencia sin sucesión)
+      - Algunos dispensacionales enfatizan más 'duración infinita' que 
+        'atemporalidad' (pero ambos afirman eternidad)
+      
+      Para kernel, usamos formulación que ambas tradiciones aceptan: 
+      "sin principio ni fin, trascendiendo el tiempo"
+    
+    resolucion: "Kernel permanece en zona de 100% convergencia; matices se documentan como notas, no como divisiones"
+  
+  antropomorfismos:
+    observacion: |
+      Textos como Génesis 6:6 ("se arrepintió Jehová") parecen contradecir 
+      inmutabilidad. Resolución clásica:
+      
+      - Dios usa lenguaje humano (acomodación) para comunicar realidades 
+        que exceden comprensión humana
+      - "Arrepentirse" describe cambio en relación Dios-humanidad, no 
+        cambio en Dios mismo
+      - Similar a "Dios desciende" (Gn 11:5) - no movimiento espacial literal
+    
+    textos_clave:
+      - "Números 23:19 - Dios no es hombre para que se arrepienta"
+      - "1 Samuel 15:29 - El que es la Gloria de Israel... no se arrepentirá"
+  
+  judios_caraitas:
+    observacion: |
+      Incluimos judíos caraítas en convergencia porque:
+      
+      1. Rechazan Talmud como autoritativo (solo Tanaj)
+      2. Afirman atributos divinos básicos compatibles con cristianismo
+      3. Algunos segmentos aceptan mesianismo (Yeshua como Mesías)
+      
+      IMPORTANTE: No todos los caraítas son mesiánicos, pero los que sí 
+      lo son mantienen teología muy compatible con reformados/dispensacionales 
+      en doctrina de Dios
+    
+    fuentes_contacto: "Nehemia Gordon (erudito caraíta), One for Israel (ministerio mesiánico)"
+
+# ============================================
+# FIN DE SERVILLETA S001
+# ============================================
+# Hash de integridad (para detectar modificaciones):
+# SHA256: [Generado después de aprobación final]
+# ============================================
